@@ -1,0 +1,44 @@
+# Web Framework
+flask>=2.0.1
+werkzeug>=2.0.1
+
+# System Monitoring
+psutil>=5.8.0
+pynput>=1.7.3
+keyboard>=0.13.5
+mouse>=0.7.1
+pywin32>=301
+mss>=6.1.0
+
+# Image Processing
+pillow>=8.3.1
+opencv-python>=4.5.3
+
+# File System Monitoring
+watchdog>=2.1.5
+
+# Network
+requests>=2.26.0
+netifaces>=0.11.0
+pyngrok>=7.0.0  # Added for remote access
+
+# Audio
+PyAudio>=0.2.13
+sounddevice>=0.4.6
+
+# GUI and Dashboard
+tkcalendar>=1.6.1  # Added
+humanize>=4.0.0    # Added
+pyautogui>=0.9.53
+
+# Date/Time
+python-dateutil>=2.8.2
+
+# Array Processing
+numpy>=1.21.0
+
+# Building and Packaging
+pyinstaller>=5.13.0
+pefile>=2023.2.7
+altgraph>=0.17.3
+pywin32-ctypes>=0.2.2

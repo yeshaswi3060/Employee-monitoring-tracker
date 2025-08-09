@@ -1,0 +1,3233 @@
+[2025-07-17 13:55:48] Visited: google.com
+[2025-07-17 14:07:27] Visited: Just a moment...
+[2025-07-17 14:07:32] Visited: Just a moment...
+[2025-07-17 15:10:06] Chrome - Visited: YouTube
+[2025-07-17 15:10:08] Chrome - Visited: Adobe Creative Cloud | Professional Creative Software
+[2025-07-17 15:10:11] Chrome - Visited: YouTube
+[2025-07-17 15:10:13] Chrome - Visited: Afusic - Pal Pal (Official Music Video) Prod. ‪@AliSoomroMusic‬ - YouTube (URL: pal pal (official music video) prod. ‪@alisoomromusic‬)
+[2025-07-17 15:11:57] Chrome - Visited: top sec - Employee Monitoring System Guide
+[2025-07-17 15:28:49] Chrome - Visited: top sec - Employee Monitoring System Guide
+[2025-07-17 15:31:03] Chrome - top sec
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+--------------------------------------------------------------------------------
+[2025-07-17 15:32:57] Chrome - top sec
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+--------------------------------------------------------------------------------
+[2025-07-17 15:33:17] None - top sec (Visit: 0m, Total: 0m)
+--------------------------------------------------------------------------------
+[2025-07-17 15:33:35] Chrome - top sec
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+--------------------------------------------------------------------------------
+[2025-07-17 15:33:55] None - top sec (Visit: 0m, Total: 0m)
+--------------------------------------------------------------------------------
+[2025-07-17 15:34:10] Chrome - top sec
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+--------------------------------------------------------------------------------
+[2025-07-17 15:34:14] None - top sec (Visit: 0m, Total: 0m)
+--------------------------------------------------------------------------------
+[2025-07-17 15:34:18] Chrome - top sec
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+--------------------------------------------------------------------------------
+[2025-07-17 15:34:24] None - top sec (Visit: 0m, Total: 0m)
+--------------------------------------------------------------------------------
+[2025-07-17 15:35:28] Chrome - top sec
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+--------------------------------------------------------------------------------
+[2025-07-17 15:35:30] None - top sec (Visit: 0m, Total: 0m)
+--------------------------------------------------------------------------------
+[2025-07-17 15:37:09] Chrome - top sec
+Title: None
+Duration: 10s
+End Time: 2025-07-17 15:37:19
+--------------------------------------------------------------------------------
+[2025-07-17 15:37:21] Chrome - top sec
+Title: None
+Duration: 20s
+End Time: 2025-07-17 15:37:41
+--------------------------------------------------------------------------------
+[2025-07-17 15:39:26] Chrome - top sec
+Title: None
+Visit Duration: 12s
+Total Time on Site: 42s total
+End Time: 2025-07-17 15:39:38
+--------------------------------------------------------------------------------
+[2025-07-17 15:42:52] Chrome - top sec
+Title: 
+Visit Duration: 2s
+Total Time on Site: 44s total
+End Time: 2025-07-17 15:42:54
+--------------------------------------------------------------------------------
+[2025-07-17 15:42:54] Chrome - Unknown
+Title: Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-17 15:42:56
+--------------------------------------------------------------------------------
+[2025-07-17 15:42:56] Chrome - Google Chrome
+Title: 
+Visit Duration: 1m 3s
+Total Time on Site: 1m total
+End Time: 2025-07-17 15:43:59
+--------------------------------------------------------------------------------
+[2025-07-17 15:43:59] Chrome - Unknown
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-17 15:44:01
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:01] Chrome - New Tab
+Title: Screen Recorder :: MyBrowserAddon - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-17 15:44:03
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:03] Chrome - Screen Recorder :: MyBrowserAddon
+Title: cursor - Google Search - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 6s total
+End Time: 2025-07-17 15:44:09
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:09] Chrome - cursor
+Title: Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-17 15:44:13
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:13] Chrome - Cursor
+Title: Sign in - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-17 15:44:15
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:15] Chrome - Sign in
+Title: Sign in – Google accounts - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-17 15:44:19
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:19] Chrome - Sign in – Google accounts
+Title: Sign in - Google Accounts - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-17 15:44:23
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:23] Chrome - Sign in
+Title: Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 8s total
+End Time: 2025-07-17 15:44:27
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:27] Chrome - Cursor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 10s total
+End Time: 2025-07-17 15:44:35
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:43] Edge - Untitled
+Title: Login Deep Control - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-17 15:44:45
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:45] Edge - Login Deep Control
+Title: None
+Visit Duration: 3s
+Total Time on Site: 3s total
+End Time: 2025-07-17 15:44:48
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:50] Chrome - Cursor
+Title: Login Deep Control - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 14s total
+End Time: 2025-07-17 15:44:54
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:54] Chrome - Login Deep Control
+Title: Auth | Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 5s total
+End Time: 2025-07-17 15:44:56
+--------------------------------------------------------------------------------
+[2025-07-17 15:44:56] Chrome - Auth | Cursor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-17 15:45:00
+--------------------------------------------------------------------------------
+[2025-07-17 15:45:26] Chrome - top sec
+Title: Afusic - Pal Pal (Official Music Video) Prod. ‪@AliSoomroMusic‬ - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 46s total
+End Time: 2025-07-17 15:45:28
+--------------------------------------------------------------------------------
+[2025-07-17 15:45:28] Chrome - Afusic
+Title: too many free trial accounts used on this machine - YouTube - Google Chrome
+Visit Duration: 10s
+Total Time on Site: 10s total
+End Time: 2025-07-17 15:45:38
+--------------------------------------------------------------------------------
+[2025-07-17 15:45:38] Chrome - too many free trial accounts used on this machine
+Title: Afusic - Pal Pal (Official Music Video) Prod. ‪@AliSoomroMusic‬ - YouTube - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-17 15:45:42
+--------------------------------------------------------------------------------
+[2025-07-17 15:45:42] Chrome - Afusic
+Title: FIXED TOO MANY FREE TRIAL ACCOUNTS USED ON THIS MACHINE CURSOR AI 2025! - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 12s total
+End Time: 2025-07-17 15:45:44
+--------------------------------------------------------------------------------
+[2025-07-17 15:45:44] Chrome - FIXED TOO MANY FREE TRIAL ACCOUNTS USED ON THIS MACHINE CURSOR AI 2025!
+Title: too many free trial accounts used on this machine - YouTube - Google Chrome
+Visit Duration: 11s
+Total Time on Site: 11s total
+End Time: 2025-07-17 15:45:55
+--------------------------------------------------------------------------------
+[2025-07-17 15:45:55] Chrome - too many free trial accounts used on this machine
+Title: How To Fix Too Many Free Trial Accounts Used on This Machine Cursor AI [PROBLEM SOLVED] - YouTube - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 8s total
+End Time: 2025-07-17 15:45:59
+--------------------------------------------------------------------------------
+[2025-07-17 15:45:59] Chrome - How To Fix Too Many Free Trial Accounts Used on This Machine Cursor AI [PROBLEM SOLVED]
+Title: too many free trial accounts used on this machine - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-17 15:46:01
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:01] Chrome - too many free trial accounts used on this machine
+Title: How To Fix Too Many Free Trial Accounts Used on This Machine Cursor AI [PROBLEM SOLVED] - YouTube - Google Chrome
+Visit Duration: 14s
+Total Time on Site: 22s total
+End Time: 2025-07-17 15:46:15
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:15] Chrome - How To Fix Too Many Free Trial Accounts Used on This Machine Cursor AI [PROBLEM SOLVED]
+Title: too many free trial accounts used on this machine - YouTube - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 8s total
+End Time: 2025-07-17 15:46:21
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:21] Chrome - too many free trial accounts used on this machine
+Title: How To Fix Too Many Free Trial Accounts Used on This Machine Cursor AI [PROBLEM SOLVED] - YouTube - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 26s total
+End Time: 2025-07-17 15:46:25
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:25] Chrome - How To Fix Too Many Free Trial Accounts Used on This Machine Cursor AI [PROBLEM SOLVED]
+Title: Too Many Free Trial Accounts Used on This Machine Cursor AI (Free Fix) - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 10s total
+End Time: 2025-07-17 15:46:27
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:27] Chrome - Too Many Free Trial Accounts Used on This Machine Cursor AI (Free Fix)
+Title: New Tab - Google Chrome
+Visit Duration: 14s
+Total Time on Site: 14s total
+End Time: 2025-07-17 15:46:41
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:41] Chrome - New Tab
+Title: Google Search - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 6s total
+End Time: 2025-07-17 15:46:45
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:45] Chrome - Google Search
+Title: GitHub · Build and ship software on a single, collaborative platform · GitHub - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-17 15:46:47
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:47] Chrome - GitHub · Build and ship software on a single, collaborative platform · GitHub
+Title: Repository search results · GitHub - Google Chrome
+Visit Duration: 8s
+Total Time on Site: 8s total
+End Time: 2025-07-17 15:46:55
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:55] Chrome - Repository search results · GitHub
+Title: Too Many Free Trial Accounts Used on This Machine Cursor AI (Free Fix) - YouTube - Google Chrome
+Visit Duration: 3s
+Total Time on Site: 3s total
+End Time: 2025-07-17 15:46:58
+--------------------------------------------------------------------------------
+[2025-07-17 15:46:58] Chrome - Too Many Free Trial Accounts Used on This Machine Cursor AI (Free Fix)
+Title: GitHub - yuaotian/go-cursor-help: 解决Cursor在免费订阅期间出现以下提示的问题: Your request has been blocked as our system has detected suspicious activity / You've reached your trial request limit. / Too many free trial accounts used on this machine. - Google Chrome
+Visit Duration: 26s
+Total Time on Site: 40s total
+End Time: 2025-07-17 15:47:24
+--------------------------------------------------------------------------------
+[2025-07-17 15:47:24] Chrome - GitHub
+Title: None
+Visit Duration: 16s
+Total Time on Site: 16s total
+End Time: 2025-07-17 15:47:40
+--------------------------------------------------------------------------------
+[2025-07-17 15:47:58] Chrome - GitHub
+Title: None
+Visit Duration: 2s
+Total Time on Site: 18s total
+End Time: 2025-07-17 15:48:00
+--------------------------------------------------------------------------------
+[2025-07-17 15:48:18] Chrome - GitHub
+Title: None
+Visit Duration: 10s
+Total Time on Site: 28s total
+End Time: 2025-07-17 15:48:28
+--------------------------------------------------------------------------------
+[2025-07-17 15:48:38] Chrome - GitHub
+Title: Too Many Free Trial Accounts Used on This Machine Cursor AI (Free Fix) - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 30s total
+End Time: 2025-07-17 15:48:40
+--------------------------------------------------------------------------------
+[2025-07-17 15:48:40] Chrome - Too Many Free Trial Accounts Used on This Machine Cursor AI (Free Fix)
+Title: too many free trial accounts used on this machine - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 42s total
+End Time: 2025-07-17 15:48:42
+--------------------------------------------------------------------------------
+[2025-07-17 15:48:42] Chrome - too many free trial accounts used on this machine
+Title: How To Get Unlimited Cursor Free Trials in 2025.. (Still Working) - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 28s total
+End Time: 2025-07-17 15:48:44
+--------------------------------------------------------------------------------
+[2025-07-17 15:48:44] Chrome - How To Get Unlimited Cursor Free Trials in 2025.. (Still Working)
+Title: too many free trial accounts used on this machine - YouTube - Google Chrome
+Visit Duration: 13s
+Total Time on Site: 13s total
+End Time: 2025-07-17 15:48:57
+--------------------------------------------------------------------------------
+[2025-07-17 15:48:57] Chrome - too many free trial accounts used on this machine
+Title: How To Get Unlimited Cursor Free Trials in 2025.. (Still Working) - YouTube - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 32s total
+End Time: 2025-07-17 15:49:01
+--------------------------------------------------------------------------------
+[2025-07-17 15:49:01] Chrome - How To Get Unlimited Cursor Free Trials in 2025.. (Still Working)
+Title: Untitled - Google Chrome
+Visit Duration: 10s
+Total Time on Site: 23s total
+End Time: 2025-07-17 15:49:11
+--------------------------------------------------------------------------------
+[2025-07-17 15:49:11] Chrome - Untitled
+Title: GitHub - yuaotian/go-cursor-help: 解决Cursor在免费订阅期间出现以下提示的问题: Your request has been blocked as our system has detected suspicious activity / You've reached your trial request limit. / Too many free trial accounts used on this machine. - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-17 15:49:13
+--------------------------------------------------------------------------------
+[2025-07-17 15:49:13] Chrome - GitHub
+Title: None
+Visit Duration: 8s
+Total Time on Site: 38s total
+End Time: 2025-07-17 15:49:21
+--------------------------------------------------------------------------------
+[2025-07-17 15:49:27] Chrome - How To Get Unlimited Cursor Free Trials in 2025.. (Still Working)
+Title: None
+Visit Duration: 43s
+Total Time on Site: 1m total
+End Time: 2025-07-17 15:50:10
+--------------------------------------------------------------------------------
+[2025-07-17 15:50:28] Chrome - How To Get Unlimited Cursor Free Trials in 2025.. (Still Working)
+Title: GitHub - yuaotian/go-cursor-help: 解决Cursor在免费订阅期间出现以下提示的问题: Your request has been blocked as our system has detected suspicious activity / You've reached your trial request limit. / Too many free trial accounts used on this machine. - Google Chrome
+Visit Duration: 8s
+Total Time on Site: 1m total
+End Time: 2025-07-17 15:50:36
+--------------------------------------------------------------------------------
+[2025-07-17 15:50:36] Chrome - GitHub
+Title: None
+Visit Duration: 8s
+Total Time on Site: 46s total
+End Time: 2025-07-17 15:50:44
+--------------------------------------------------------------------------------
+[2025-07-17 15:51:06] Chrome - GitHub
+Title: How To Get Unlimited Cursor Free Trials in 2025.. (Still Working) - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 48s total
+End Time: 2025-07-17 15:51:08
+--------------------------------------------------------------------------------
+[2025-07-17 15:51:08] Chrome - How To Get Unlimited Cursor Free Trials in 2025.. (Still Working)
+Title: Untitled - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-07-17 15:51:10
+--------------------------------------------------------------------------------
+[2025-07-17 15:51:10] Chrome - Untitled
+Title: How To Get Unlimited Cursor Free Trials in 2025.. (Still Working) - YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-17 15:51:12
+--------------------------------------------------------------------------------
+[2025-07-17 15:51:12] Chrome - How To Get Unlimited Cursor Free Trials in 2025.. (Still Working)
+Title: GitHub - yeongpin/cursor-free-vip: [Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake. - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 1m total
+End Time: 2025-07-17 15:51:16
+--------------------------------------------------------------------------------
+[2025-07-17 15:51:16] Chrome - GitHub
+Title: None
+Visit Duration: 6s
+Total Time on Site: 54s total
+End Time: 2025-07-17 15:51:22
+--------------------------------------------------------------------------------
+[2025-07-17 15:51:35] Chrome - GitHub
+Title: None
+Visit Duration: 2s
+Total Time on Site: 56s total
+End Time: 2025-07-17 15:51:37
+--------------------------------------------------------------------------------
+[2025-07-17 15:52:03] Chrome - GitHub
+Title: None
+Visit Duration: 5s
+Total Time on Site: 1m total
+End Time: 2025-07-17 15:52:08
+--------------------------------------------------------------------------------
+[2025-07-18 17:24:48] Chrome - top sec
+Title: None
+Visit Duration: 1m 31s
+Total Time on Site: 2m total
+End Time: 2025-07-18 17:26:19
+--------------------------------------------------------------------------------
+[2025-07-18 17:27:41] Chrome - top sec
+Title: None
+Visit Duration: 1m 11s
+Total Time on Site: 3m total
+End Time: 2025-07-18 17:28:52
+--------------------------------------------------------------------------------
+[2025-07-18 17:28:54] Chrome - top sec
+Title: None
+Visit Duration: 2s
+Total Time on Site: 3m total
+End Time: 2025-07-18 17:28:56
+--------------------------------------------------------------------------------
+[2025-07-18 17:29:28] Chrome - top sec
+Title: None
+Visit Duration: 2s
+Total Time on Site: 3m total
+End Time: 2025-07-18 17:29:30
+--------------------------------------------------------------------------------
+[2025-07-18 17:29:32] Chrome - top sec
+Title: None
+Visit Duration: 4s
+Total Time on Site: 3m total
+End Time: 2025-07-18 17:29:36
+--------------------------------------------------------------------------------
+[2025-07-18 17:33:29] Chrome - top sec
+Title: None
+Visit Duration: 1m 20s
+Total Time on Site: 4m total
+End Time: 2025-07-18 17:34:49
+--------------------------------------------------------------------------------
+[2025-07-18 17:44:07] Chrome - top sec
+Title: None
+Visit Duration: 1m 9s
+Total Time on Site: 6m total
+End Time: 2025-07-18 17:45:16
+--------------------------------------------------------------------------------
+[2025-07-18 17:45:20] Chrome - top sec
+Title: None
+Visit Duration: 6s
+Total Time on Site: 6m total
+End Time: 2025-07-18 17:45:26
+--------------------------------------------------------------------------------
+[2025-07-18 17:45:30] Chrome - top sec
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6m total
+End Time: 2025-07-18 17:45:32
+--------------------------------------------------------------------------------
+[2025-07-18 17:52:49] Chrome - top sec
+Title: None
+Visit Duration: 1m 37s
+Total Time on Site: 7m total
+End Time: 2025-07-18 17:54:26
+--------------------------------------------------------------------------------
+[2025-07-18 17:59:31] Chrome - top sec
+Title: None
+Visit Duration: 8s
+Total Time on Site: 7m total
+End Time: 2025-07-18 17:59:39
+--------------------------------------------------------------------------------
+[2025-07-18 18:04:15] Chrome - top sec
+Title: None
+Visit Duration: 12s
+Total Time on Site: 8m total
+End Time: 2025-07-18 18:04:27
+--------------------------------------------------------------------------------
+[2025-07-18 18:08:36] Chrome - top sec
+Title: None
+Visit Duration: 1m 20s
+Total Time on Site: 9m total
+End Time: 2025-07-18 18:09:56
+--------------------------------------------------------------------------------
+[2025-07-18 18:10:02] Chrome - top sec
+Title: None
+Visit Duration: 56s
+Total Time on Site: 10m total
+End Time: 2025-07-18 18:10:58
+--------------------------------------------------------------------------------
+[2025-07-18 18:11:50] Chrome - top sec
+Title: None
+Visit Duration: 30s
+Total Time on Site: 10m total
+End Time: 2025-07-18 18:12:20
+--------------------------------------------------------------------------------
+[2025-07-18 18:28:03] Chrome - top sec
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 10m total
+End Time: 2025-07-18 18:28:05
+--------------------------------------------------------------------------------
+[2025-07-18 18:28:05] Chrome - New Tab
+Title: YouTube - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 8s total
+End Time: 2025-07-18 18:28:07
+--------------------------------------------------------------------------------
+[2025-07-18 18:28:07] Chrome - YouTube
+Title: Ed Sheeran - Sapphire (Official Music Video) - YouTube - Google Chrome
+Visit Duration: 15s
+Total Time on Site: 15s total
+End Time: 2025-07-18 18:28:22
+--------------------------------------------------------------------------------
+[2025-07-18 18:28:22] Chrome - Ed Sheeran
+Title: None
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-18 18:28:24
+--------------------------------------------------------------------------------
+[2025-07-18 18:28:42] Chrome - Ed Sheeran
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-18 18:28:44
+--------------------------------------------------------------------------------
+[2025-07-18 18:28:44] Chrome - New Tab
+Title: book pdf download - Google Search - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 14s total
+End Time: 2025-07-18 18:28:50
+--------------------------------------------------------------------------------
+[2025-07-18 18:28:50] Chrome - book pdf download
+Title: book pdf download upsc - Google Search - Google Chrome
+Visit Duration: 8s
+Total Time on Site: 8s total
+End Time: 2025-07-18 18:28:58
+--------------------------------------------------------------------------------
+[2025-07-18 18:28:58] Chrome - book pdf download upsc
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-18 18:29:02
+--------------------------------------------------------------------------------
+[2025-07-18 18:29:02] Chrome - Microsoft Word
+Title: Save As
+Visit Duration: 3s
+Total Time on Site: 3s total
+End Time: 2025-07-18 18:29:05
+--------------------------------------------------------------------------------
+[2025-07-18 18:29:05] Chrome - Save As
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-18 18:29:07
+--------------------------------------------------------------------------------
+[2025-07-18 18:29:07] Chrome - Microsoft Word
+Title: None
+Visit Duration: 4s
+Total Time on Site: 7s total
+End Time: 2025-07-18 18:29:11
+--------------------------------------------------------------------------------
+[2025-07-18 18:31:13] Chrome - Microsoft Word
+Title: Save As
+Visit Duration: 2s
+Total Time on Site: 9s total
+End Time: 2025-07-18 18:31:15
+--------------------------------------------------------------------------------
+[2025-07-18 18:31:15] Chrome - Save As
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-18 18:31:17
+--------------------------------------------------------------------------------
+[2025-07-18 18:31:17] Chrome - Microsoft Word
+Title: None
+Visit Duration: 3s
+Total Time on Site: 12s total
+End Time: 2025-07-18 18:31:20
+--------------------------------------------------------------------------------
+[2025-07-18 18:33:49] Chrome - Recent download history
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-18 18:33:51
+--------------------------------------------------------------------------------
+[2025-07-18 18:33:51] Chrome - Microsoft Word
+Title: None
+Visit Duration: 4s
+Total Time on Site: 16s total
+End Time: 2025-07-18 18:33:55
+--------------------------------------------------------------------------------
+[2025-07-18 18:34:07] Chrome - Microsoft Word
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 20s total
+End Time: 2025-07-18 18:34:11
+--------------------------------------------------------------------------------
+[2025-07-18 18:34:11] Chrome - top sec
+Title: None
+Visit Duration: 56s
+Total Time on Site: 11m total
+End Time: 2025-07-18 18:35:07
+--------------------------------------------------------------------------------
+[2025-07-18 18:38:02] Chrome - top sec
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 11m total
+End Time: 2025-07-18 18:38:04
+--------------------------------------------------------------------------------
+[2025-07-18 18:38:04] Chrome - Microsoft Word
+Title: Save As
+Visit Duration: 2s
+Total Time on Site: 22s total
+End Time: 2025-07-18 18:38:06
+--------------------------------------------------------------------------------
+[2025-07-18 18:38:06] Chrome - Save As
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-18 18:38:08
+--------------------------------------------------------------------------------
+[2025-07-18 18:38:08] Chrome - Microsoft Word
+Title: None
+Visit Duration: 2s
+Total Time on Site: 24s total
+End Time: 2025-07-18 18:38:10
+--------------------------------------------------------------------------------
+[2025-07-18 18:41:01] Chrome - Microsoft Word
+Title: None
+Visit Duration: 6s
+Total Time on Site: 30s total
+End Time: 2025-07-18 18:41:07
+--------------------------------------------------------------------------------
+[2025-07-18 18:42:50] Chrome - Recent download history
+Title: Save As
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-18 18:42:52
+--------------------------------------------------------------------------------
+[2025-07-18 18:42:52] Chrome - Save As
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 8s total
+End Time: 2025-07-18 18:42:54
+--------------------------------------------------------------------------------
+[2025-07-18 18:42:54] Chrome - Microsoft Word
+Title: None
+Visit Duration: 2s
+Total Time on Site: 32s total
+End Time: 2025-07-18 18:42:56
+--------------------------------------------------------------------------------
+[2025-07-18 18:43:48] Chrome - Microsoft Word
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 34s total
+End Time: 2025-07-18 18:43:50
+--------------------------------------------------------------------------------
+[2025-07-18 18:43:50] Chrome - top sec
+Title: None
+Visit Duration: 1m 59s
+Total Time on Site: 13m total
+End Time: 2025-07-18 18:45:49
+--------------------------------------------------------------------------------
+[2025-07-18 18:46:56] Chrome - top sec
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 13m total
+End Time: 2025-07-18 18:46:58
+--------------------------------------------------------------------------------
+[2025-07-18 18:46:58] Chrome - Microsoft Word
+Title: None
+Visit Duration: 4s
+Total Time on Site: 38s total
+End Time: 2025-07-18 18:47:02
+--------------------------------------------------------------------------------
+[2025-07-18 18:48:53] Chrome - Microsoft Word
+Title: None
+Visit Duration: 4s
+Total Time on Site: 42s total
+End Time: 2025-07-18 18:48:57
+--------------------------------------------------------------------------------
+[2025-07-18 18:54:45] Chrome - Save As
+Title: Microsoft Word - CIVIL SERVICES - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 10s total
+End Time: 2025-07-18 18:54:47
+--------------------------------------------------------------------------------
+[2025-07-18 18:54:47] Chrome - Microsoft Word
+Title: None
+Visit Duration: 2s
+Total Time on Site: 44s total
+End Time: 2025-07-18 18:54:49
+--------------------------------------------------------------------------------
+[2025-07-18 18:54:59] Chrome - Recent download history
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-18 18:55:01
+--------------------------------------------------------------------------------
+[2025-07-18 19:07:52] Chrome - Microsoft Word
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 46s total
+End Time: 2025-07-18 19:07:54
+--------------------------------------------------------------------------------
+[2025-07-18 19:07:54] Chrome - top sec
+Title: None
+Visit Duration: 12s
+Total Time on Site: 14m total
+End Time: 2025-07-18 19:08:06
+--------------------------------------------------------------------------------
+[2025-07-18 19:09:13] Chrome - top sec
+Title: None
+Visit Duration: 58s
+Total Time on Site: 15m total
+End Time: 2025-07-18 19:10:11
+--------------------------------------------------------------------------------
+[2025-07-18 19:10:33] Chrome - top sec
+Title: None
+Visit Duration: 1m 26s
+Total Time on Site: 16m total
+End Time: 2025-07-18 19:11:59
+--------------------------------------------------------------------------------
+[2025-07-18 19:13:21] Chrome - top sec
+Title: None
+Visit Duration: 14s
+Total Time on Site: 16m total
+End Time: 2025-07-18 19:13:35
+--------------------------------------------------------------------------------
+[2025-07-18 19:13:40] Chrome - top sec
+Title: None
+Visit Duration: 24s
+Total Time on Site: 17m total
+End Time: 2025-07-18 19:14:04
+--------------------------------------------------------------------------------
+[2025-07-18 19:15:51] Chrome - top sec
+Title: None
+Visit Duration: 2m 28s
+Total Time on Site: 19m total
+End Time: 2025-07-18 19:18:19
+--------------------------------------------------------------------------------
+[2025-07-18 19:21:38] Edge - Local Monitor Dashboard
+Title: None
+Visit Duration: 1m 31s
+Total Time on Site: 1m total
+End Time: 2025-07-18 19:23:09
+--------------------------------------------------------------------------------
+[2025-07-18 19:26:16] Chrome - top sec
+Title: None
+Visit Duration: 3m 5s
+Total Time on Site: 22m total
+End Time: 2025-07-18 19:29:21
+--------------------------------------------------------------------------------
+[2025-07-18 19:30:49] Edge - Monitor Setup
+Title: None
+Visit Duration: 6s
+Total Time on Site: 6s total
+End Time: 2025-07-18 19:30:55
+--------------------------------------------------------------------------------
+[2025-07-18 19:36:13] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 8s
+Total Time on Site: 8s total
+End Time: 2025-07-18 19:36:21
+--------------------------------------------------------------------------------
+[2025-07-18 19:38:19] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 1m 30s
+Total Time on Site: 1m total
+End Time: 2025-07-18 19:39:49
+--------------------------------------------------------------------------------
+[2025-07-18 19:47:31] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 3m 17s
+Total Time on Site: 4m total
+End Time: 2025-07-18 19:50:48
+--------------------------------------------------------------------------------
+[2025-07-18 19:53:57] Edge - Monitor Dashboard and 1 more page
+Title: None
+Visit Duration: 41s
+Total Time on Site: 41s total
+End Time: 2025-07-18 19:54:38
+--------------------------------------------------------------------------------
+[2025-07-18 19:54:40] Edge - Monitor Dashboard and 1 more page
+Title: None
+Visit Duration: 4s
+Total Time on Site: 45s total
+End Time: 2025-07-18 19:54:44
+--------------------------------------------------------------------------------
+[2025-07-18 19:55:18] Edge - Monitor Dashboard and 1 more page
+Title: None
+Visit Duration: 41s
+Total Time on Site: 1m total
+End Time: 2025-07-18 19:55:59
+--------------------------------------------------------------------------------
+[2025-07-18 19:58:44] Edge - Monitor Dashboard and 2 more pages
+Title: None
+Visit Duration: 16s
+Total Time on Site: 16s total
+End Time: 2025-07-18 19:59:00
+--------------------------------------------------------------------------------
+[2025-07-18 20:04:22] Edge - Monitor Dashboard and 3 more pages
+Title: None
+Visit Duration: 12s
+Total Time on Site: 12s total
+End Time: 2025-07-18 20:04:34
+--------------------------------------------------------------------------------
+[2025-07-18 20:15:40] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 8s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:15:48
+--------------------------------------------------------------------------------
+[2025-07-18 20:15:50] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:15:52
+--------------------------------------------------------------------------------
+[2025-07-18 20:16:58] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:17:00
+--------------------------------------------------------------------------------
+[2025-07-18 20:17:45] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 6s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:17:51
+--------------------------------------------------------------------------------
+[2025-07-18 20:17:46] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 6s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:17:52
+--------------------------------------------------------------------------------
+[2025-07-18 20:18:10] Chrome - top sec
+Title: None
+Visit Duration: 59s
+Total Time on Site: 23m total
+End Time: 2025-07-18 20:19:09
+--------------------------------------------------------------------------------
+[2025-07-18 20:18:11] Chrome - top sec
+Title: None
+Visit Duration: 58s
+Total Time on Site: 23m total
+End Time: 2025-07-18 20:19:09
+--------------------------------------------------------------------------------
+[2025-07-18 20:21:41] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 10s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:21:51
+--------------------------------------------------------------------------------
+[2025-07-18 20:21:42] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 10s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:21:52
+--------------------------------------------------------------------------------
+[2025-07-18 20:21:54] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:21:56
+--------------------------------------------------------------------------------
+[2025-07-18 20:23:08] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:23:10
+--------------------------------------------------------------------------------
+[2025-07-18 20:23:08] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:23:10
+--------------------------------------------------------------------------------
+[2025-07-18 20:23:09] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:23:11
+--------------------------------------------------------------------------------
+[2025-07-18 20:23:38] Chrome - top sec
+Title: None
+Visit Duration: 24s
+Total Time on Site: 24m total
+End Time: 2025-07-18 20:24:02
+--------------------------------------------------------------------------------
+[2025-07-18 20:23:37] Chrome - top sec
+Title: None
+Visit Duration: 26s
+Total Time on Site: 24m total
+End Time: 2025-07-18 20:24:03
+--------------------------------------------------------------------------------
+[2025-07-18 20:23:37] Chrome - top sec
+Title: None
+Visit Duration: 26s
+Total Time on Site: 24m total
+End Time: 2025-07-18 20:24:03
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:09] Edge - Untitled
+Title: Login Deep Control - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 8s total
+End Time: 2025-07-18 20:24:11
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:09] Edge - Untitled
+Title: Login Deep Control - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 8s total
+End Time: 2025-07-18 20:24:11
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:11] Edge - Login Deep Control
+Title: Sign in - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 7s total
+End Time: 2025-07-18 20:24:13
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:11] Edge - Login Deep Control
+Title: Sign in - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 7s total
+End Time: 2025-07-18 20:24:13
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:10] Edge - Login Deep Control
+Title: Sign in - Personal - Microsoft​ Edge
+Visit Duration: 4s
+Total Time on Site: 9s total
+End Time: 2025-07-18 20:24:14
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:13] Edge - Sign in
+Title: Sign in to Apple Account - Personal - Microsoft​ Edge
+Visit Duration: 4s
+Total Time on Site: 12s total
+End Time: 2025-07-18 20:24:17
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:13] Edge - Sign in
+Title: Sign in to Apple Account - Personal - Microsoft​ Edge
+Visit Duration: 5s
+Total Time on Site: 13s total
+End Time: 2025-07-18 20:24:18
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:14] Edge - Sign in
+Title: Sign in to Apple Account - Personal - Microsoft​ Edge
+Visit Duration: 5s
+Total Time on Site: 13s total
+End Time: 2025-07-18 20:24:19
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:19] Edge - Sign in to Apple Account
+Title: Sign in - Personal - Microsoft​ Edge
+Visit Duration: 1m 20s
+Total Time on Site: 1m total
+End Time: 2025-07-18 20:25:39
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:17] Edge - Sign in to Apple Account
+Title: Sign in - Personal - Microsoft​ Edge
+Visit Duration: 1m 23s
+Total Time on Site: 1m total
+End Time: 2025-07-18 20:25:40
+--------------------------------------------------------------------------------
+[2025-07-18 20:24:18] Edge - Sign in to Apple Account
+Title: Sign in - Personal - Microsoft​ Edge
+Visit Duration: 1m 22s
+Total Time on Site: 1m total
+End Time: 2025-07-18 20:25:40
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:40] Edge - Sign in
+Title: None
+Visit Duration: 4s
+Total Time on Site: 17s total
+End Time: 2025-07-18 20:25:44
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:39] Edge - Sign in
+Title: None
+Visit Duration: 6s
+Total Time on Site: 19s total
+End Time: 2025-07-18 20:25:45
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:40] Edge - Sign in
+Title: None
+Visit Duration: 6s
+Total Time on Site: 18s total
+End Time: 2025-07-18 20:25:46
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:46] Chrome - top sec
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 24m total
+End Time: 2025-07-18 20:25:48
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:47] Chrome - top sec
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 24m total
+End Time: 2025-07-18 20:25:49
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:48] Chrome - top sec
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 24m total
+End Time: 2025-07-18 20:25:50
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:50] Chrome - New Tab
+Title: Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 18s total
+End Time: 2025-07-18 20:25:54
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:48] Chrome - New Tab
+Title: Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 20s total
+End Time: 2025-07-18 20:25:54
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:49] Chrome - New Tab
+Title: Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 21s total
+End Time: 2025-07-18 20:25:56
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:56] Chrome - Cursor
+Title: Sign in - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 18s total
+End Time: 2025-07-18 20:26:00
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:54] Chrome - Cursor
+Title: Sign in - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 21s total
+End Time: 2025-07-18 20:26:01
+--------------------------------------------------------------------------------
+[2025-07-18 20:25:54] Chrome - Cursor
+Title: Sign in - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 21s total
+End Time: 2025-07-18 20:26:01
+--------------------------------------------------------------------------------
+[2025-07-18 20:26:01] Chrome - Sign in
+Title: Sign in to Apple Account - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 22s total
+End Time: 2025-07-18 20:26:05
+--------------------------------------------------------------------------------
+[2025-07-18 20:26:01] Chrome - Sign in
+Title: Sign in to Apple Account - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 21s total
+End Time: 2025-07-18 20:26:05
+--------------------------------------------------------------------------------
+[2025-07-18 20:26:00] Chrome - Sign in
+Title: Sign in to Apple Account - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 25s total
+End Time: 2025-07-18 20:26:06
+--------------------------------------------------------------------------------
+[2025-07-18 20:26:05] Chrome - Sign in to Apple Account
+Title: Sign in - Google Chrome
+Visit Duration: 58s
+Total Time on Site: 2m total
+End Time: 2025-07-18 20:27:03
+--------------------------------------------------------------------------------
+[2025-07-18 20:26:05] Chrome - Sign in to Apple Account
+Title: Sign in - Google Chrome
+Visit Duration: 58s
+Total Time on Site: 2m total
+End Time: 2025-07-18 20:27:03
+--------------------------------------------------------------------------------
+[2025-07-18 20:26:06] Chrome - Sign in to Apple Account
+Title: Sign in - Google Chrome
+Visit Duration: 58s
+Total Time on Site: 2m total
+End Time: 2025-07-18 20:27:04
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:04] Chrome - Sign in
+Title: None
+Visit Duration: 11s
+Total Time on Site: 36s total
+End Time: 2025-07-18 20:27:15
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:03] Chrome - Sign in
+Title: None
+Visit Duration: 12s
+Total Time on Site: 34s total
+End Time: 2025-07-18 20:27:15
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:03] Chrome - Sign in
+Title: None
+Visit Duration: 12s
+Total Time on Site: 33s total
+End Time: 2025-07-18 20:27:15
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:17] Chrome - Sign in
+Title: None
+Visit Duration: 2s
+Total Time on Site: 38s total
+End Time: 2025-07-18 20:27:19
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:17] Chrome - Sign in
+Title: None
+Visit Duration: 2s
+Total Time on Site: 36s total
+End Time: 2025-07-18 20:27:19
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:18] Chrome - Sign in
+Title: None
+Visit Duration: 2s
+Total Time on Site: 35s total
+End Time: 2025-07-18 20:27:20
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:25] Chrome - Sign in
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 40s total
+End Time: 2025-07-18 20:27:27
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:26] Chrome - Sign in
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 38s total
+End Time: 2025-07-18 20:27:28
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:26] Chrome - Sign in
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 37s total
+End Time: 2025-07-18 20:27:28
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:27] Chrome - top sec
+Title: None
+Visit Duration: 1m 16s
+Total Time on Site: 25m total
+End Time: 2025-07-18 20:28:43
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:28] Chrome - top sec
+Title: None
+Visit Duration: 1m 16s
+Total Time on Site: 25m total
+End Time: 2025-07-18 20:28:44
+--------------------------------------------------------------------------------
+[2025-07-18 20:27:28] Chrome - top sec
+Title: None
+Visit Duration: 1m 16s
+Total Time on Site: 25m total
+End Time: 2025-07-18 20:28:44
+--------------------------------------------------------------------------------
+[2025-07-18 20:29:18] Chrome - top sec
+Title: ChatGPT - Google Chrome
+Visit Duration: 12s
+Total Time on Site: 25m total
+End Time: 2025-07-18 20:29:30
+--------------------------------------------------------------------------------
+[2025-07-18 20:29:30] Chrome - ChatGPT
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-18 20:29:32
+--------------------------------------------------------------------------------
+[2025-07-18 20:29:32] Chrome - top sec
+Title: None
+Visit Duration: 54s
+Total Time on Site: 26m total
+End Time: 2025-07-18 20:30:26
+--------------------------------------------------------------------------------
+[2025-07-18 20:30:34] Chrome - top sec
+Title: None
+Visit Duration: 1m 59s
+Total Time on Site: 28m total
+End Time: 2025-07-18 20:32:33
+--------------------------------------------------------------------------------
+[2025-07-18 20:32:35] Chrome - Unknown
+Title: Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-18 20:32:37
+--------------------------------------------------------------------------------
+[2025-07-18 20:32:37] Chrome - Google Chrome
+Title: 
+Visit Duration: 1m 16s
+Total Time on Site: 2m total
+End Time: 2025-07-18 20:33:53
+--------------------------------------------------------------------------------
+[2025-07-18 20:33:53] Chrome - Unknown
+Title: New Tab - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 10s total
+End Time: 2025-07-18 20:33:57
+--------------------------------------------------------------------------------
+[2025-07-18 20:33:57] Chrome - New Tab
+Title: cursor - Google Search - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 25s total
+End Time: 2025-07-18 20:34:01
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:01] Chrome - cursor
+Title: Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-18 20:34:03
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:03] Chrome - Cursor
+Title: Sign in - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 25s total
+End Time: 2025-07-18 20:34:10
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:10] Chrome - Sign in
+Title: Sign in – Google accounts - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 42s total
+End Time: 2025-07-18 20:34:12
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:12] Chrome - Sign in – Google accounts
+Title: Sign in - Google Accounts - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 8s total
+End Time: 2025-07-18 20:34:16
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:16] Chrome - Sign in
+Title: Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 24s
+Total Time on Site: 1m total
+End Time: 2025-07-18 20:34:40
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:40] Chrome - Cursor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 27s total
+End Time: 2025-07-18 20:34:42
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:50] Edge - Login Deep Control
+Title: None
+Visit Duration: 2s
+Total Time on Site: 11s total
+End Time: 2025-07-18 20:34:52
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:54] Chrome - Cursor
+Title: Login Deep Control - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 31s total
+End Time: 2025-07-18 20:34:58
+--------------------------------------------------------------------------------
+[2025-07-18 20:34:58] Chrome - Login Deep Control
+Title: Auth | Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 13s total
+End Time: 2025-07-18 20:35:00
+--------------------------------------------------------------------------------
+[2025-07-18 20:35:00] Chrome - Auth | Cursor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-18 20:35:02
+--------------------------------------------------------------------------------
+[2025-07-18 20:37:11] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 6s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:37:17
+--------------------------------------------------------------------------------
+[2025-07-18 20:37:11] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 6s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:37:17
+--------------------------------------------------------------------------------
+[2025-07-18 20:37:19] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:37:21
+--------------------------------------------------------------------------------
+[2025-07-18 20:37:19] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:37:21
+--------------------------------------------------------------------------------
+[2025-07-18 20:38:25] Chrome - top sec
+Title: None
+Visit Duration: 1m 39s
+Total Time on Site: 30m total
+End Time: 2025-07-18 20:40:04
+--------------------------------------------------------------------------------
+[2025-07-18 20:40:16] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 10s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:40:26
+--------------------------------------------------------------------------------
+[2025-07-18 20:41:57] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 8s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:42:05
+--------------------------------------------------------------------------------
+[2025-07-18 20:41:57] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 8s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:42:05
+--------------------------------------------------------------------------------
+[2025-07-18 20:42:27] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 3s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:42:30
+--------------------------------------------------------------------------------
+[2025-07-18 20:42:28] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-18 20:42:30
+--------------------------------------------------------------------------------
+[2025-07-18 20:47:09] Chrome - top sec
+Title: None
+Visit Duration: 4m 3s
+Total Time on Site: 34m total
+End Time: 2025-07-18 20:51:12
+--------------------------------------------------------------------------------
+[2025-07-18 20:51:20] Chrome - top sec
+Title: None
+Visit Duration: 8s
+Total Time on Site: 34m total
+End Time: 2025-07-18 20:51:28
+--------------------------------------------------------------------------------
+[2025-07-18 20:51:32] Chrome - top sec
+Title: Sign in - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 34m total
+End Time: 2025-07-18 20:51:34
+--------------------------------------------------------------------------------
+[2025-07-18 20:51:34] Chrome - Sign in
+Title: palam metro to anand vihar metro - Google Search - Google Chrome
+Visit Duration: 10s
+Total Time on Site: 1m total
+End Time: 2025-07-18 20:51:44
+--------------------------------------------------------------------------------
+[2025-07-18 20:51:44] Chrome - palam metro to anand vihar metro
+Title: पालम से आनंद विहार - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-18 20:51:46
+--------------------------------------------------------------------------------
+[2025-07-18 20:51:46] Chrome - पालम से आनंद विहार
+Title: Route from Palam to Anand Vihar - Delhi Metro - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 7s total
+End Time: 2025-07-18 20:51:53
+--------------------------------------------------------------------------------
+[2025-07-18 20:51:53] Chrome - Route from Palam to Anand Vihar
+Title: None
+Visit Duration: 1m 14s
+Total Time on Site: 1m total
+End Time: 2025-07-18 20:53:07
+--------------------------------------------------------------------------------
+[2025-07-18 20:55:44] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 10s
+Total Time on Site: 6m total
+End Time: 2025-07-18 20:55:54
+--------------------------------------------------------------------------------
+[2025-07-18 20:55:44] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 10s
+Total Time on Site: 6m total
+End Time: 2025-07-18 20:55:54
+--------------------------------------------------------------------------------
+[2025-07-18 20:56:10] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6m total
+End Time: 2025-07-18 20:56:12
+--------------------------------------------------------------------------------
+[2025-07-18 20:56:10] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6m total
+End Time: 2025-07-18 20:56:12
+--------------------------------------------------------------------------------
+[2025-07-18 20:57:29] Edge - Monitor Dashboard
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6m total
+End Time: 2025-07-18 20:57:31
+--------------------------------------------------------------------------------
+[2025-07-18 20:58:20] Chrome - Route from Palam to Anand Vihar
+Title: None
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-07-18 20:58:22
+--------------------------------------------------------------------------------
+[2025-07-18 21:22:41] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 18s total
+End Time: 2025-07-18 21:22:59
+--------------------------------------------------------------------------------
+[2025-07-18 21:23:03] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 20s total
+End Time: 2025-07-18 21:23:05
+--------------------------------------------------------------------------------
+[2025-07-18 21:23:27] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 38s total
+End Time: 2025-07-18 21:23:45
+--------------------------------------------------------------------------------
+[2025-07-18 21:24:09] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2m 21s
+Total Time on Site: 2m total
+End Time: 2025-07-18 21:26:30
+--------------------------------------------------------------------------------
+[2025-07-18 21:26:46] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 3m total
+End Time: 2025-07-18 21:26:48
+--------------------------------------------------------------------------------
+[2025-07-18 21:26:50] Edge - MANGO TREE Monitor
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 3m total
+End Time: 2025-07-18 21:26:52
+--------------------------------------------------------------------------------
+[2025-07-18 21:26:52] Chrome - top sec
+Title: None
+Visit Duration: 1m 31s
+Total Time on Site: 35m total
+End Time: 2025-07-18 21:28:23
+--------------------------------------------------------------------------------
+[2025-07-18 21:28:27] Edge - MANGO TREE Monitor
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 10s
+Total Time on Site: 3m total
+End Time: 2025-07-18 21:28:37
+--------------------------------------------------------------------------------
+[2025-07-18 21:28:37] Chrome - top sec
+Title: None
+Visit Duration: 1m 4s
+Total Time on Site: 36m total
+End Time: 2025-07-18 21:29:41
+--------------------------------------------------------------------------------
+[2025-07-18 21:30:38] Edge - MANGO TREE Monitor
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 22s
+Total Time on Site: 3m total
+End Time: 2025-07-18 21:31:00
+--------------------------------------------------------------------------------
+[2025-07-18 21:31:00] Chrome - top sec
+Title: MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 36m total
+End Time: 2025-07-18 21:31:02
+--------------------------------------------------------------------------------
+[2025-07-18 21:31:02] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 3m total
+End Time: 2025-07-18 21:31:04
+--------------------------------------------------------------------------------
+[2025-07-18 21:31:06] Chrome - top sec
+Title: None
+Visit Duration: 44s
+Total Time on Site: 37m total
+End Time: 2025-07-18 21:31:50
+--------------------------------------------------------------------------------
+[2025-07-18 21:32:54] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 52s
+Total Time on Site: 4m total
+End Time: 2025-07-18 21:33:46
+--------------------------------------------------------------------------------
+[2025-07-18 21:34:43] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 32s
+Total Time on Site: 5m total
+End Time: 2025-07-18 21:35:15
+--------------------------------------------------------------------------------
+[2025-07-18 21:36:13] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 34s
+Total Time on Site: 5m total
+End Time: 2025-07-18 21:36:47
+--------------------------------------------------------------------------------
+[2025-07-18 21:38:36] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 29s
+Total Time on Site: 7m total
+End Time: 2025-07-18 21:40:05
+--------------------------------------------------------------------------------
+[2025-07-18 21:49:58] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 46s
+Total Time on Site: 8m total
+End Time: 2025-07-18 21:51:44
+--------------------------------------------------------------------------------
+[2025-07-18 21:53:46] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2m 33s
+Total Time on Site: 11m total
+End Time: 2025-07-18 21:56:19
+--------------------------------------------------------------------------------
+[2025-07-18 21:58:37] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 45s
+Total Time on Site: 12m total
+End Time: 2025-07-18 21:59:22
+--------------------------------------------------------------------------------
+[2025-07-18 22:02:09] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 12m total
+End Time: 2025-07-18 22:02:17
+--------------------------------------------------------------------------------
+[2025-07-18 22:02:59] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 12m total
+End Time: 2025-07-18 22:03:17
+--------------------------------------------------------------------------------
+[2025-07-18 22:04:57] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 12s
+Total Time on Site: 12m total
+End Time: 2025-07-18 22:05:09
+--------------------------------------------------------------------------------
+[2025-07-18 22:06:09] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 12m total
+End Time: 2025-07-18 22:06:15
+--------------------------------------------------------------------------------
+[2025-07-18 22:07:02] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 29s
+Total Time on Site: 13m total
+End Time: 2025-07-18 22:07:31
+--------------------------------------------------------------------------------
+[2025-07-18 22:08:29] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 13m total
+End Time: 2025-07-18 22:08:33
+--------------------------------------------------------------------------------
+[2025-07-18 22:10:20] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 13m total
+End Time: 2025-07-18 22:10:22
+--------------------------------------------------------------------------------
+[2025-07-18 22:33:07] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 13m total
+End Time: 2025-07-18 22:33:15
+--------------------------------------------------------------------------------
+[2025-07-20 18:25:21] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 46s
+Total Time on Site: 15m total
+End Time: 2025-07-20 18:27:07
+--------------------------------------------------------------------------------
+[2025-07-20 18:27:09] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 15m total
+End Time: 2025-07-20 18:27:13
+--------------------------------------------------------------------------------
+[2025-07-20 18:27:16] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 15m total
+End Time: 2025-07-20 18:27:18
+--------------------------------------------------------------------------------
+[2025-07-20 18:29:52] Edge - Untitled
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 8s total
+End Time: 2025-07-20 18:29:54
+--------------------------------------------------------------------------------
+[2025-07-20 18:29:54] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 22s
+Total Time on Site: 15m total
+End Time: 2025-07-20 18:30:16
+--------------------------------------------------------------------------------
+[2025-07-20 18:30:18] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 15m total
+End Time: 2025-07-20 18:30:26
+--------------------------------------------------------------------------------
+[2025-07-20 18:30:28] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:30:32
+--------------------------------------------------------------------------------
+[2025-07-20 18:32:52] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 17s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:33:09
+--------------------------------------------------------------------------------
+[2025-07-20 18:33:11] Edge - MANGO TREE Monitor
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:33:13
+--------------------------------------------------------------------------------
+[2025-07-20 18:33:13] Chrome - top sec
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 24s
+Total Time on Site: 38m total
+End Time: 2025-07-20 18:33:37
+--------------------------------------------------------------------------------
+[2025-07-20 18:33:37] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:33:39
+--------------------------------------------------------------------------------
+[2025-07-20 18:33:41] Chrome - top sec
+Title: None
+Visit Duration: 1m 5s
+Total Time on Site: 39m total
+End Time: 2025-07-20 18:34:46
+--------------------------------------------------------------------------------
+[2025-07-20 18:37:04] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:37:10
+--------------------------------------------------------------------------------
+[2025-07-20 18:37:22] Edge - MANGO TREE Monitor
+Title: Live Monitor - MANGO TREE and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 8s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:37:30
+--------------------------------------------------------------------------------
+[2025-07-20 18:37:30] Edge - Live Monitor
+Title: MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 38s
+Total Time on Site: 38s total
+End Time: 2025-07-20 18:38:08
+--------------------------------------------------------------------------------
+[2025-07-20 18:38:08] Edge - MANGO TREE Monitor
+Title: Live Monitor - MANGO TREE and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 7s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:38:15
+--------------------------------------------------------------------------------
+[2025-07-20 18:38:15] Edge - Live Monitor
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 40s total
+End Time: 2025-07-20 18:38:17
+--------------------------------------------------------------------------------
+[2025-07-20 18:38:17] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:38:23
+--------------------------------------------------------------------------------
+[2025-07-20 18:38:47] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:38:49
+--------------------------------------------------------------------------------
+[2025-07-20 18:39:33] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 16m total
+End Time: 2025-07-20 18:39:37
+--------------------------------------------------------------------------------
+[2025-07-20 18:40:04] Chrome - top sec
+Title: None
+Visit Duration: 42s
+Total Time on Site: 39m total
+End Time: 2025-07-20 18:40:46
+--------------------------------------------------------------------------------
+[2025-07-20 18:41:07] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 12s
+Total Time on Site: 17m total
+End Time: 2025-07-20 18:41:19
+--------------------------------------------------------------------------------
+[2025-07-20 18:43:31] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 46s
+Total Time on Site: 17m total
+End Time: 2025-07-20 18:44:17
+--------------------------------------------------------------------------------
+[2025-07-20 18:46:44] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 26s
+Total Time on Site: 18m total
+End Time: 2025-07-20 18:47:10
+--------------------------------------------------------------------------------
+[2025-07-20 18:52:14] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 18m total
+End Time: 2025-07-20 18:52:18
+--------------------------------------------------------------------------------
+[2025-07-20 18:56:52] Edge - Untitled and 1 more page
+Title: MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-20 18:56:54
+--------------------------------------------------------------------------------
+[2025-07-20 18:56:54] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 29s
+Total Time on Site: 18m total
+End Time: 2025-07-20 18:57:23
+--------------------------------------------------------------------------------
+[2025-07-20 19:04:53] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 19m total
+End Time: 2025-07-20 19:05:01
+--------------------------------------------------------------------------------
+[2025-07-20 19:15:29] Chrome - Download ngrok
+Title: None
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-20 19:15:33
+--------------------------------------------------------------------------------
+[2025-07-20 19:16:05] Chrome - Access Your Localhost from Any Device Using Ngrok! #programming
+Title: Download ngrok - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 7s total
+End Time: 2025-07-20 19:16:12
+--------------------------------------------------------------------------------
+[2025-07-20 19:16:12] Chrome - Download ngrok
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-20 19:16:14
+--------------------------------------------------------------------------------
+[2025-07-20 19:16:30] Chrome - New Tab
+Title: ERR_NGROK_6024 - You are about to visit 7a85eaf02dce.ngrok-free.app, served by 146.196.33.188. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 29s total
+End Time: 2025-07-20 19:16:34
+--------------------------------------------------------------------------------
+[2025-07-20 19:16:34] Chrome - ERR_NGROK_6024
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-20 19:16:36
+--------------------------------------------------------------------------------
+[2025-07-20 19:16:36] Chrome - MANGO TREE Monitor
+Title: Download ngrok - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 19m total
+End Time: 2025-07-20 19:16:38
+--------------------------------------------------------------------------------
+[2025-07-20 19:16:38] Chrome - Download ngrok
+Title: None
+Visit Duration: 6s
+Total Time on Site: 12s total
+End Time: 2025-07-20 19:16:44
+--------------------------------------------------------------------------------
+[2025-07-20 19:21:04] Chrome - ngrok
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-20 19:21:06
+--------------------------------------------------------------------------------
+[2025-07-20 19:21:06] Chrome - top sec
+Title: New Tab - Google Chrome
+Visit Duration: 16s
+Total Time on Site: 40m total
+End Time: 2025-07-20 19:21:22
+--------------------------------------------------------------------------------
+[2025-07-20 19:21:22] Chrome - New Tab
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 33s total
+End Time: 2025-07-20 19:21:26
+--------------------------------------------------------------------------------
+[2025-07-20 19:21:26] Chrome - MANGO TREE Monitor
+Title: top sec - Employee Monitoring System Guide - Google Chrome
+Visit Duration: 37s
+Total Time on Site: 19m total
+End Time: 2025-07-20 19:22:03
+--------------------------------------------------------------------------------
+[2025-07-20 19:22:03] Chrome - top sec
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 40m total
+End Time: 2025-07-20 19:22:09
+--------------------------------------------------------------------------------
+[2025-07-20 19:22:09] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 22s
+Total Time on Site: 20m total
+End Time: 2025-07-20 19:22:31
+--------------------------------------------------------------------------------
+[2025-07-20 19:23:05] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 22s
+Total Time on Site: 20m total
+End Time: 2025-07-20 19:23:27
+--------------------------------------------------------------------------------
+[2025-07-20 19:23:31] Chrome - Download ngrok
+Title: None
+Visit Duration: 4s
+Total Time on Site: 16s total
+End Time: 2025-07-20 19:23:35
+--------------------------------------------------------------------------------
+[2025-07-20 19:23:39] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 20m total
+End Time: 2025-07-20 19:23:41
+--------------------------------------------------------------------------------
+[2025-07-20 19:23:54] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 38s
+Total Time on Site: 21m total
+End Time: 2025-07-20 19:24:32
+--------------------------------------------------------------------------------
+[2025-07-20 19:24:34] Chrome - Download ngrok
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 18s total
+End Time: 2025-07-20 19:24:36
+--------------------------------------------------------------------------------
+[2025-07-20 19:24:36] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 21m total
+End Time: 2025-07-20 19:24:38
+--------------------------------------------------------------------------------
+[2025-07-20 19:24:40] Edge - Untitled
+Title: Meet - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 10s total
+End Time: 2025-07-20 19:24:42
+--------------------------------------------------------------------------------
+[2025-07-20 19:24:42] Edge - Meet
+Title: Meet – aoe-pccj-jzf - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-20 19:24:44
+--------------------------------------------------------------------------------
+[2025-07-20 19:24:44] Edge - Meet – aoe
+Title: meet.google.com wants to
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-20 19:24:46
+--------------------------------------------------------------------------------
+[2025-07-20 19:24:46] Edge - meet.google.com wants to
+Title: Meet – aoe-pccj-jzf - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-20 19:24:48
+--------------------------------------------------------------------------------
+[2025-07-20 19:24:48] Edge - Meet – aoe
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 9s total
+End Time: 2025-07-20 19:24:55
+--------------------------------------------------------------------------------
+[2025-07-20 19:24:55] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 21m total
+End Time: 2025-07-20 19:24:59
+--------------------------------------------------------------------------------
+[2025-07-20 19:25:01] Chrome - ngrok
+Title: 
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-20 19:25:03
+--------------------------------------------------------------------------------
+[2025-07-20 19:25:03] Chrome - Unknown
+Title: ngrok - Online in One Line - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 12s total
+End Time: 2025-07-20 19:25:05
+--------------------------------------------------------------------------------
+[2025-07-20 19:25:05] Chrome - ngrok
+Title: Meet - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 8s total
+End Time: 2025-07-20 19:25:09
+--------------------------------------------------------------------------------
+[2025-07-20 19:25:09] Chrome - Meet
+Title: Meet – aoe-pccj-jzf - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-20 19:25:11
+--------------------------------------------------------------------------------
+[2025-07-20 19:25:11] Chrome - Meet – aoe
+Title: None
+Visit Duration: 4s
+Total Time on Site: 13s total
+End Time: 2025-07-20 19:25:15
+--------------------------------------------------------------------------------
+[2025-07-21 12:34:58] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 22s
+Total Time on Site: 22m total
+End Time: 2025-07-21 12:36:20
+--------------------------------------------------------------------------------
+[2025-07-22 12:46:53] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 20s
+Total Time on Site: 22m total
+End Time: 2025-07-22 12:47:13
+--------------------------------------------------------------------------------
+[2025-07-22 12:49:32] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 55s
+Total Time on Site: 23m total
+End Time: 2025-07-22 12:50:27
+--------------------------------------------------------------------------------
+[2025-07-22 12:59:31] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 20s
+Total Time on Site: 24m total
+End Time: 2025-07-22 12:59:51
+--------------------------------------------------------------------------------
+[2025-07-22 13:04:07] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 24m total
+End Time: 2025-07-22 13:04:17
+--------------------------------------------------------------------------------
+[2025-07-22 13:08:59] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 20s
+Total Time on Site: 24m total
+End Time: 2025-07-22 13:09:19
+--------------------------------------------------------------------------------
+[2025-07-22 13:09:28] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 24m total
+End Time: 2025-07-22 13:09:32
+--------------------------------------------------------------------------------
+[2025-07-22 13:20:46] Edge - Untitled
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 12s total
+End Time: 2025-07-22 13:20:48
+--------------------------------------------------------------------------------
+[2025-07-22 13:20:48] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 24m total
+End Time: 2025-07-22 13:21:06
+--------------------------------------------------------------------------------
+[2025-07-22 13:21:18] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 21s
+Total Time on Site: 25m total
+End Time: 2025-07-22 13:21:39
+--------------------------------------------------------------------------------
+[2025-07-22 13:35:42] Edge - Untitled and 1 more page
+Title: MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-22 13:35:44
+--------------------------------------------------------------------------------
+[2025-07-22 13:35:44] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 26s
+Total Time on Site: 25m total
+End Time: 2025-07-22 13:36:10
+--------------------------------------------------------------------------------
+[2025-07-22 13:36:35] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 30s
+Total Time on Site: 26m total
+End Time: 2025-07-22 13:37:05
+--------------------------------------------------------------------------------
+[2025-07-22 13:37:07] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 26m total
+End Time: 2025-07-22 13:37:09
+--------------------------------------------------------------------------------
+[2025-07-22 13:41:40] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 26m total
+End Time: 2025-07-22 13:41:42
+--------------------------------------------------------------------------------
+[2025-07-22 13:41:45] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 26m total
+End Time: 2025-07-22 13:41:49
+--------------------------------------------------------------------------------
+[2025-07-22 13:43:05] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 12s
+Total Time on Site: 26m total
+End Time: 2025-07-22 13:43:17
+--------------------------------------------------------------------------------
+[2025-07-22 13:47:10] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 26m total
+End Time: 2025-07-22 13:47:24
+--------------------------------------------------------------------------------
+[2025-07-22 13:48:04] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 27m total
+End Time: 2025-07-22 13:48:18
+--------------------------------------------------------------------------------
+[2025-07-22 13:51:02] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 27m total
+End Time: 2025-07-22 13:51:16
+--------------------------------------------------------------------------------
+[2025-07-22 13:51:20] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 27m total
+End Time: 2025-07-22 13:51:22
+--------------------------------------------------------------------------------
+[2025-07-22 13:51:46] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 19s
+Total Time on Site: 27m total
+End Time: 2025-07-22 13:52:05
+--------------------------------------------------------------------------------
+[2025-07-22 13:54:10] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 27m total
+End Time: 2025-07-22 13:54:18
+--------------------------------------------------------------------------------
+[2025-07-22 13:55:38] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2m 35s
+Total Time on Site: 30m total
+End Time: 2025-07-22 13:58:13
+--------------------------------------------------------------------------------
+[2025-07-22 13:58:31] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 36s
+Total Time on Site: 30m total
+End Time: 2025-07-22 13:59:07
+--------------------------------------------------------------------------------
+[2025-07-22 14:03:12] Edge - Untitled and 3 more pages
+Title: MANGO TREE Monitor - hello and 3 more pages - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-22 14:03:14
+--------------------------------------------------------------------------------
+[2025-07-22 14:03:14] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 31m total
+End Time: 2025-07-22 14:03:20
+--------------------------------------------------------------------------------
+[2025-07-22 14:03:22] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 31m total
+End Time: 2025-07-22 14:03:24
+--------------------------------------------------------------------------------
+[2025-07-22 14:03:27] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 31m total
+End Time: 2025-07-22 14:03:33
+--------------------------------------------------------------------------------
+[2025-07-22 14:06:32] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 31m total
+End Time: 2025-07-22 14:06:36
+--------------------------------------------------------------------------------
+[2025-07-22 14:06:38] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 31m total
+End Time: 2025-07-22 14:06:52
+--------------------------------------------------------------------------------
+[2025-07-22 14:07:10] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 31m total
+End Time: 2025-07-22 14:07:20
+--------------------------------------------------------------------------------
+[2025-07-22 14:10:45] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 48s
+Total Time on Site: 32m total
+End Time: 2025-07-22 14:11:33
+--------------------------------------------------------------------------------
+[2025-07-22 14:13:31] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 47s
+Total Time on Site: 34m total
+End Time: 2025-07-22 14:15:18
+--------------------------------------------------------------------------------
+[2025-07-22 14:15:20] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 34m total
+End Time: 2025-07-22 14:15:22
+--------------------------------------------------------------------------------
+[2025-07-22 14:24:00] Chrome - (12) 3 Minecraft Speedrunners VS Herobrine
+Title: None
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-22 14:24:02
+--------------------------------------------------------------------------------
+[2025-07-22 14:31:40] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 47s
+Total Time on Site: 35m total
+End Time: 2025-07-22 14:32:27
+--------------------------------------------------------------------------------
+[2025-07-22 14:33:27] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 35m total
+End Time: 2025-07-22 14:33:45
+--------------------------------------------------------------------------------
+[2025-07-22 14:34:00] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 20s
+Total Time on Site: 35m total
+End Time: 2025-07-22 14:34:20
+--------------------------------------------------------------------------------
+[2025-07-22 14:34:24] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 35m total
+End Time: 2025-07-22 14:34:32
+--------------------------------------------------------------------------------
+[2025-07-22 15:05:27] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 38s
+Total Time on Site: 36m total
+End Time: 2025-07-22 15:06:05
+--------------------------------------------------------------------------------
+[2025-07-22 15:11:06] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 24s
+Total Time on Site: 36m total
+End Time: 2025-07-22 15:11:30
+--------------------------------------------------------------------------------
+[2025-07-22 15:15:25] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 20s
+Total Time on Site: 37m total
+End Time: 2025-07-22 15:15:45
+--------------------------------------------------------------------------------
+[2025-07-22 15:19:00] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 24s
+Total Time on Site: 37m total
+End Time: 2025-07-22 15:19:24
+--------------------------------------------------------------------------------
+[2025-07-22 15:35:39] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 37m total
+End Time: 2025-07-22 15:35:47
+--------------------------------------------------------------------------------
+[2025-07-22 15:35:49] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 13s
+Total Time on Site: 38m total
+End Time: 2025-07-22 15:37:02
+--------------------------------------------------------------------------------
+[2025-07-22 15:37:10] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 38m total
+End Time: 2025-07-22 15:37:12
+--------------------------------------------------------------------------------
+[2025-07-22 15:41:40] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 8s
+Total Time on Site: 40m total
+End Time: 2025-07-22 15:42:48
+--------------------------------------------------------------------------------
+[2025-07-22 15:42:58] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 26s
+Total Time on Site: 40m total
+End Time: 2025-07-22 15:43:24
+--------------------------------------------------------------------------------
+[2025-07-22 15:43:38] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 20s
+Total Time on Site: 40m total
+End Time: 2025-07-22 15:43:58
+--------------------------------------------------------------------------------
+[2025-07-22 15:48:09] Edge - MANGO TREE Monitor
+Title: 404 Not Found - Personal - Microsoft​ Edge
+Visit Duration: 16s
+Total Time on Site: 41m total
+End Time: 2025-07-22 15:48:25
+--------------------------------------------------------------------------------
+[2025-07-22 15:48:25] Edge - 404 Not Found
+Title: None
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-22 15:48:27
+--------------------------------------------------------------------------------
+[2025-07-22 15:48:31] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 41m total
+End Time: 2025-07-22 15:48:45
+--------------------------------------------------------------------------------
+[2025-07-22 15:49:41] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 15s
+Total Time on Site: 41m total
+End Time: 2025-07-22 15:49:56
+--------------------------------------------------------------------------------
+[2025-07-22 15:52:46] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 41m total
+End Time: 2025-07-22 15:53:04
+--------------------------------------------------------------------------------
+[2025-07-22 15:56:45] Edge - Untitled and 1 more page
+Title: MANGO TREE - Login and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-22 15:56:47
+--------------------------------------------------------------------------------
+[2025-07-22 15:56:47] Edge - MANGO TREE
+Title: MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 16s
+Total Time on Site: 16s total
+End Time: 2025-07-22 15:57:03
+--------------------------------------------------------------------------------
+[2025-07-22 15:57:03] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-22 15:57:07
+--------------------------------------------------------------------------------
+[2025-07-23 14:37:34] Edge - Untitled
+Title: MANGO TREE - Login - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 14:37:36
+--------------------------------------------------------------------------------
+[2025-07-23 14:37:36] Edge - MANGO TREE
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 4s
+Total Time on Site: 20s total
+End Time: 2025-07-23 14:37:40
+--------------------------------------------------------------------------------
+[2025-07-23 14:37:40] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 18s total
+End Time: 2025-07-23 14:37:54
+--------------------------------------------------------------------------------
+[2025-07-23 15:16:59] Chrome - Inbox
+Title: Gmail - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 7s total
+End Time: 2025-07-23 15:17:06
+--------------------------------------------------------------------------------
+[2025-07-23 15:17:06] Chrome - Gmail
+Title: None
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 15:17:08
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:33] Chrome - Your Authtoken
+Title: 
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 15:18:35
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:35] Chrome - Unknown
+Title: New Tab - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 4s total
+End Time: 2025-07-23 15:18:39
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:39] Chrome - New Tab
+Title: email - Google Search - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 15:18:41
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:41] Chrome - email
+Title: Gmail - Google Chrome
+Visit Duration: 3s
+Total Time on Site: 3s total
+End Time: 2025-07-23 15:18:44
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:44] Chrome - Gmail
+Title: Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-23 15:18:46
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:46] Chrome - Inbox
+Title: Your Authtoken - ngrok - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 9s total
+End Time: 2025-07-23 15:18:48
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:48] Chrome - Your Authtoken
+Title: 
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-23 15:18:50
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:50] Chrome - Unknown
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-23 15:18:52
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:52] Chrome - New Tab
+Title: email - Google Search - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-23 15:18:54
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:54] Chrome - email
+Title: Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 5s total
+End Time: 2025-07-23 15:18:56
+--------------------------------------------------------------------------------
+[2025-07-23 15:18:56] Chrome - Inbox
+Title: None
+Visit Duration: 2s
+Total Time on Site: 11s total
+End Time: 2025-07-23 15:18:58
+--------------------------------------------------------------------------------
+[2025-07-23 15:20:50] Chrome - Inbox
+Title: None
+Visit Duration: 10s
+Total Time on Site: 21s total
+End Time: 2025-07-23 15:21:00
+--------------------------------------------------------------------------------
+[2025-07-23 15:39:39] Chrome - Inbox
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 23s total
+End Time: 2025-07-23 15:39:41
+--------------------------------------------------------------------------------
+[2025-07-23 15:39:41] Chrome - Gmail
+Title: Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 3s
+Total Time on Site: 7s total
+End Time: 2025-07-23 15:39:44
+--------------------------------------------------------------------------------
+[2025-07-23 15:39:44] Chrome - Inbox
+Title: None
+Visit Duration: 4s
+Total Time on Site: 27s total
+End Time: 2025-07-23 15:39:48
+--------------------------------------------------------------------------------
+[2025-07-23 15:42:45] Chrome - Inbox (2)
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 15:42:47
+--------------------------------------------------------------------------------
+[2025-07-23 15:42:47] Chrome - Gmail
+Title: None
+Visit Duration: 2s
+Total Time on Site: 9s total
+End Time: 2025-07-23 15:42:49
+--------------------------------------------------------------------------------
+[2025-07-23 15:57:02] Chrome - Test Configuration
+Title: Inbox (4) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 15:57:04
+--------------------------------------------------------------------------------
+[2025-07-23 15:57:04] Chrome - Inbox (4)
+Title: Monitor Setup - 2025-07-23 15:56:53 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 3s
+Total Time on Site: 3s total
+End Time: 2025-07-23 15:57:07
+--------------------------------------------------------------------------------
+[2025-07-23 15:57:07] Chrome - Monitor Setup
+Title: Inbox (3) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 14s
+Total Time on Site: 14s total
+End Time: 2025-07-23 15:57:21
+--------------------------------------------------------------------------------
+[2025-07-23 15:59:33] Chrome - Inbox (4)
+Title: hello - 2025-07-23 15:59:25 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 7s total
+End Time: 2025-07-23 15:59:37
+--------------------------------------------------------------------------------
+[2025-07-23 15:59:37] Chrome - hello
+Title: None
+Visit Duration: 8s
+Total Time on Site: 8s total
+End Time: 2025-07-23 15:59:45
+--------------------------------------------------------------------------------
+[2025-07-23 15:59:57] Chrome - Inbox (3)
+Title: Test Configuration - 2025-07-23 15:53:55 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 15:59:59
+--------------------------------------------------------------------------------
+[2025-07-23 15:59:59] Chrome - Test Configuration
+Title: Inbox (3) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-23 16:00:01
+--------------------------------------------------------------------------------
+[2025-07-23 16:00:01] Chrome - Inbox (3)
+Title: MANGO TREE - Login - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-23 16:00:03
+--------------------------------------------------------------------------------
+[2025-07-23 16:00:03] Chrome - MANGO TREE
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 9s
+Total Time on Site: 29s total
+End Time: 2025-07-23 16:00:12
+--------------------------------------------------------------------------------
+[2025-07-23 16:00:12] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 36s total
+End Time: 2025-07-23 16:00:30
+--------------------------------------------------------------------------------
+[2025-07-23 16:00:32] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 38s total
+End Time: 2025-07-23 16:00:34
+--------------------------------------------------------------------------------
+[2025-07-23 16:05:40] Chrome - hello
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 10s total
+End Time: 2025-07-23 16:05:42
+--------------------------------------------------------------------------------
+[2025-07-23 16:05:42] Chrome - Gmail
+Title: Inbox (4) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 11s total
+End Time: 2025-07-23 16:05:44
+--------------------------------------------------------------------------------
+[2025-07-23 16:05:44] Chrome - Inbox (4)
+Title: Untitled - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 9s total
+End Time: 2025-07-23 16:05:46
+--------------------------------------------------------------------------------
+[2025-07-23 16:05:46] Chrome - Untitled
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 3s
+Total Time on Site: 5s total
+End Time: 2025-07-23 16:05:49
+--------------------------------------------------------------------------------
+[2025-07-23 16:05:49] Chrome - MANGO TREE Monitor
+Title: hello - 2025-07-23 16:05:31 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 16s
+Total Time on Site: 54s total
+End Time: 2025-07-23 16:06:05
+--------------------------------------------------------------------------------
+[2025-07-23 16:06:05] Chrome - hello
+Title: Untitled - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 12s total
+End Time: 2025-07-23 16:06:07
+--------------------------------------------------------------------------------
+[2025-07-23 16:06:07] Chrome - Untitled
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 7s total
+End Time: 2025-07-23 16:06:09
+--------------------------------------------------------------------------------
+[2025-07-23 16:06:09] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 27s
+Total Time on Site: 1m total
+End Time: 2025-07-23 16:06:36
+--------------------------------------------------------------------------------
+[2025-07-23 16:09:47] Edge - MANGO TREE
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 24s
+Total Time on Site: 53s total
+End Time: 2025-07-23 16:10:11
+--------------------------------------------------------------------------------
+[2025-07-23 16:10:11] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 13s
+Total Time on Site: 1m total
+End Time: 2025-07-23 16:10:24
+--------------------------------------------------------------------------------
+[2025-07-23 16:12:49] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 1m total
+End Time: 2025-07-23 16:12:57
+--------------------------------------------------------------------------------
+[2025-07-23 16:16:37] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 25s
+Total Time on Site: 2m total
+End Time: 2025-07-23 16:17:02
+--------------------------------------------------------------------------------
+[2025-07-23 16:17:06] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 24s
+Total Time on Site: 2m total
+End Time: 2025-07-23 16:17:30
+--------------------------------------------------------------------------------
+[2025-07-23 16:17:54] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 31s
+Total Time on Site: 3m total
+End Time: 2025-07-23 16:18:25
+--------------------------------------------------------------------------------
+[2025-07-23 16:18:29] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 3m total
+End Time: 2025-07-23 16:18:31
+--------------------------------------------------------------------------------
+[2025-07-23 16:22:20] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 3m total
+End Time: 2025-07-23 16:22:30
+--------------------------------------------------------------------------------
+[2025-07-23 16:22:38] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 30s
+Total Time on Site: 3m total
+End Time: 2025-07-23 16:23:08
+--------------------------------------------------------------------------------
+[2025-07-23 16:23:16] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 20s
+Total Time on Site: 4m total
+End Time: 2025-07-23 16:23:36
+--------------------------------------------------------------------------------
+[2025-07-23 16:26:18] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 4m total
+End Time: 2025-07-23 16:26:24
+--------------------------------------------------------------------------------
+[2025-07-23 16:26:40] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 52s
+Total Time on Site: 5m total
+End Time: 2025-07-23 16:27:32
+--------------------------------------------------------------------------------
+[2025-07-23 16:31:04] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 5m total
+End Time: 2025-07-23 16:31:22
+--------------------------------------------------------------------------------
+[2025-07-23 16:31:26] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 5m total
+End Time: 2025-07-23 16:31:34
+--------------------------------------------------------------------------------
+[2025-07-23 16:34:07] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 5m total
+End Time: 2025-07-23 16:34:13
+--------------------------------------------------------------------------------
+[2025-07-23 16:34:19] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 5m total
+End Time: 2025-07-23 16:34:23
+--------------------------------------------------------------------------------
+[2025-07-23 16:40:16] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 5m total
+End Time: 2025-07-23 16:40:26
+--------------------------------------------------------------------------------
+[2025-07-23 16:40:28] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 5m total
+End Time: 2025-07-23 16:40:30
+--------------------------------------------------------------------------------
+[2025-07-23 16:41:44] Edge - Untitled and 2 more pages
+Title: MANGO TREE Monitor - hello and 2 more pages - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 16:41:46
+--------------------------------------------------------------------------------
+[2025-07-23 16:41:46] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 33s
+Total Time on Site: 6m total
+End Time: 2025-07-23 16:42:19
+--------------------------------------------------------------------------------
+[2025-07-23 16:42:21] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6m total
+End Time: 2025-07-23 16:42:23
+--------------------------------------------------------------------------------
+[2025-07-23 16:42:50] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 6m total
+End Time: 2025-07-23 16:42:58
+--------------------------------------------------------------------------------
+[2025-07-23 16:43:00] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6m total
+End Time: 2025-07-23 16:43:02
+--------------------------------------------------------------------------------
+[2025-07-23 17:11:46] Chrome - Inbox (12)
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 17:11:48
+--------------------------------------------------------------------------------
+[2025-07-23 17:11:48] Chrome - Gmail
+Title: Inbox (12) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 13s total
+End Time: 2025-07-23 17:11:50
+--------------------------------------------------------------------------------
+[2025-07-23 17:11:50] Chrome - Inbox (12)
+Title: None
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-23 17:11:52
+--------------------------------------------------------------------------------
+[2025-07-23 17:15:19] Chrome - Inbox (13)
+Title: Monitor Test Email - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 17:15:21
+--------------------------------------------------------------------------------
+[2025-07-23 17:15:21] Chrome - Monitor Test Email
+Title: Inbox (12) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 10s
+Total Time on Site: 10s total
+End Time: 2025-07-23 17:15:31
+--------------------------------------------------------------------------------
+[2025-07-23 17:15:31] Chrome - Inbox (12)
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-23 17:15:33
+--------------------------------------------------------------------------------
+[2025-07-23 17:15:52] Chrome - Inbox (12)
+Title: Gmail - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 10s total
+End Time: 2025-07-23 17:15:56
+--------------------------------------------------------------------------------
+[2025-07-23 17:15:56] Chrome - Gmail
+Title: Inbox (13) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 15s total
+End Time: 2025-07-23 17:15:58
+--------------------------------------------------------------------------------
+[2025-07-23 17:15:58] Chrome - Inbox (13)
+Title: Monitor Test Email - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-23 17:16:00
+--------------------------------------------------------------------------------
+[2025-07-23 17:16:00] Chrome - Monitor Test Email
+Title: None
+Visit Duration: 2s
+Total Time on Site: 12s total
+End Time: 2025-07-23 17:16:02
+--------------------------------------------------------------------------------
+[2025-07-23 17:18:27] Chrome - Monitor Test Email
+Title: Monitor Access Details - hello - 2025-07-23 17:18:18 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 14s total
+End Time: 2025-07-23 17:18:29
+--------------------------------------------------------------------------------
+[2025-07-23 17:18:29] Chrome - Monitor Access Details
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 15s
+Total Time on Site: 15s total
+End Time: 2025-07-23 17:18:44
+--------------------------------------------------------------------------------
+[2025-07-23 17:18:44] Chrome - MANGO TREE Monitor
+Title: Monitor Access Details - hello - 2025-07-23 17:18:18 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 3s
+Total Time on Site: 6m total
+End Time: 2025-07-23 17:18:47
+--------------------------------------------------------------------------------
+[2025-07-23 17:18:47] Chrome - Monitor Access Details
+Title: None
+Visit Duration: 2s
+Total Time on Site: 17s total
+End Time: 2025-07-23 17:18:49
+--------------------------------------------------------------------------------
+[2025-07-23 17:21:16] Chrome - Monitor Access Details
+Title: Inbox (13) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 19s total
+End Time: 2025-07-23 17:21:18
+--------------------------------------------------------------------------------
+[2025-07-23 17:21:18] Chrome - Inbox (13)
+Title: Monitor Access Details - hello - 2025-07-23 17:21:04 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-23 17:21:20
+--------------------------------------------------------------------------------
+[2025-07-23 17:21:20] Chrome - Monitor Access Details
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 21s total
+End Time: 2025-07-23 17:21:22
+--------------------------------------------------------------------------------
+[2025-07-23 17:21:22] Chrome - MANGO TREE Monitor
+Title: Monitor Access Details - hello - 2025-07-23 17:21:04 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 6m total
+End Time: 2025-07-23 17:21:28
+--------------------------------------------------------------------------------
+[2025-07-23 17:21:28] Chrome - Monitor Access Details
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 5s
+Total Time on Site: 26s total
+End Time: 2025-07-23 17:21:33
+--------------------------------------------------------------------------------
+[2025-07-23 17:21:33] Chrome - MANGO TREE Monitor
+Title: Monitor Access Details - hello - 2025-07-23 17:21:04 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6m total
+End Time: 2025-07-23 17:21:35
+--------------------------------------------------------------------------------
+[2025-07-23 17:21:35] Chrome - Monitor Access Details
+Title: None
+Visit Duration: 2s
+Total Time on Site: 28s total
+End Time: 2025-07-23 17:21:37
+--------------------------------------------------------------------------------
+[2025-07-23 17:29:16] Edge - Mango Tree Monitor
+Title: None
+Visit Duration: 16s
+Total Time on Site: 16s total
+End Time: 2025-07-23 17:29:32
+--------------------------------------------------------------------------------
+[2025-07-23 17:29:36] Chrome - Gmail
+Title: Inbox (12) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 17s total
+End Time: 2025-07-23 17:29:38
+--------------------------------------------------------------------------------
+[2025-07-23 17:29:38] Chrome - Inbox (12)
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 12s total
+End Time: 2025-07-23 17:29:40
+--------------------------------------------------------------------------------
+[2025-07-23 17:29:40] Chrome - Gmail
+Title: None
+Visit Duration: 2s
+Total Time on Site: 19s total
+End Time: 2025-07-23 17:29:42
+--------------------------------------------------------------------------------
+[2025-07-23 17:33:37] Chrome - Auth | Cursor
+Title: 
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 17:33:39
+--------------------------------------------------------------------------------
+[2025-07-23 17:33:39] Chrome - Unknown
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 8s total
+End Time: 2025-07-23 17:33:41
+--------------------------------------------------------------------------------
+[2025-07-23 17:33:41] Chrome - New Tab
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-07-23 17:33:43
+--------------------------------------------------------------------------------
+[2025-07-23 17:33:43] Chrome - Gmail
+Title: Inbox (12) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 21s total
+End Time: 2025-07-23 17:33:45
+--------------------------------------------------------------------------------
+[2025-07-23 17:33:45] Chrome - Inbox (12)
+Title: Auth | Cursor - The AI Code Editor - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 16s total
+End Time: 2025-07-23 17:33:49
+--------------------------------------------------------------------------------
+[2025-07-23 17:33:49] Chrome - Auth | Cursor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-07-23 17:33:51
+--------------------------------------------------------------------------------
+[2025-07-23 17:33:55] Edge - Login
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 8s
+Total Time on Site: 8s total
+End Time: 2025-07-23 17:34:03
+--------------------------------------------------------------------------------
+[2025-07-23 17:34:03] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 6m total
+End Time: 2025-07-23 17:34:09
+--------------------------------------------------------------------------------
+[2025-07-23 17:34:14] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 22s
+Total Time on Site: 7m total
+End Time: 2025-07-23 17:34:36
+--------------------------------------------------------------------------------
+[2025-07-23 17:37:24] Edge - MANGO TREE Monitor
+Title: Login - Mango Tree Monitor - Personal - Microsoft​ Edge
+Visit Duration: 8s
+Total Time on Site: 7m total
+End Time: 2025-07-23 17:37:32
+--------------------------------------------------------------------------------
+[2025-07-23 17:37:32] Edge - Login
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 6s
+Total Time on Site: 14s total
+End Time: 2025-07-23 17:37:38
+--------------------------------------------------------------------------------
+[2025-07-23 17:37:38] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 13s
+Total Time on Site: 7m total
+End Time: 2025-07-23 17:37:51
+--------------------------------------------------------------------------------
+[2025-07-23 17:38:09] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 6s
+Total Time on Site: 7m total
+End Time: 2025-07-23 17:38:15
+--------------------------------------------------------------------------------
+[2025-07-23 17:38:29] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 7m total
+End Time: 2025-07-23 17:38:37
+--------------------------------------------------------------------------------
+[2025-07-23 17:39:04] Chrome - Inbox (12)
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 18s total
+End Time: 2025-07-23 17:39:06
+--------------------------------------------------------------------------------
+[2025-07-23 17:52:30] Edge - Login
+Title: MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 6s
+Total Time on Site: 20s total
+End Time: 2025-07-23 17:52:36
+--------------------------------------------------------------------------------
+[2025-07-23 17:52:36] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 30s
+Total Time on Site: 8m total
+End Time: 2025-07-23 17:53:06
+--------------------------------------------------------------------------------
+[2025-07-23 17:53:54] Edge - Login
+Title: MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 6s
+Total Time on Site: 26s total
+End Time: 2025-07-23 17:54:00
+--------------------------------------------------------------------------------
+[2025-07-23 17:54:00] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 8m total
+End Time: 2025-07-23 17:54:10
+--------------------------------------------------------------------------------
+[2025-07-23 20:29:48] Edge - Login
+Title: MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft​ Edge
+Visit Duration: 6s
+Total Time on Site: 32s total
+End Time: 2025-07-23 20:29:54
+--------------------------------------------------------------------------------
+[2025-07-23 20:29:54] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 37s
+Total Time on Site: 9m total
+End Time: 2025-07-23 20:30:31
+--------------------------------------------------------------------------------
+[2025-07-23 20:34:10] Edge - Login
+Title: MANGO TREE Monitor - hello and 2 more pages - Personal - Microsoft​ Edge
+Visit Duration: 6s
+Total Time on Site: 38s total
+End Time: 2025-07-23 20:34:16
+--------------------------------------------------------------------------------
+[2025-07-23 20:34:16] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 23s
+Total Time on Site: 9m total
+End Time: 2025-07-23 20:34:39
+--------------------------------------------------------------------------------
+[2025-07-23 20:35:56] Edge - Login
+Title: MANGO TREE Monitor - hello and 3 more pages - Personal - Microsoft​ Edge
+Visit Duration: 6s
+Total Time on Site: 44s total
+End Time: 2025-07-23 20:36:02
+--------------------------------------------------------------------------------
+[2025-07-23 20:36:02] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 38s
+Total Time on Site: 10m total
+End Time: 2025-07-23 20:36:40
+--------------------------------------------------------------------------------
+[2025-07-23 20:40:26] Edge - Login
+Title: MANGO TREE Monitor - hello and 4 more pages - Personal - Microsoft​ Edge
+Visit Duration: 8s
+Total Time on Site: 52s total
+End Time: 2025-07-23 20:40:34
+--------------------------------------------------------------------------------
+[2025-07-23 20:40:34] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 32s
+Total Time on Site: 10m total
+End Time: 2025-07-23 20:41:06
+--------------------------------------------------------------------------------
+[2025-07-23 20:44:38] Edge - Untitled
+Title: Login - Mango Tree Monitor - Personal - Microsoft​ Edge
+Visit Duration: 2s
+Total Time on Site: 9s total
+End Time: 2025-07-23 20:44:40
+--------------------------------------------------------------------------------
+[2025-07-23 20:44:40] Edge - Login
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 3s
+Total Time on Site: 55s total
+End Time: 2025-07-23 20:44:43
+--------------------------------------------------------------------------------
+[2025-07-23 20:44:43] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 18s
+Total Time on Site: 10m total
+End Time: 2025-07-23 20:45:01
+--------------------------------------------------------------------------------
+[2025-07-23 20:47:39] Edge - Login
+Title: MANGO TREE Monitor - hello - Personal - Microsoft​ Edge
+Visit Duration: 6s
+Total Time on Site: 1m total
+End Time: 2025-07-23 20:47:45
+--------------------------------------------------------------------------------
+[2025-07-23 20:47:45] Edge - MANGO TREE Monitor
+Title: None
+Visit Duration: 17s
+Total Time on Site: 11m total
+End Time: 2025-07-23 20:48:02
+--------------------------------------------------------------------------------
+[2025-07-23 20:51:30] Chrome - Inbox
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 29s total
+End Time: 2025-07-23 20:51:32
+--------------------------------------------------------------------------------
+[2025-07-23 20:51:32] Chrome - Gmail
+Title: None
+Visit Duration: 2s
+Total Time on Site: 23s total
+End Time: 2025-07-23 20:51:34
+--------------------------------------------------------------------------------
+[2025-07-23 20:55:16] Chrome - Google Chrome
+Title: New Tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-07-23 20:55:18
+--------------------------------------------------------------------------------
+[2025-07-23 20:55:18] Chrome - New Tab
+Title: email - Google Search - Google Chrome
+Visit Duration: 5s
+Total Time on Site: 11s total
+End Time: 2025-07-23 20:55:23
+--------------------------------------------------------------------------------
+[2025-07-23 20:55:23] Chrome - email
+Title: Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 28s
+Total Time on Site: 33s total
+End Time: 2025-07-23 20:55:51
+--------------------------------------------------------------------------------
+[2025-07-23 20:55:51] Chrome - Inbox (1)
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 6s total
+End Time: 2025-07-23 20:55:57
+--------------------------------------------------------------------------------
+[2025-07-23 20:55:57] Chrome - Monitor Access Details
+Title: None
+Visit Duration: 6s
+Total Time on Site: 34s total
+End Time: 2025-07-23 20:56:03
+--------------------------------------------------------------------------------
+[2025-07-23 20:59:38] Chrome - New Tab
+Title: email - Google Search - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 13s total
+End Time: 2025-07-23 20:59:40
+--------------------------------------------------------------------------------
+[2025-07-23 20:59:40] Chrome - email
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 35s total
+End Time: 2025-07-23 20:59:42
+--------------------------------------------------------------------------------
+[2025-07-23 20:59:42] Chrome - Gmail
+Title: Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 25s total
+End Time: 2025-07-23 20:59:44
+--------------------------------------------------------------------------------
+[2025-07-23 20:59:44] Chrome - Inbox (1)
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 8s total
+End Time: 2025-07-23 20:59:46
+--------------------------------------------------------------------------------
+[2025-07-23 20:59:46] Chrome - Monitor Access Details
+Title: None
+Visit Duration: 7s
+Total Time on Site: 41s total
+End Time: 2025-07-23 20:59:53
+--------------------------------------------------------------------------------
+[2025-08-05 13:14:51] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 8s
+Total Time on Site: 1m total
+End Time: 2025-08-05 13:14:59
+--------------------------------------------------------------------------------
+[2025-08-05 13:14:59] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 44s
+Total Time on Site: 12m total
+End Time: 2025-08-05 13:16:43
+--------------------------------------------------------------------------------
+[2025-08-05 13:25:47] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 34s
+Total Time on Site: 13m total
+End Time: 2025-08-05 13:26:21
+--------------------------------------------------------------------------------
+[2025-08-05 13:27:22] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 13m total
+End Time: 2025-08-05 13:27:24
+--------------------------------------------------------------------------------
+[2025-08-05 13:27:40] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 12s
+Total Time on Site: 13m total
+End Time: 2025-08-05 13:27:52
+--------------------------------------------------------------------------------
+[2025-08-05 13:28:55] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 14m total
+End Time: 2025-08-05 13:29:09
+--------------------------------------------------------------------------------
+[2025-08-05 13:35:42] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 1m total
+End Time: 2025-08-05 13:35:48
+--------------------------------------------------------------------------------
+[2025-08-05 13:35:48] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 28s
+Total Time on Site: 14m total
+End Time: 2025-08-05 13:36:16
+--------------------------------------------------------------------------------
+[2025-08-05 13:36:34] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 56s
+Total Time on Site: 15m total
+End Time: 2025-08-05 13:37:30
+--------------------------------------------------------------------------------
+[2025-08-05 13:52:41] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 8s
+Total Time on Site: 1m total
+End Time: 2025-08-05 13:52:49
+--------------------------------------------------------------------------------
+[2025-08-05 13:52:49] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 22s
+Total Time on Site: 15m total
+End Time: 2025-08-05 13:53:11
+--------------------------------------------------------------------------------
+[2025-08-05 15:50:59] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 1m total
+End Time: 2025-08-05 15:51:05
+--------------------------------------------------------------------------------
+[2025-08-05 15:51:05] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 15m total
+End Time: 2025-08-05 15:51:07
+--------------------------------------------------------------------------------
+[2025-08-05 15:51:09] Chrome - ERR_NGROK_3004
+Title: Monitor Access Details - Manisha01 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-08-05 15:51:11
+--------------------------------------------------------------------------------
+[2025-08-05 15:51:11] Chrome - Monitor Access Details
+Title: ERR_NGROK_6024 - You are about to visit 0e3dde318679.ngrok-free.app, served by 103.113.65.218. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+Visit Duration: 12s
+Total Time on Site: 53s total
+End Time: 2025-08-05 15:51:23
+--------------------------------------------------------------------------------
+[2025-08-05 15:51:23] Chrome - ERR_NGROK_6024
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-08-05 15:51:25
+--------------------------------------------------------------------------------
+[2025-08-05 15:51:25] Chrome - Login
+Title: MANGO TREE Monitor - Manisha01 - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 1m total
+End Time: 2025-08-05 15:51:29
+--------------------------------------------------------------------------------
+[2025-08-05 15:51:29] Chrome - MANGO TREE Monitor
+Title: Monitor Access Details - Manisha01 - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 37s
+Total Time on Site: 16m total
+End Time: 2025-08-05 15:52:06
+--------------------------------------------------------------------------------
+[2025-08-05 15:52:06] Chrome - Monitor Access Details
+Title: None
+Visit Duration: 2s
+Total Time on Site: 55s total
+End Time: 2025-08-05 15:52:08
+--------------------------------------------------------------------------------
+[2025-08-05 16:23:50] Chrome - Untitled
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 11s total
+End Time: 2025-08-05 16:23:52
+--------------------------------------------------------------------------------
+[2025-08-05 16:23:52] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-08-05 16:23:54
+--------------------------------------------------------------------------------
+[2025-08-05 16:23:54] Chrome - MANGO TREE Monitor
+Title: Your Authtoken - ngrok - Google Chrome
+Visit Duration: 16s
+Total Time on Site: 16m total
+End Time: 2025-08-05 16:24:10
+--------------------------------------------------------------------------------
+[2025-08-05 16:24:10] Chrome - Your Authtoken
+Title: None
+Visit Duration: 3s
+Total Time on Site: 7s total
+End Time: 2025-08-05 16:24:13
+--------------------------------------------------------------------------------
+[2025-08-05 16:24:25] Chrome - Monitor Access Details
+Title: Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 57s total
+End Time: 2025-08-05 16:24:27
+--------------------------------------------------------------------------------
+[2025-08-05 16:24:27] Chrome - Inbox (1)
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 10s total
+End Time: 2025-08-05 16:24:29
+--------------------------------------------------------------------------------
+[2025-08-05 16:24:29] Chrome - Monitor Access Details
+Title: Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 59s total
+End Time: 2025-08-05 16:24:31
+--------------------------------------------------------------------------------
+[2025-08-05 19:49:00] Chrome - Untitled
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 13s total
+End Time: 2025-08-05 19:49:02
+--------------------------------------------------------------------------------
+[2025-08-05 19:49:02] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-08-05 19:49:04
+--------------------------------------------------------------------------------
+[2025-08-05 19:49:04] Chrome - MANGO TREE Monitor
+Title: Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 16m total
+End Time: 2025-08-05 19:49:10
+--------------------------------------------------------------------------------
+[2025-08-05 19:49:10] Chrome - Inbox (1)
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 12s total
+End Time: 2025-08-05 19:49:12
+--------------------------------------------------------------------------------
+[2025-08-05 19:49:12] Chrome - Monitor Access Details
+Title: None
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-08-05 19:49:14
+--------------------------------------------------------------------------------
+[2025-08-05 19:55:38] Chrome - Login
+Title: None
+Visit Duration: 44s
+Total Time on Site: 2m total
+End Time: 2025-08-05 19:56:22
+--------------------------------------------------------------------------------
+[2025-08-05 19:56:25] Chrome - Login
+Title: None
+Visit Duration: 2s
+Total Time on Site: 2m total
+End Time: 2025-08-05 19:56:27
+--------------------------------------------------------------------------------

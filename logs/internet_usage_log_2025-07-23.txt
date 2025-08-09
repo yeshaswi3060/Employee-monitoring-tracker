@@ -1,0 +1,794 @@
+[2025-07-23 16:06]
+Chrome Browser       - Sent: 120.2 MB   | Received: 270.8 MB
+cursor.exe           - Sent: 43.0 MB    | Received: 27.9 MB
+svchost.exe          - Sent: 5.0 MB     | Received: 3.9 MB
+python.exe           - Sent: 180.3 KB   | Received: 5.0 MB
+nvidia overlay.exe   - Sent: 5.4 KB     | Received: 3.2 MB
+grammarly.desktop.exe - Sent: 618.0 KB   | Received: 165.5 KB
+system               - Sent: 700.5 KB   | Received: 32.0 B
+xtuservice.exe       - Sent: 100.9 KB   | Received: 89.9 KB
+occontrol.service.exe - Sent: 89.8 KB    | Received: 100.8 KB
+registry             - Sent: 188.0 KB   | Received: 0.0 B
+msedgewebview2.exe   - Sent: 131.0 KB   | Received: 37.3 KB
+dwm.exe              - Sent: 0.0 B      | Received: 102.6 KB
+shellexperiencehost.exe - Sent: 142.0 B    | Received: 98.6 KB
+searchindexer.exe    - Sent: 32.2 KB    | Received: 5.1 KB
+conhost.exe          - Sent: 27.5 KB    | Received: 3.0 B
+explorer.exe         - Sent: 4.7 KB     | Received: 18.7 KB
+awcc.ucsubagent.exe  - Sent: 3.9 KB     | Received: 14.6 KB
+awcc.scsubagent.exe  - Sent: 15.6 KB    | Received: 404.0 B
+ipf_helper.exe       - Sent: 5.9 KB     | Received: 0.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 3.8 KB
+Edge Browser         - Sent: 896.0 B    | Received: 896.0 B
+tailscaled.exe       - Sent: 993.0 B    | Received: 698.0 B
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 1.4 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 1.4 KB
+lsass.exe            - Sent: 888.0 B    | Received: 416.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 672.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 672.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 164.0 B    | Received: 406.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 406.0 B    | Received: 164.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 528.0 B
+nvcontainer.exe      - Sent: 304.0 B    | Received: 0.0 B
+ipf_uf.exe           - Sent: 148.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 16:10]
+cursor.exe           - Sent: 48.2 MB    | Received: 23.2 MB
+Edge Browser         - Sent: 35.2 MB    | Received: 18.5 MB
+svchost.exe          - Sent: 5.5 MB     | Received: 6.0 MB
+Chrome Browser       - Sent: 4.0 MB     | Received: 6.5 MB
+msedgewebview2.exe   - Sent: 3.9 MB     | Received: 4.2 MB
+python.exe           - Sent: 75.9 KB    | Received: 3.9 MB
+searchindexer.exe    - Sent: 182.1 KB   | Received: 1.9 MB
+widgets.exe          - Sent: 1.7 MB     | Received: 28.3 KB
+nvidia overlay.exe   - Sent: 2.9 KB     | Received: 1.6 MB
+whatsapp.exe         - Sent: 737.3 KB   | Received: 121.6 KB
+system               - Sent: 622.1 KB   | Received: 16.0 B
+registry             - Sent: 388.0 KB   | Received: 0.0 B
+msmpeng.exe          - Sent: 0.0 B      | Received: 231.5 KB
+grammarly.desktop.exe - Sent: 163.7 KB   | Received: 41.6 KB
+occontrol.service.exe - Sent: 87.8 KB    | Received: 98.5 KB
+xtuservice.exe       - Sent: 98.4 KB    | Received: 87.7 KB
+rtkauduservice64.exe - Sent: 164.0 KB   | Received: 0.0 B
+taskhostw.exe        - Sent: 128.0 KB   | Received: 0.0 B
+lsass.exe            - Sent: 18.0 KB    | Received: 66.1 KB
+dell.d3.winsvc.exe   - Sent: 173.0 B    | Received: 48.2 KB
+explorer.exe         - Sent: 4.2 KB     | Received: 27.0 KB
+dwm.exe              - Sent: 0.0 B      | Received: 25.1 KB
+runtimebroker.exe    - Sent: 128.0 B    | Received: 20.3 KB
+awcc.ucsubagent.exe  - Sent: 2.6 KB     | Received: 16.6 KB
+awcc.scsubagent.exe  - Sent: 17.8 KB    | Received: 404.0 B
+conhost.exe          - Sent: 10.7 KB    | Received: 9.0 B
+shellexperiencehost.exe - Sent: 0.0 B      | Received: 3.1 KB
+tailscaled.exe       - Sent: 993.0 B    | Received: 698.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 1.6 KB
+ipf_helper.exe       - Sent: 1.5 KB     | Received: 0.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 1.2 KB
+csrss.exe            - Sent: 0.0 B      | Received: 1.1 KB
+sihost.exe           - Sent: 0.0 B      | Received: 1.0 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 894.0 B
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 894.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 672.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 164.0 B    | Received: 406.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 406.0 B    | Received: 164.0 B
+backgroundtaskhost.exe - Sent: 0.0 B      | Received: 512.0 B
+nvcontainer.exe      - Sent: 304.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+wlanext.exe          - Sent: 0.0 B      | Received: 84.0 B
+ipf_uf.exe           - Sent: 74.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 16:11]
+Edge Browser         - Sent: 58.2 MB    | Received: 18.7 MB
+cursor.exe           - Sent: 49.4 MB    | Received: 24.4 MB
+Chrome Browser       - Sent: 32.1 MB    | Received: 32.4 MB
+svchost.exe          - Sent: 12.3 MB    | Received: 9.2 MB
+msedgewebview2.exe   - Sent: 4.1 MB     | Received: 4.2 MB
+python.exe           - Sent: 90.5 KB    | Received: 3.9 MB
+searchindexer.exe    - Sent: 182.1 KB   | Received: 1.9 MB
+widgets.exe          - Sent: 1.7 MB     | Received: 30.7 KB
+nvidia overlay.exe   - Sent: 6.5 KB     | Received: 1.6 MB
+system               - Sent: 1.1 MB     | Received: 48.0 B
+whatsapp.exe         - Sent: 737.3 KB   | Received: 121.6 KB
+registry             - Sent: 608.0 KB   | Received: 0.0 B
+occontrol.service.exe - Sent: 171.2 KB   | Received: 192.1 KB
+xtuservice.exe       - Sent: 192.0 KB   | Received: 171.1 KB
+msmpeng.exe          - Sent: 0.0 B      | Received: 231.5 KB
+grammarly.desktop.exe - Sent: 165.2 KB   | Received: 42.4 KB
+taskhostw.exe        - Sent: 164.0 KB   | Received: 0.0 B
+rtkauduservice64.exe - Sent: 164.0 KB   | Received: 0.0 B
+lsass.exe            - Sent: 18.0 KB    | Received: 66.1 KB
+dell.d3.winsvc.exe   - Sent: 395.0 B    | Received: 48.2 KB
+explorer.exe         - Sent: 4.9 KB     | Received: 32.5 KB
+dwm.exe              - Sent: 0.0 B      | Received: 25.5 KB
+awcc.ucsubagent.exe  - Sent: 2.6 KB     | Received: 19.8 KB
+awcc.scsubagent.exe  - Sent: 20.7 KB    | Received: 404.0 B
+runtimebroker.exe    - Sent: 128.0 B    | Received: 20.3 KB
+conhost.exe          - Sent: 11.7 KB    | Received: 9.0 B
+tailscaled.exe       - Sent: 1.9 KB     | Received: 1.4 KB
+shellexperiencehost.exe - Sent: 0.0 B      | Received: 3.1 KB
+vmnat.exe            - Sent: 0.0 B      | Received: 2.0 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 1.8 KB
+ipf_helper.exe       - Sent: 1.5 KB     | Received: 0.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 328.0 B    | Received: 812.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 812.0 B    | Received: 328.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 1.1 KB
+sihost.exe           - Sent: 0.0 B      | Received: 1.0 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 894.0 B
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 894.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 672.0 B
+nvcontainer.exe      - Sent: 608.0 B    | Received: 0.0 B
+backgroundtaskhost.exe - Sent: 0.0 B      | Received: 512.0 B
+ipf_uf.exe           - Sent: 222.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 170.0 B    | Received: 0.0 B
+wlanext.exe          - Sent: 0.0 B      | Received: 84.0 B
+------------------------------------------------------------
+[2025-07-23 16:12]
+Chrome Browser       - Sent: 78.4 MB    | Received: 91.3 MB
+Edge Browser         - Sent: 65.1 MB    | Received: 18.8 MB
+cursor.exe           - Sent: 52.3 MB    | Received: 26.8 MB
+svchost.exe          - Sent: 20.8 MB    | Received: 12.3 MB
+msedgewebview2.exe   - Sent: 4.1 MB     | Received: 4.2 MB
+python.exe           - Sent: 105.1 KB   | Received: 3.9 MB
+searchindexer.exe    - Sent: 298.8 KB   | Received: 2.0 MB
+widgets.exe          - Sent: 1.7 MB     | Received: 30.7 KB
+nvidia overlay.exe   - Sent: 8.3 KB     | Received: 1.6 MB
+system               - Sent: 1.4 MB     | Received: 64.0 B
+whatsapp.exe         - Sent: 737.3 KB   | Received: 121.6 KB
+registry             - Sent: 744.0 KB   | Received: 0.0 B
+occontrol.service.exe - Sent: 255.0 KB   | Received: 286.1 KB
+xtuservice.exe       - Sent: 286.0 KB   | Received: 254.9 KB
+grammarly.desktop.exe - Sent: 184.3 KB   | Received: 48.1 KB
+msmpeng.exe          - Sent: 0.0 B      | Received: 231.5 KB
+taskhostw.exe        - Sent: 208.0 KB   | Received: 0.0 B
+rtkauduservice64.exe - Sent: 164.0 KB   | Received: 0.0 B
+lsass.exe            - Sent: 18.0 KB    | Received: 66.1 KB
+explorer.exe         - Sent: 7.3 KB     | Received: 58.5 KB
+dell.d3.winsvc.exe   - Sent: 395.0 B    | Received: 48.2 KB
+dwm.exe              - Sent: 0.0 B      | Received: 29.7 KB
+awcc.ucsubagent.exe  - Sent: 2.6 KB     | Received: 22.3 KB
+awcc.scsubagent.exe  - Sent: 23.1 KB    | Received: 404.0 B
+runtimebroker.exe    - Sent: 128.0 B    | Received: 20.3 KB
+conhost.exe          - Sent: 12.6 KB    | Received: 12.0 B
+tailscaled.exe       - Sent: 2.9 KB     | Received: 2.0 KB
+shellexperiencehost.exe - Sent: 0.0 B      | Received: 3.1 KB
+vmnat.exe            - Sent: 0.0 B      | Received: 2.9 KB
+ipf_helper.exe       - Sent: 2.7 KB     | Received: 0.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 1.8 KB
+dell.techhub.instrumentation.subagent.exe - Sent: 492.0 B    | Received: 1.2 KB
+dell.techhub.instrumentation.userprocess.exe - Sent: 1.2 KB     | Received: 492.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 1.3 KB
+csrss.exe            - Sent: 0.0 B      | Received: 1.1 KB
+sihost.exe           - Sent: 0.0 B      | Received: 1.0 KB
+nvcontainer.exe      - Sent: 912.0 B    | Received: 0.0 B
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 894.0 B
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 894.0 B
+backgroundtaskhost.exe - Sent: 0.0 B      | Received: 512.0 B
+ipf_uf.exe           - Sent: 296.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 255.0 B    | Received: 0.0 B
+wlanext.exe          - Sent: 0.0 B      | Received: 84.0 B
+------------------------------------------------------------
+[2025-07-23 16:17]
+cursor.exe           - Sent: 54.6 MB    | Received: 31.0 MB
+Edge Browser         - Sent: 47.4 MB    | Received: 32.3 MB
+msedgewebview2.exe   - Sent: 12.6 MB    | Received: 12.2 MB
+Chrome Browser       - Sent: 6.1 MB     | Received: 8.7 MB
+svchost.exe          - Sent: 5.0 MB     | Received: 4.9 MB
+nvidia overlay.exe   - Sent: 4.7 KB     | Received: 3.2 MB
+python.exe           - Sent: 145.3 KB   | Received: 2.7 MB
+grammarly.desktop.exe - Sent: 661.5 KB   | Received: 191.3 KB
+system               - Sent: 823.5 KB   | Received: 16.0 B
+searchhost.exe       - Sent: 186.9 KB   | Received: 308.8 KB
+runtimebroker.exe    - Sent: 372.0 B    | Received: 336.5 KB
+startmenuexperiencehost.exe - Sent: 422.0 B    | Received: 249.8 KB
+registry             - Sent: 204.0 KB   | Received: 0.0 B
+searchindexer.exe    - Sent: 112.7 KB   | Received: 82.5 KB
+occontrol.service.exe - Sent: 88.8 KB    | Received: 99.6 KB
+xtuservice.exe       - Sent: 99.6 KB    | Received: 88.7 KB
+dwm.exe              - Sent: 0.0 B      | Received: 127.4 KB
+rtkauduservice64.exe - Sent: 64.0 KB    | Received: 0.0 B
+explorer.exe         - Sent: 5.1 KB     | Received: 35.6 KB
+awcc.ucsubagent.exe  - Sent: 8.8 KB     | Received: 28.6 KB
+awcc.scsubagent.exe  - Sent: 30.2 KB    | Received: 1.4 KB
+conhost.exe          - Sent: 18.1 KB    | Received: 9.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 11.4 KB
+ipf_helper.exe       - Sent: 11.3 KB    | Received: 0.0 B
+sihost.exe           - Sent: 0.0 B      | Received: 9.0 KB
+filecoauth.exe       - Sent: 6.4 KB     | Received: 0.0 B
+shellexperiencehost.exe - Sent: 795.0 B    | Received: 4.7 KB
+csrss.exe            - Sent: 0.0 B      | Received: 4.8 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 3.2 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 3.2 KB
+tailscaled.exe       - Sent: 993.0 B    | Received: 698.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 1.5 KB
+backgroundtaskhost.exe - Sent: 0.0 B      | Received: 1.0 KB
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 672.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 164.0 B    | Received: 406.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 406.0 B    | Received: 164.0 B
+nvcontainer.exe      - Sent: 304.0 B    | Received: 0.0 B
+dell.d3.winsvc.exe   - Sent: 222.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+ipf_uf.exe           - Sent: 74.0 B     | Received: 0.0 B
+lsass.exe            - Sent: 0.0 B      | Received: 24.0 B
+------------------------------------------------------------
+[2025-07-23 16:23]
+Edge Browser         - Sent: 73.6 MB    | Received: 49.9 MB
+cursor.exe           - Sent: 58.6 MB    | Received: 34.8 MB
+Chrome Browser       - Sent: 41.2 MB    | Received: 50.8 MB
+svchost.exe          - Sent: 6.4 MB     | Received: 2.3 MB
+python.exe           - Sent: 103.1 KB   | Received: 7.5 MB
+nvidia overlay.exe   - Sent: 6.2 KB     | Received: 1.6 MB
+msedgewebview2.exe   - Sent: 702.1 KB   | Received: 442.8 KB
+grammarly.desktop.exe - Sent: 642.3 KB   | Received: 269.1 KB
+system               - Sent: 831.4 KB   | Received: 16.0 B
+registry             - Sent: 324.0 KB   | Received: 0.0 B
+notepad.exe          - Sent: 82.6 KB    | Received: 190.5 KB
+xtuservice.exe       - Sent: 102.8 KB   | Received: 91.6 KB
+occontrol.service.exe - Sent: 91.6 KB    | Received: 102.8 KB
+searchindexer.exe    - Sent: 56.7 KB    | Received: 97.7 KB
+dwm.exe              - Sent: 0.0 B      | Received: 111.8 KB
+rtkauduservice64.exe - Sent: 80.0 KB    | Received: 0.0 B
+awcc.ucsubagent.exe  - Sent: 7.4 KB     | Received: 46.1 KB
+conhost.exe          - Sent: 46.8 KB    | Received: 9.0 B
+explorer.exe         - Sent: 9.4 KB     | Received: 36.3 KB
+taskhostw.exe        - Sent: 44.0 KB    | Received: 0.0 B
+awcc.scsubagent.exe  - Sent: 42.8 KB    | Received: 1.2 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 13.2 KB
+ipf_helper.exe       - Sent: 13.1 KB    | Received: 0.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 3.0 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 2.7 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 2.7 KB
+tailscaled.exe       - Sent: 993.0 B    | Received: 698.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 1.1 KB
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 672.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 164.0 B    | Received: 406.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 406.0 B    | Received: 164.0 B
+textinputhost.exe    - Sent: 194.0 B    | Received: 365.0 B
+searchhost.exe       - Sent: 112.0 B    | Received: 336.0 B
+nvcontainer.exe      - Sent: 367.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+ipf_uf.exe           - Sent: 74.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 16:27]
+Edge Browser         - Sent: 77.2 MB    | Received: 47.0 MB
+cursor.exe           - Sent: 61.2 MB    | Received: 36.4 MB
+svchost.exe          - Sent: 7.3 MB     | Received: 12.6 MB
+dell.techhub.datamanager.subagent.exe - Sent: 828.0 B    | Received: 16.0 MB
+python.exe           - Sent: 92.3 KB    | Received: 9.4 MB
+tiworker.exe         - Sent: 4.0 MB     | Received: 4.5 MB
+spotify.exe          - Sent: 769.8 KB   | Received: 5.2 MB
+Chrome Browser       - Sent: 1.4 MB     | Received: 2.7 MB
+nvidia overlay.exe   - Sent: 24.4 KB    | Received: 1.6 MB
+msedgewebview2.exe   - Sent: 719.2 KB   | Received: 394.0 KB
+system               - Sent: 1.0 MB     | Received: 2.0 KB
+taskhostw.exe        - Sent: 0.0 B      | Received: 926.9 KB
+grammarly.desktop.exe - Sent: 594.0 KB   | Received: 249.0 KB
+notepad.exe          - Sent: 74.0 KB    | Received: 175.2 KB
+registry             - Sent: 236.0 KB   | Received: 0.0 B
+occontrol.service.exe - Sent: 88.5 KB    | Received: 99.3 KB
+xtuservice.exe       - Sent: 99.2 KB    | Received: 88.4 KB
+dwm.exe              - Sent: 0.0 B      | Received: 120.1 KB
+awcc.ucsubagent.exe  - Sent: 6.3 KB     | Received: 45.6 KB
+awcc.scsubagent.exe  - Sent: 46.2 KB    | Received: 1010.0 B
+searchindexer.exe    - Sent: 16.4 KB    | Received: 30.7 KB
+dell.d3.winsvc.exe   - Sent: 1.0 KB     | Received: 44.2 KB
+explorer.exe         - Sent: 9.7 KB     | Received: 35.0 KB
+conhost.exe          - Sent: 24.5 KB    | Received: 9.0 B
+searchhost.exe       - Sent: 112.0 B    | Received: 15.7 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 11.9 KB
+ipf_helper.exe       - Sent: 11.7 KB    | Received: 0.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 8.7 KB
+nvcontainer.exe      - Sent: 444.0 B    | Received: 6.8 KB
+dell.techhub.instrumentation.subagent.exe - Sent: 2.3 KB     | Received: 2.6 KB
+ddvdatacollector.exe - Sent: 3.0 KB     | Received: 1015.0 B
+runtimebroker.exe    - Sent: 0.0 B      | Received: 3.5 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 2.4 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 2.4 KB
+tailscaled.exe       - Sent: 993.0 B    | Received: 698.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 890.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 888.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 406.0 B    | Received: 164.0 B
+lsass.exe            - Sent: 252.0 B    | Received: 212.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+ipf_uf.exe           - Sent: 74.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 17:15]
+Chrome Browser       - Sent: 38.0 MB    | Received: 57.2 MB
+cursor.exe           - Sent: 26.5 MB    | Received: 22.4 MB
+svchost.exe          - Sent: 2.3 MB     | Received: 2.5 MB
+nvidia overlay.exe   - Sent: 4.4 KB     | Received: 1.6 MB
+Discord              - Sent: 228.4 KB   | Received: 49.3 KB
+grammarly.desktop.exe - Sent: 188.4 KB   | Received: 54.0 KB
+system               - Sent: 137.0 KB   | Received: 16.0 B
+python.exe           - Sent: 58.4 KB    | Received: 72.1 KB
+xtuservice.exe       - Sent: 46.3 KB    | Received: 41.2 KB
+occontrol.service.exe - Sent: 41.1 KB    | Received: 46.2 KB
+Edge Browser         - Sent: 70.0 KB    | Received: 672.0 B
+msedgewebview2.exe   - Sent: 33.6 KB    | Received: 1.5 KB
+dwm.exe              - Sent: 0.0 B      | Received: 35.0 KB
+awcc.scsubagent.exe  - Sent: 34.6 KB    | Received: 202.0 B
+awcc.ucsubagent.exe  - Sent: 2.5 KB     | Received: 30.8 KB
+registry             - Sent: 28.0 KB    | Received: 0.0 B
+spotify.exe          - Sent: 11.2 KB    | Received: 7.5 KB
+explorer.exe         - Sent: 3.6 KB     | Received: 14.9 KB
+ipf_helper.exe       - Sent: 5.7 KB     | Received: 0.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 3.4 KB
+dell.techhub.instrumentation.subagent.exe - Sent: 1.8 KB     | Received: 289.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 1.6 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 937.0 B
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 937.0 B
+conhost.exe          - Sent: 464.0 B    | Received: 6.0 B
+tailscaled.exe       - Sent: 0.0 B      | Received: 300.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 203.0 B    | Received: 82.0 B
+searchindexer.exe    - Sent: 192.0 B    | Received: 64.0 B
+searchhost.exe       - Sent: 64.0 B     | Received: 192.0 B
+igoswserver.exe      - Sent: 0.0 B      | Received: 174.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 172.0 B
+wlanext.exe          - Sent: 0.0 B      | Received: 84.0 B
+ipf_uf.exe           - Sent: 74.0 B     | Received: 0.0 B
+lsass.exe            - Sent: 0.0 B      | Received: 72.0 B
+nvcontainer.exe      - Sent: 63.0 B     | Received: 0.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 48.0 B
+------------------------------------------------------------
+[2025-07-23 17:16]
+Chrome Browser       - Sent: 23.2 MB    | Received: 36.8 MB
+cursor.exe           - Sent: 1.3 MB     | Received: 2.6 MB
+svchost.exe          - Sent: 280.1 KB   | Received: 580.1 KB
+system               - Sent: 150.6 KB   | Received: 0.0 B
+python.exe           - Sent: 56.5 KB    | Received: 73.7 KB
+grammarly.desktop.exe - Sent: 74.7 KB    | Received: 19.0 KB
+msedgewebview2.exe   - Sent: 35.6 KB    | Received: 35.6 KB
+Discord              - Sent: 40.6 KB    | Received: 11.6 KB
+dwm.exe              - Sent: 0.0 B      | Received: 14.3 KB
+xtuservice.exe       - Sent: 6.9 KB     | Received: 6.2 KB
+occontrol.service.exe - Sent: 6.2 KB     | Received: 6.9 KB
+awcc.scsubagent.exe  - Sent: 2.4 KB     | Received: 0.0 B
+nvidia overlay.exe   - Sent: 2.3 KB     | Received: 0.0 B
+awcc.ucsubagent.exe  - Sent: 0.0 B      | Received: 1.3 KB
+conhost.exe          - Sent: 749.0 B    | Received: 0.0 B
+spotify.exe          - Sent: 319.0 B    | Received: 112.0 B
+igoswserver.exe      - Sent: 174.0 B    | Received: 174.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 340.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 296.0 B
+ipf_helper.exe       - Sent: 296.0 B    | Received: 0.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 82.0 B     | Received: 203.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 203.0 B    | Received: 82.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 254.0 B
+explorer.exe         - Sent: 0.0 B      | Received: 114.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 17:18]
+cursor.exe           - Sent: 112.7 MB   | Received: 89.7 MB
+Chrome Browser       - Sent: 30.6 MB    | Received: 39.0 MB
+svchost.exe          - Sent: 2.3 MB     | Received: 1.3 MB
+nvidia overlay.exe   - Sent: 3.6 KB     | Received: 1.6 MB
+python.exe           - Sent: 94.6 KB    | Received: 1.0 MB
+grammarly.desktop.exe - Sent: 489.6 KB   | Received: 135.2 KB
+system               - Sent: 402.0 KB   | Received: 0.0 B
+Discord              - Sent: 264.4 KB   | Received: 46.4 KB
+xtuservice.exe       - Sent: 45.7 KB    | Received: 40.7 KB
+occontrol.service.exe - Sent: 40.6 KB    | Received: 45.6 KB
+dwm.exe              - Sent: 0.0 B      | Received: 51.0 KB
+explorer.exe         - Sent: 8.1 KB     | Received: 31.1 KB
+awcc.ucsubagent.exe  - Sent: 8.4 KB     | Received: 29.3 KB
+awcc.scsubagent.exe  - Sent: 29.4 KB    | Received: 1.4 KB
+msedgewebview2.exe   - Sent: 26.2 KB    | Received: 2.3 KB
+spotify.exe          - Sent: 14.5 KB    | Received: 10.6 KB
+ipf_helper.exe       - Sent: 10.9 KB    | Received: 0.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 10.7 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 3.1 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 3.1 KB
+conhost.exe          - Sent: 2.7 KB     | Received: 15.0 B
+Edge Browser         - Sent: 1.4 KB     | Received: 224.0 B
+igoswserver.exe      - Sent: 348.0 B    | Received: 522.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 447.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 82.0 B     | Received: 203.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 203.0 B    | Received: 82.0 B
+searchindexer.exe    - Sent: 192.0 B    | Received: 64.0 B
+searchhost.exe       - Sent: 64.0 B     | Received: 192.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 172.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 144.0 B
+------------------------------------------------------------
+[2025-07-23 17:21]
+Chrome Browser       - Sent: 36.1 MB    | Received: 59.4 MB
+cursor.exe           - Sent: 21.5 MB    | Received: 17.9 MB
+python.exe           - Sent: 208.3 KB   | Received: 11.9 MB
+svchost.exe          - Sent: 2.4 MB     | Received: 1.6 MB
+grammarly.desktop.exe - Sent: 359.8 KB   | Received: 95.0 KB
+system               - Sent: 416.4 KB   | Received: 0.0 B
+Discord              - Sent: 240.4 KB   | Received: 59.7 KB
+nvidia overlay.exe   - Sent: 76.8 KB    | Received: 75.0 KB
+registry             - Sent: 136.0 KB   | Received: 0.0 B
+occontrol.service.exe - Sent: 43.5 KB    | Received: 48.8 KB
+xtuservice.exe       - Sent: 48.7 KB    | Received: 43.4 KB
+dwm.exe              - Sent: 0.0 B      | Received: 56.9 KB
+msedgewebview2.exe   - Sent: 36.9 KB    | Received: 3.6 KB
+awcc.scsubagent.exe  - Sent: 36.2 KB    | Received: 202.0 B
+awcc.ucsubagent.exe  - Sent: 1.2 KB     | Received: 35.0 KB
+spotify.exe          - Sent: 22.0 KB    | Received: 2.7 KB
+conhost.exe          - Sent: 14.9 KB    | Received: 3.0 B
+explorer.exe         - Sent: 1.7 KB     | Received: 12.5 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 3.4 KB
+ipf_helper.exe       - Sent: 3.2 KB     | Received: 0.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 1.6 KB
+lsass.exe            - Sent: 888.0 B    | Received: 416.0 B
+Edge Browser         - Sent: 448.0 B    | Received: 448.0 B
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 474.0 B
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 474.0 B
+igoswserver.exe      - Sent: 174.0 B    | Received: 174.0 B
+tailscaled.exe       - Sent: 0.0 B      | Received: 300.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 82.0 B     | Received: 203.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 203.0 B    | Received: 82.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 172.0 B
+nvcontainer.exe      - Sent: 63.0 B     | Received: 0.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 48.0 B
+------------------------------------------------------------
+[2025-07-23 17:29]
+Chrome Browser       - Sent: 45.8 MB    | Received: 144.8 MB
+cursor.exe           - Sent: 57.9 MB    | Received: 40.1 MB
+Edge Browser         - Sent: 8.5 MB     | Received: 7.8 MB
+svchost.exe          - Sent: 4.4 MB     | Received: 4.0 MB
+system               - Sent: 648.2 KB   | Received: 0.0 B
+Discord              - Sent: 346.4 KB   | Received: 277.3 KB
+dell.techhub.datamanager.subagent.exe - Sent: 303.0 KB   | Received: 195.9 KB
+msmpeng.exe          - Sent: 0.0 B      | Received: 462.9 KB
+spotify.exe          - Sent: 261.7 KB   | Received: 188.8 KB
+grammarly.desktop.exe - Sent: 242.7 KB   | Received: 65.0 KB
+msedgewebview2.exe   - Sent: 159.7 KB   | Received: 3.8 KB
+python.exe           - Sent: 74.4 KB    | Received: 83.1 KB
+registry             - Sent: 156.0 KB   | Received: 0.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 149.2 KB   | Received: 5.2 KB
+lsass.exe            - Sent: 20.4 KB    | Received: 67.4 KB
+occontrol.service.exe - Sent: 40.9 KB    | Received: 45.9 KB
+xtuservice.exe       - Sent: 45.8 KB    | Received: 40.8 KB
+awcc.ucsubagent.exe  - Sent: 3.7 KB     | Received: 44.4 KB
+awcc.scsubagent.exe  - Sent: 43.7 KB    | Received: 606.0 B
+dwm.exe              - Sent: 0.0 B      | Received: 39.0 KB
+explorer.exe         - Sent: 1011.0 B   | Received: 17.9 KB
+dell.techhub.instrumentation.userprocess.exe - Sent: 4.3 KB     | Received: 1.6 KB
+nvidia overlay.exe   - Sent: 4.3 KB     | Received: 1.2 KB
+ipf_helper.exe       - Sent: 3.5 KB     | Received: 0.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 3.4 KB
+conhost.exe          - Sent: 2.1 KB     | Received: 15.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 2.1 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 1.4 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 1.4 KB
+igoswserver.exe      - Sent: 344.0 B    | Received: 518.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 744.0 B
+wmiprvse.exe         - Sent: 420.0 B    | Received: 284.0 B
+dell.d3.winsvc.exe   - Sent: 222.0 B    | Received: 0.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 172.0 B
+nvcontainer.exe      - Sent: 63.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 17:34]
+Chrome Browser       - Sent: 110.0 MB   | Received: 180.3 MB
+Edge Browser         - Sent: 70.0 MB    | Received: 62.1 MB
+cursor.exe           - Sent: 73.7 MB    | Received: 40.3 MB
+svchost.exe          - Sent: 5.7 MB     | Received: 3.7 MB
+python.exe           - Sent: 334.1 KB   | Received: 3.8 MB
+nvidia overlay.exe   - Sent: 6.7 KB     | Received: 1.6 MB
+grammarly.desktop.exe - Sent: 903.7 KB   | Received: 244.2 KB
+system               - Sent: 1.1 MB     | Received: 16.0 B
+msedgewebview2.exe   - Sent: 397.8 KB   | Received: 454.1 KB
+Discord              - Sent: 462.0 KB   | Received: 147.6 KB
+spotify.exe          - Sent: 326.3 KB   | Received: 164.7 KB
+msmpeng.exe          - Sent: 0.0 B      | Received: 231.5 KB
+xtuservice.exe       - Sent: 99.3 KB    | Received: 88.5 KB
+occontrol.service.exe - Sent: 88.5 KB    | Received: 99.3 KB
+registry             - Sent: 172.0 KB   | Received: 0.0 B
+dwm.exe              - Sent: 0.0 B      | Received: 159.0 KB
+explorer.exe         - Sent: 2.6 KB     | Received: 92.9 KB
+dell.techhub.datamanager.subagent.exe - Sent: 24.2 KB    | Received: 53.4 KB
+searchindexer.exe    - Sent: 56.3 KB    | Received: 18.4 KB
+awcc.ucsubagent.exe  - Sent: 8.9 KB     | Received: 49.1 KB
+awcc.scsubagent.exe  - Sent: 51.6 KB    | Received: 1.4 KB
+lsass.exe            - Sent: 9.0 KB     | Received: 33.1 KB
+searchprotocolhost.exe - Sent: 0.0 B      | Received: 22.2 KB
+shellexperiencehost.exe - Sent: 1.1 KB     | Received: 16.8 KB
+conhost.exe          - Sent: 14.2 KB    | Received: 21.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 10.5 KB
+ipf_helper.exe       - Sent: 10.4 KB    | Received: 0.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 3.3 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 3.3 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 3.3 KB
+dell.techhub.instrumentation.subagent.exe - Sent: 1.6 KB     | Received: 695.0 B
+igoswserver.exe      - Sent: 1.0 KB     | Received: 1.2 KB
+tailscaled.exe       - Sent: 992.0 B    | Received: 697.0 B
+dellsupportassistremedationservice.exe - Sent: 685.0 B    | Received: 646.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 609.0 B    | Received: 246.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 612.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 516.0 B
+nvcontainer.exe      - Sent: 367.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+ipf_uf.exe           - Sent: 74.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 17:35]
+Chrome Browser       - Sent: 167.9 MB   | Received: 225.7 MB
+Edge Browser         - Sent: 111.7 MB   | Received: 68.4 MB
+cursor.exe           - Sent: 105.6 MB   | Received: 65.8 MB
+svchost.exe          - Sent: 10.6 MB    | Received: 6.1 MB
+python.exe           - Sent: 403.6 KB   | Received: 5.2 MB
+searchindexer.exe    - Sent: 246.4 KB   | Received: 2.0 MB
+msedgewebview2.exe   - Sent: 785.8 KB   | Received: 952.1 KB
+system               - Sent: 1.7 MB     | Received: 16.0 B
+nvidia overlay.exe   - Sent: 14.5 KB    | Received: 1.6 MB
+grammarly.desktop.exe - Sent: 1.0 MB     | Received: 281.5 KB
+Discord              - Sent: 890.5 KB   | Received: 279.0 KB
+registry             - Sent: 548.0 KB   | Received: 0.0 B
+spotify.exe          - Sent: 352.8 KB   | Received: 179.0 KB
+msmpeng.exe          - Sent: 0.0 B      | Received: 462.9 KB
+xtuservice.exe       - Sent: 196.0 KB   | Received: 174.6 KB
+occontrol.service.exe - Sent: 174.6 KB   | Received: 196.0 KB
+dwm.exe              - Sent: 0.0 B      | Received: 183.9 KB
+awcc.ucsubagent.exe  - Sent: 10.2 KB    | Received: 113.7 KB
+awcc.scsubagent.exe  - Sent: 114.3 KB   | Received: 1.6 KB
+explorer.exe         - Sent: 3.2 KB     | Received: 95.1 KB
+dell.techhub.datamanager.subagent.exe - Sent: 24.2 KB    | Received: 53.4 KB
+lsass.exe            - Sent: 9.0 KB     | Received: 33.1 KB
+searchprotocolhost.exe - Sent: 0.0 B      | Received: 26.0 KB
+runtimebroker.exe    - Sent: 128.0 B    | Received: 20.3 KB
+conhost.exe          - Sent: 18.1 KB    | Received: 27.0 B
+shellexperiencehost.exe - Sent: 1.1 KB     | Received: 16.8 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 12.5 KB
+ipf_helper.exe       - Sent: 12.4 KB    | Received: 0.0 B
+taskhostw.exe        - Sent: 12.0 KB    | Received: 0.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 6.8 KB
+sihost.exe           - Sent: 0.0 B      | Received: 4.5 KB
+csrss.exe            - Sent: 0.0 B      | Received: 4.3 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 3.7 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 3.7 KB
+tailscaled.exe       - Sent: 1.9 KB     | Received: 1.4 KB
+dell.techhub.instrumentation.subagent.exe - Sent: 1.8 KB     | Received: 1.1 KB
+igoswserver.exe      - Sent: 1.0 KB     | Received: 1.2 KB
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 1.5 KB
+dell.techhub.instrumentation.userprocess.exe - Sent: 1015.0 B   | Received: 410.0 B
+dellsupportassistremedationservice.exe - Sent: 760.0 B    | Received: 646.0 B
+nvcontainer.exe      - Sent: 734.0 B    | Received: 0.0 B
+dell.d3.winsvc.exe   - Sent: 222.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 170.0 B    | Received: 0.0 B
+ipf_uf.exe           - Sent: 74.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 17:35]
+Chrome Browser       - Sent: 187.7 MB   | Received: 243.7 MB
+cursor.exe           - Sent: 128.9 MB   | Received: 81.6 MB
+Edge Browser         - Sent: 116.8 MB   | Received: 68.5 MB
+svchost.exe          - Sent: 12.2 MB    | Received: 7.0 MB
+python.exe           - Sent: 420.1 KB   | Received: 5.2 MB
+searchindexer.exe    - Sent: 246.4 KB   | Received: 2.0 MB
+msedgewebview2.exe   - Sent: 830.6 KB   | Received: 995.8 KB
+system               - Sent: 1.7 MB     | Received: 16.0 B
+nvidia overlay.exe   - Sent: 15.4 KB    | Received: 1.6 MB
+Discord              - Sent: 1019.4 KB  | Received: 311.6 KB
+grammarly.desktop.exe - Sent: 1.0 MB     | Received: 281.5 KB
+registry             - Sent: 1012.0 KB  | Received: 0.0 B
+spotify.exe          - Sent: 362.5 KB   | Received: 186.0 KB
+msmpeng.exe          - Sent: 0.0 B      | Received: 462.9 KB
+xtuservice.exe       - Sent: 230.6 KB   | Received: 205.5 KB
+occontrol.service.exe - Sent: 205.5 KB   | Received: 230.6 KB
+dwm.exe              - Sent: 0.0 B      | Received: 183.9 KB
+awcc.ucsubagent.exe  - Sent: 10.2 KB    | Received: 133.8 KB
+awcc.scsubagent.exe  - Sent: 136.6 KB   | Received: 1.6 KB
+explorer.exe         - Sent: 3.2 KB     | Received: 95.1 KB
+dell.techhub.datamanager.subagent.exe - Sent: 24.2 KB    | Received: 53.4 KB
+lsass.exe            - Sent: 9.0 KB     | Received: 33.1 KB
+searchprotocolhost.exe - Sent: 0.0 B      | Received: 26.0 KB
+runtimebroker.exe    - Sent: 128.0 B    | Received: 20.3 KB
+conhost.exe          - Sent: 18.1 KB    | Received: 27.0 B
+shellexperiencehost.exe - Sent: 1.1 KB     | Received: 16.8 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 12.9 KB
+ipf_helper.exe       - Sent: 12.9 KB    | Received: 0.0 B
+taskhostw.exe        - Sent: 12.0 KB    | Received: 0.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 7.6 KB
+csrss.exe            - Sent: 0.0 B      | Received: 5.4 KB
+sihost.exe           - Sent: 0.0 B      | Received: 4.5 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 3.7 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 3.7 KB
+tailscaled.exe       - Sent: 2.2 KB     | Received: 1.4 KB
+dell.techhub.instrumentation.subagent.exe - Sent: 1.8 KB     | Received: 1.1 KB
+igoswserver.exe      - Sent: 1.0 KB     | Received: 1.2 KB
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 1.5 KB
+dell.techhub.instrumentation.userprocess.exe - Sent: 1015.0 B   | Received: 410.0 B
+dellsupportassistremedationservice.exe - Sent: 760.0 B    | Received: 646.0 B
+nvcontainer.exe      - Sent: 734.0 B    | Received: 0.0 B
+dell.d3.winsvc.exe   - Sent: 222.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 170.0 B    | Received: 0.0 B
+ipf_uf.exe           - Sent: 74.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 17:38]
+Chrome Browser       - Sent: 70.4 MB    | Received: 85.8 MB
+cursor.exe           - Sent: 70.4 MB    | Received: 51.4 MB
+Edge Browser         - Sent: 60.3 MB    | Received: 35.3 MB
+python.exe           - Sent: 226.4 KB   | Received: 10.1 MB
+svchost.exe          - Sent: 7.0 MB     | Received: 3.2 MB
+msedgewebview2.exe   - Sent: 765.8 KB   | Received: 986.3 KB
+nvidia overlay.exe   - Sent: 7.1 KB     | Received: 1.6 MB
+system               - Sent: 680.2 KB   | Received: 0.0 B
+Discord              - Sent: 505.0 KB   | Received: 150.8 KB
+grammarly.desktop.exe - Sent: 432.4 KB   | Received: 128.7 KB
+dell.techhub.datamanager.subagent.exe - Sent: 124.0 KB   | Received: 124.0 KB
+registry             - Sent: 192.0 KB   | Received: 0.0 B
+xtuservice.exe       - Sent: 99.4 KB    | Received: 88.6 KB
+occontrol.service.exe - Sent: 88.6 KB    | Received: 99.4 KB
+dwm.exe              - Sent: 0.0 B      | Received: 111.2 KB
+searchindexer.exe    - Sent: 32.2 KB    | Received: 62.1 KB
+awcc.ucsubagent.exe  - Sent: 4.9 KB     | Received: 60.5 KB
+awcc.scsubagent.exe  - Sent: 57.8 KB    | Received: 808.0 B
+spotify.exe          - Sent: 28.1 KB    | Received: 8.2 KB
+conhost.exe          - Sent: 35.5 KB    | Received: 9.0 B
+explorer.exe         - Sent: 4.9 KB     | Received: 12.5 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 10.3 KB
+ipf_helper.exe       - Sent: 10.1 KB    | Received: 0.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 2.5 KB
+vmnat.exe            - Sent: 0.0 B      | Received: 2.5 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 1.8 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 1.8 KB
+tailscaled.exe       - Sent: 993.0 B    | Received: 698.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 164.0 B    | Received: 406.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 406.0 B    | Received: 164.0 B
+nvcontainer.exe      - Sent: 367.0 B    | Received: 0.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 344.0 B
+dell.d3.winsvc.exe   - Sent: 222.0 B    | Received: 0.0 B
+igoswserver.exe      - Sent: 0.0 B      | Received: 174.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+wlanext.exe          - Sent: 0.0 B      | Received: 84.0 B
+------------------------------------------------------------
+[2025-07-23 17:38]
+Chrome Browser       - Sent: 94.5 MB    | Received: 111.9 MB
+cursor.exe           - Sent: 102.3 MB   | Received: 68.7 MB
+Edge Browser         - Sent: 80.7 MB    | Received: 42.9 MB
+svchost.exe          - Sent: 9.2 MB     | Received: 4.7 MB
+python.exe           - Sent: 300.1 KB   | Received: 10.1 MB
+nvidia overlay.exe   - Sent: 10.4 KB    | Received: 4.8 MB
+msedgewebview2.exe   - Sent: 1.1 MB     | Received: 1.2 MB
+Discord              - Sent: 721.7 KB   | Received: 201.4 KB
+grammarly.desktop.exe - Sent: 684.1 KB   | Received: 204.0 KB
+system               - Sent: 878.0 KB   | Received: 0.0 B
+occontrol.service.exe - Sent: 131.4 KB   | Received: 147.5 KB
+xtuservice.exe       - Sent: 147.4 KB   | Received: 131.3 KB
+dell.techhub.datamanager.subagent.exe - Sent: 124.0 KB   | Received: 124.0 KB
+registry             - Sent: 192.0 KB   | Received: 0.0 B
+dwm.exe              - Sent: 0.0 B      | Received: 146.0 KB
+searchindexer.exe    - Sent: 32.2 KB    | Received: 62.1 KB
+awcc.ucsubagent.exe  - Sent: 7.3 KB     | Received: 73.4 KB
+awcc.scsubagent.exe  - Sent: 70.1 KB    | Received: 1.2 KB
+spotify.exe          - Sent: 44.5 KB    | Received: 21.6 KB
+taskhostw.exe        - Sent: 48.0 KB    | Received: 0.0 B
+explorer.exe         - Sent: 10.0 KB    | Received: 37.5 KB
+conhost.exe          - Sent: 36.9 KB    | Received: 12.0 B
+wudfhost.exe         - Sent: 0.0 B      | Received: 15.7 KB
+ipf_helper.exe       - Sent: 15.7 KB    | Received: 0.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 4.0 KB
+vmnat.exe            - Sent: 0.0 B      | Received: 3.9 KB
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 2.7 KB
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 2.7 KB
+tailscaled.exe       - Sent: 1.2 KB     | Received: 738.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 246.0 B    | Received: 609.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 609.0 B    | Received: 246.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 684.0 B
+nvcontainer.exe      - Sent: 367.0 B    | Received: 0.0 B
+dell.d3.winsvc.exe   - Sent: 222.0 B    | Received: 0.0 B
+igoswserver.exe      - Sent: 0.0 B      | Received: 174.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+wlanext.exe          - Sent: 0.0 B      | Received: 84.0 B
+------------------------------------------------------------
+[2025-07-23 17:53]
+cursor.exe           - Sent: 137.2 MB   | Received: 126.1 MB
+Edge Browser         - Sent: 38.4 MB    | Received: 39.6 MB
+Chrome Browser       - Sent: 19.6 MB    | Received: 37.3 MB
+python.exe           - Sent: 96.2 KB    | Received: 6.4 MB
+svchost.exe          - Sent: 3.0 MB     | Received: 2.7 MB
+grammarly.desktop.exe - Sent: 428.3 KB   | Received: 113.8 KB
+spotify.exe          - Sent: 325.2 KB   | Received: 148.0 KB
+Discord              - Sent: 367.3 KB   | Received: 75.8 KB
+system               - Sent: 410.7 KB   | Received: 0.0 B
+msmpeng.exe          - Sent: 0.0 B      | Received: 231.5 KB
+occontrol.service.exe - Sent: 53.1 KB    | Received: 59.6 KB
+xtuservice.exe       - Sent: 59.5 KB    | Received: 53.0 KB
+searchindexer.exe    - Sent: 24.1 KB    | Received: 42.8 KB
+dwm.exe              - Sent: 0.0 B      | Received: 64.1 KB
+msedgewebview2.exe   - Sent: 39.1 KB    | Received: 3.3 KB
+registry             - Sent: 32.0 KB    | Received: 0.0 B
+conhost.exe          - Sent: 31.2 KB    | Received: 9.0 B
+awcc.scsubagent.exe  - Sent: 27.4 KB    | Received: 202.0 B
+awcc.ucsubagent.exe  - Sent: 1.2 KB     | Received: 23.2 KB
+nvidia overlay.exe   - Sent: 4.5 KB     | Received: 1.8 KB
+tailscaled.exe       - Sent: 993.0 B    | Received: 398.0 B
+igoswserver.exe      - Sent: 692.0 B    | Received: 692.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 1.3 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 1.2 KB
+ipf_helper.exe       - Sent: 1.2 KB     | Received: 0.0 B
+explorer.exe         - Sent: 255.0 B    | Received: 413.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 164.0 B    | Received: 406.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 406.0 B    | Received: 164.0 B
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 466.0 B
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 466.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 396.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 344.0 B
+nvcontainer.exe      - Sent: 304.0 B    | Received: 0.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 17:54]
+cursor.exe           - Sent: 34.1 MB    | Received: 27.9 MB
+Edge Browser         - Sent: 23.1 MB    | Received: 12.4 MB
+Chrome Browser       - Sent: 1.4 MB     | Received: 16.2 MB
+python.exe           - Sent: 156.0 KB   | Received: 6.4 MB
+svchost.exe          - Sent: 2.7 MB     | Received: 1.8 MB
+nvidia overlay.exe   - Sent: 2.8 KB     | Received: 1.6 MB
+msedgewebview2.exe   - Sent: 679.4 KB   | Received: 893.5 KB
+spotify.exe          - Sent: 450.2 KB   | Received: 228.3 KB
+grammarly.desktop.exe - Sent: 477.2 KB   | Received: 148.2 KB
+system               - Sent: 580.9 KB   | Received: 0.0 B
+Discord              - Sent: 183.9 KB   | Received: 132.4 KB
+msmpeng.exe          - Sent: 0.0 B      | Received: 231.5 KB
+registry             - Sent: 152.0 KB   | Received: 0.0 B
+xtuservice.exe       - Sent: 49.8 KB    | Received: 44.4 KB
+occontrol.service.exe - Sent: 44.4 KB    | Received: 49.8 KB
+searchindexer.exe    - Sent: 24.1 KB    | Received: 42.8 KB
+textinputhost.exe    - Sent: 213.0 B    | Received: 62.0 KB
+dell.techhub.datamanager.subagent.exe - Sent: 12.2 KB    | Received: 45.4 KB
+dwm.exe              - Sent: 0.0 B      | Received: 55.1 KB
+awcc.ucsubagent.exe  - Sent: 2.7 KB     | Received: 35.1 KB
+awcc.scsubagent.exe  - Sent: 35.2 KB    | Received: 404.0 B
+conhost.exe          - Sent: 25.2 KB    | Received: 21.0 B
+explorer.exe         - Sent: 3.0 KB     | Received: 10.9 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 3.6 KB
+ipf_helper.exe       - Sent: 3.5 KB     | Received: 0.0 B
+dell.techhub.instrumentation.subagent.exe - Sent: 1.5 KB     | Received: 289.0 B
+tailscaled.exe       - Sent: 993.0 B    | Received: 698.0 B
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 929.0 B
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 929.0 B
+igoswserver.exe      - Sent: 346.0 B    | Received: 520.0 B
+vmnetdhcp.exe        - Sent: 0.0 B      | Received: 844.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 758.0 B
+dellsupportassistremedationservice.exe - Sent: 0.0 B      | Received: 646.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 420.0 B
+nvcontainer.exe      - Sent: 367.0 B    | Received: 0.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 203.0 B    | Received: 82.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+------------------------------------------------------------
+[2025-07-23 20:30]
+cls-srep_x64.exe     - Sent: 4.1 GB     | Received: 3.7 GB
+setup.tmp            - Sent: 1.6 GB     | Received: 384.0 MB
+xtool1.exe           - Sent: 384.0 MB   | Received: 1.2 GB
+dell.techhub.datamanager.subagent.exe - Sent: 174.7 KB   | Received: 284.8 MB
+cmd.exe              - Sent: 0.0 B      | Received: 134.3 MB
+Edge Browser         - Sent: 27.6 MB    | Received: 22.9 MB
+svchost.exe          - Sent: 37.6 MB    | Received: 4.1 MB
+cursor.exe           - Sent: 20.3 MB    | Received: 17.5 MB
+msedgewebview2.exe   - Sent: 4.6 MB     | Received: 5.0 MB
+system               - Sent: 2.3 MB     | Received: 7.3 MB
+python.exe           - Sent: 262.7 KB   | Received: 4.8 MB
+spotify.exe          - Sent: 740.4 KB   | Received: 1.4 MB
+widgets.exe          - Sent: 1.8 MB     | Received: 37.4 KB
+Discord              - Sent: 339.4 KB   | Received: 169.5 KB
+grammarly.desktop.exe - Sent: 287.8 KB   | Received: 75.3 KB
+supportassistagent.exe - Sent: 249.2 KB   | Received: 92.5 KB
+msmpeng.exe          - Sent: 0.0 B      | Received: 231.5 KB
+taskhostw.exe        - Sent: 165.0 KB   | Received: 3.5 KB
+awcc.scsubagent.exe  - Sent: 163.6 KB   | Received: 202.0 B
+awcc.ucsubagent.exe  - Sent: 1.2 KB     | Received: 162.5 KB
+registry             - Sent: 156.0 KB   | Received: 0.0 B
+xtuservice.exe       - Sent: 68.4 KB    | Received: 60.9 KB
+occontrol.service.exe - Sent: 60.8 KB    | Received: 68.4 KB
+searchindexer.exe    - Sent: 16.1 KB    | Received: 31.5 KB
+dwm.exe              - Sent: 0.0 B      | Received: 41.8 KB
+dell.techhub.instrumentation.subagent.exe - Sent: 19.4 KB    | Received: 3.2 KB
+dell.techhub.analytics.subagent.exe - Sent: 10.6 KB    | Received: 8.7 KB
+conhost.exe          - Sent: 13.7 KB    | Received: 9.0 B
+explorer.exe         - Sent: 7.7 KB     | Received: 5.4 KB
+nvidia overlay.exe   - Sent: 3.4 KB     | Received: 416.0 B
+vmnat.exe            - Sent: 0.0 B      | Received: 3.7 KB
+vmnetdhcp.exe        - Sent: 768.0 B    | Received: 2.1 KB
+tailscaled.exe       - Sent: 993.0 B    | Received: 698.0 B
+audiodg.exe          - Sent: 0.0 B      | Received: 1.5 KB
+wudfhost.exe         - Sent: 0.0 B      | Received: 1.0 KB
+ipf_helper.exe       - Sent: 962.0 B    | Received: 0.0 B
+csrss.exe            - Sent: 0.0 B      | Received: 792.0 B
+alienfxsubagent.exe  - Sent: 0.0 B      | Received: 465.0 B
+awperformance.ucsubagent.exe - Sent: 0.0 B      | Received: 465.0 B
+igoswserver.exe      - Sent: 174.0 B    | Received: 174.0 B
+nvcontainer.exe      - Sent: 304.0 B    | Received: 0.0 B
+dell.techhub.instrumentation.userprocess.exe - Sent: 203.0 B    | Received: 82.0 B
+serviceshell.exe     - Sent: 85.0 B     | Received: 0.0 B
+wlanext.exe          - Sent: 0.0 B      | Received: 84.0 B
+------------------------------------------------------------

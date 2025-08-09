@@ -1,0 +1,1977 @@
+{
+  "visits": [
+    {
+      "browser": "Edge",
+      "website": "Untitled and 1 more page",
+      "title": "MANGO TREE - Login and 1 more page - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-22 15:56:45",
+      "end_time": "2025-07-22 15:56:47",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE",
+      "title": "MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-22 15:56:47",
+      "end_time": "2025-07-22 15:57:03",
+      "duration_seconds": 16,
+      "duration_formatted": "16s",
+      "total_duration_seconds": 16,
+      "total_duration_formatted": "16s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-22 15:57:03",
+      "end_time": "2025-07-22 15:57:07",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Untitled",
+      "title": "MANGO TREE - Login - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 14:37:34",
+      "end_time": "2025-07-23 14:37:36",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE",
+      "title": "MANGO TREE Monitor - hello - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 14:37:36",
+      "end_time": "2025-07-23 14:37:40",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 20,
+      "total_duration_formatted": "20s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 14:37:40",
+      "end_time": "2025-07-23 14:37:54",
+      "duration_seconds": 14,
+      "duration_formatted": "14s",
+      "total_duration_seconds": 18,
+      "total_duration_formatted": "18s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:16:59",
+      "end_time": "2025-07-23 15:17:06",
+      "duration_seconds": 7,
+      "duration_formatted": "7s",
+      "total_duration_seconds": 7,
+      "total_duration_formatted": "7s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": null,
+      "start_time": "2025-07-23 15:17:06",
+      "end_time": "2025-07-23 15:17:08",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Your Authtoken",
+      "title": "",
+      "start_time": "2025-07-23 15:18:33",
+      "end_time": "2025-07-23 15:18:35",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Unknown",
+      "title": "New Tab - Google Chrome",
+      "start_time": "2025-07-23 15:18:35",
+      "end_time": "2025-07-23 15:18:39",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "New Tab",
+      "title": "email - Google Search - Google Chrome",
+      "start_time": "2025-07-23 15:18:39",
+      "end_time": "2025-07-23 15:18:41",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "email",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:18:41",
+      "end_time": "2025-07-23 15:18:44",
+      "duration_seconds": 3,
+      "duration_formatted": "3s",
+      "total_duration_seconds": 3,
+      "total_duration_formatted": "3s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": "Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:18:44",
+      "end_time": "2025-07-23 15:18:46",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": "Your Authtoken - ngrok - Google Chrome",
+      "start_time": "2025-07-23 15:18:46",
+      "end_time": "2025-07-23 15:18:48",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 9,
+      "total_duration_formatted": "9s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Your Authtoken",
+      "title": "",
+      "start_time": "2025-07-23 15:18:48",
+      "end_time": "2025-07-23 15:18:50",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Unknown",
+      "title": "New Tab - Google Chrome",
+      "start_time": "2025-07-23 15:18:50",
+      "end_time": "2025-07-23 15:18:52",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 6,
+      "total_duration_formatted": "6s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "New Tab",
+      "title": "email - Google Search - Google Chrome",
+      "start_time": "2025-07-23 15:18:52",
+      "end_time": "2025-07-23 15:18:54",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "email",
+      "title": "Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:18:54",
+      "end_time": "2025-07-23 15:18:56",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 5,
+      "total_duration_formatted": "5s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": null,
+      "start_time": "2025-07-23 15:18:56",
+      "end_time": "2025-07-23 15:18:58",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 11,
+      "total_duration_formatted": "11s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": null,
+      "start_time": "2025-07-23 15:20:50",
+      "end_time": "2025-07-23 15:21:00",
+      "duration_seconds": 10,
+      "duration_formatted": "10s",
+      "total_duration_seconds": 21,
+      "total_duration_formatted": "21s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:39:39",
+      "end_time": "2025-07-23 15:39:41",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 23,
+      "total_duration_formatted": "23s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": "Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:39:41",
+      "end_time": "2025-07-23 15:39:44",
+      "duration_seconds": 3,
+      "duration_formatted": "3s",
+      "total_duration_seconds": 7,
+      "total_duration_formatted": "7s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": null,
+      "start_time": "2025-07-23 15:39:44",
+      "end_time": "2025-07-23 15:39:48",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 27,
+      "total_duration_formatted": "27s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (2)",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:42:45",
+      "end_time": "2025-07-23 15:42:47",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": null,
+      "start_time": "2025-07-23 15:42:47",
+      "end_time": "2025-07-23 15:42:49",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 9,
+      "total_duration_formatted": "9s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Test Configuration",
+      "title": "Inbox (4) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:57:02",
+      "end_time": "2025-07-23 15:57:04",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (4)",
+      "title": "Monitor Setup - 2025-07-23 15:56:53 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:57:04",
+      "end_time": "2025-07-23 15:57:07",
+      "duration_seconds": 3,
+      "duration_formatted": "3s",
+      "total_duration_seconds": 3,
+      "total_duration_formatted": "3s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Setup",
+      "title": "Inbox (3) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:57:07",
+      "end_time": "2025-07-23 15:57:21",
+      "duration_seconds": 14,
+      "duration_formatted": "14s",
+      "total_duration_seconds": 14,
+      "total_duration_formatted": "14s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (4)",
+      "title": "hello - 2025-07-23 15:59:25 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:59:33",
+      "end_time": "2025-07-23 15:59:37",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 7,
+      "total_duration_formatted": "7s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "hello",
+      "title": null,
+      "start_time": "2025-07-23 15:59:37",
+      "end_time": "2025-07-23 15:59:45",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 8,
+      "total_duration_formatted": "8s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (3)",
+      "title": "Test Configuration - 2025-07-23 15:53:55 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:59:57",
+      "end_time": "2025-07-23 15:59:59",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Test Configuration",
+      "title": "Inbox (3) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 15:59:59",
+      "end_time": "2025-07-23 16:00:01",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (3)",
+      "title": "MANGO TREE - Login - Google Chrome",
+      "start_time": "2025-07-23 16:00:01",
+      "end_time": "2025-07-23 16:00:03",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-07-23 16:00:03",
+      "end_time": "2025-07-23 16:00:12",
+      "duration_seconds": 9,
+      "duration_formatted": "9s",
+      "total_duration_seconds": 29,
+      "total_duration_formatted": "29s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:00:12",
+      "end_time": "2025-07-23 16:00:30",
+      "duration_seconds": 18,
+      "duration_formatted": "18s",
+      "total_duration_seconds": 36,
+      "total_duration_formatted": "36s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:00:32",
+      "end_time": "2025-07-23 16:00:34",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 38,
+      "total_duration_formatted": "38s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "hello",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 16:05:40",
+      "end_time": "2025-07-23 16:05:42",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 10,
+      "total_duration_formatted": "10s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": "Inbox (4) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 16:05:42",
+      "end_time": "2025-07-23 16:05:44",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 11,
+      "total_duration_formatted": "11s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (4)",
+      "title": "Untitled - Google Chrome",
+      "start_time": "2025-07-23 16:05:44",
+      "end_time": "2025-07-23 16:05:46",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 9,
+      "total_duration_formatted": "9s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Untitled",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-07-23 16:05:46",
+      "end_time": "2025-07-23 16:05:49",
+      "duration_seconds": 3,
+      "duration_formatted": "3s",
+      "total_duration_seconds": 5,
+      "total_duration_formatted": "5s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": "hello - 2025-07-23 16:05:31 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 16:05:49",
+      "end_time": "2025-07-23 16:06:05",
+      "duration_seconds": 16,
+      "duration_formatted": "16s",
+      "total_duration_seconds": 54,
+      "total_duration_formatted": "54s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "hello",
+      "title": "Untitled - Google Chrome",
+      "start_time": "2025-07-23 16:06:05",
+      "end_time": "2025-07-23 16:06:07",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 12,
+      "total_duration_formatted": "12s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Untitled",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-07-23 16:06:07",
+      "end_time": "2025-07-23 16:06:09",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 7,
+      "total_duration_formatted": "7s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:06:09",
+      "end_time": "2025-07-23 16:06:36",
+      "duration_seconds": 27,
+      "duration_formatted": "27s",
+      "total_duration_seconds": 81,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE",
+      "title": "MANGO TREE Monitor - hello - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 16:09:47",
+      "end_time": "2025-07-23 16:10:11",
+      "duration_seconds": 24,
+      "duration_formatted": "24s",
+      "total_duration_seconds": 53,
+      "total_duration_formatted": "53s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:10:11",
+      "end_time": "2025-07-23 16:10:24",
+      "duration_seconds": 13,
+      "duration_formatted": "13s",
+      "total_duration_seconds": 94,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:12:49",
+      "end_time": "2025-07-23 16:12:57",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 102,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:16:37",
+      "end_time": "2025-07-23 16:17:02",
+      "duration_seconds": 25,
+      "duration_formatted": "25s",
+      "total_duration_seconds": 127,
+      "total_duration_formatted": "2m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:17:06",
+      "end_time": "2025-07-23 16:17:30",
+      "duration_seconds": 24,
+      "duration_formatted": "24s",
+      "total_duration_seconds": 151,
+      "total_duration_formatted": "2m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:17:54",
+      "end_time": "2025-07-23 16:18:25",
+      "duration_seconds": 31,
+      "duration_formatted": "31s",
+      "total_duration_seconds": 182,
+      "total_duration_formatted": "3m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:18:29",
+      "end_time": "2025-07-23 16:18:31",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 184,
+      "total_duration_formatted": "3m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:22:20",
+      "end_time": "2025-07-23 16:22:30",
+      "duration_seconds": 10,
+      "duration_formatted": "10s",
+      "total_duration_seconds": 194,
+      "total_duration_formatted": "3m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:22:38",
+      "end_time": "2025-07-23 16:23:08",
+      "duration_seconds": 30,
+      "duration_formatted": "30s",
+      "total_duration_seconds": 224,
+      "total_duration_formatted": "3m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:23:16",
+      "end_time": "2025-07-23 16:23:36",
+      "duration_seconds": 20,
+      "duration_formatted": "20s",
+      "total_duration_seconds": 244,
+      "total_duration_formatted": "4m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:26:18",
+      "end_time": "2025-07-23 16:26:24",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 250,
+      "total_duration_formatted": "4m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:26:40",
+      "end_time": "2025-07-23 16:27:32",
+      "duration_seconds": 52,
+      "duration_formatted": "52s",
+      "total_duration_seconds": 302,
+      "total_duration_formatted": "5m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:31:04",
+      "end_time": "2025-07-23 16:31:22",
+      "duration_seconds": 18,
+      "duration_formatted": "18s",
+      "total_duration_seconds": 320,
+      "total_duration_formatted": "5m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:31:26",
+      "end_time": "2025-07-23 16:31:34",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 328,
+      "total_duration_formatted": "5m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:34:07",
+      "end_time": "2025-07-23 16:34:13",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 334,
+      "total_duration_formatted": "5m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:34:19",
+      "end_time": "2025-07-23 16:34:23",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 338,
+      "total_duration_formatted": "5m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:40:16",
+      "end_time": "2025-07-23 16:40:26",
+      "duration_seconds": 10,
+      "duration_formatted": "10s",
+      "total_duration_seconds": 348,
+      "total_duration_formatted": "5m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:40:28",
+      "end_time": "2025-07-23 16:40:30",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 350,
+      "total_duration_formatted": "5m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Untitled and 2 more pages",
+      "title": "MANGO TREE Monitor - hello and 2 more pages - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 16:41:44",
+      "end_time": "2025-07-23 16:41:46",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:41:46",
+      "end_time": "2025-07-23 16:42:19",
+      "duration_seconds": 33,
+      "duration_formatted": "33s",
+      "total_duration_seconds": 383,
+      "total_duration_formatted": "6m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:42:21",
+      "end_time": "2025-07-23 16:42:23",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 385,
+      "total_duration_formatted": "6m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:42:50",
+      "end_time": "2025-07-23 16:42:58",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 393,
+      "total_duration_formatted": "6m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 16:43:00",
+      "end_time": "2025-07-23 16:43:02",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 395,
+      "total_duration_formatted": "6m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (12)",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:11:46",
+      "end_time": "2025-07-23 17:11:48",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": "Inbox (12) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:11:48",
+      "end_time": "2025-07-23 17:11:50",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 13,
+      "total_duration_formatted": "13s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (12)",
+      "title": null,
+      "start_time": "2025-07-23 17:11:50",
+      "end_time": "2025-07-23 17:11:52",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (13)",
+      "title": "Monitor Test Email - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:15:19",
+      "end_time": "2025-07-23 17:15:21",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Test Email",
+      "title": "Inbox (12) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:15:21",
+      "end_time": "2025-07-23 17:15:31",
+      "duration_seconds": 10,
+      "duration_formatted": "10s",
+      "total_duration_seconds": 10,
+      "total_duration_formatted": "10s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (12)",
+      "title": null,
+      "start_time": "2025-07-23 17:15:31",
+      "end_time": "2025-07-23 17:15:33",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 6,
+      "total_duration_formatted": "6s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (12)",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:15:52",
+      "end_time": "2025-07-23 17:15:56",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 10,
+      "total_duration_formatted": "10s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": "Inbox (13) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:15:56",
+      "end_time": "2025-07-23 17:15:58",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 15,
+      "total_duration_formatted": "15s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (13)",
+      "title": "Monitor Test Email - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:15:58",
+      "end_time": "2025-07-23 17:16:00",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Test Email",
+      "title": null,
+      "start_time": "2025-07-23 17:16:00",
+      "end_time": "2025-07-23 17:16:02",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 12,
+      "total_duration_formatted": "12s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Test Email",
+      "title": "Monitor Access Details - hello - 2025-07-23 17:18:18 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:18:27",
+      "end_time": "2025-07-23 17:18:29",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 14,
+      "total_duration_formatted": "14s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-07-23 17:18:29",
+      "end_time": "2025-07-23 17:18:44",
+      "duration_seconds": 15,
+      "duration_formatted": "15s",
+      "total_duration_seconds": 15,
+      "total_duration_formatted": "15s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": "Monitor Access Details - hello - 2025-07-23 17:18:18 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:18:44",
+      "end_time": "2025-07-23 17:18:47",
+      "duration_seconds": 3,
+      "duration_formatted": "3s",
+      "total_duration_seconds": 398,
+      "total_duration_formatted": "6m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": null,
+      "start_time": "2025-07-23 17:18:47",
+      "end_time": "2025-07-23 17:18:49",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 17,
+      "total_duration_formatted": "17s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "Inbox (13) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:21:16",
+      "end_time": "2025-07-23 17:21:18",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 19,
+      "total_duration_formatted": "19s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (13)",
+      "title": "Monitor Access Details - hello - 2025-07-23 17:21:04 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:21:18",
+      "end_time": "2025-07-23 17:21:20",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 6,
+      "total_duration_formatted": "6s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-07-23 17:21:20",
+      "end_time": "2025-07-23 17:21:22",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 21,
+      "total_duration_formatted": "21s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": "Monitor Access Details - hello - 2025-07-23 17:21:04 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:21:22",
+      "end_time": "2025-07-23 17:21:28",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 404,
+      "total_duration_formatted": "6m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-07-23 17:21:28",
+      "end_time": "2025-07-23 17:21:33",
+      "duration_seconds": 5,
+      "duration_formatted": "5s",
+      "total_duration_seconds": 26,
+      "total_duration_formatted": "26s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": "Monitor Access Details - hello - 2025-07-23 17:21:04 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:21:33",
+      "end_time": "2025-07-23 17:21:35",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 406,
+      "total_duration_formatted": "6m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": null,
+      "start_time": "2025-07-23 17:21:35",
+      "end_time": "2025-07-23 17:21:37",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 28,
+      "total_duration_formatted": "28s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Mango Tree Monitor",
+      "title": null,
+      "start_time": "2025-07-23 17:29:16",
+      "end_time": "2025-07-23 17:29:32",
+      "duration_seconds": 16,
+      "duration_formatted": "16s",
+      "total_duration_seconds": 16,
+      "total_duration_formatted": "16s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": "Inbox (12) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:29:36",
+      "end_time": "2025-07-23 17:29:38",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 17,
+      "total_duration_formatted": "17s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (12)",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:29:38",
+      "end_time": "2025-07-23 17:29:40",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 12,
+      "total_duration_formatted": "12s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": null,
+      "start_time": "2025-07-23 17:29:40",
+      "end_time": "2025-07-23 17:29:42",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 19,
+      "total_duration_formatted": "19s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Auth | Cursor",
+      "title": "",
+      "start_time": "2025-07-23 17:33:37",
+      "end_time": "2025-07-23 17:33:39",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Unknown",
+      "title": "New Tab - Google Chrome",
+      "start_time": "2025-07-23 17:33:39",
+      "end_time": "2025-07-23 17:33:41",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 8,
+      "total_duration_formatted": "8s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "New Tab",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:33:41",
+      "end_time": "2025-07-23 17:33:43",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 6,
+      "total_duration_formatted": "6s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": "Inbox (12) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:33:43",
+      "end_time": "2025-07-23 17:33:45",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 21,
+      "total_duration_formatted": "21s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (12)",
+      "title": "Auth | Cursor - The AI Code Editor - Google Chrome",
+      "start_time": "2025-07-23 17:33:45",
+      "end_time": "2025-07-23 17:33:49",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 16,
+      "total_duration_formatted": "16s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Auth | Cursor",
+      "title": null,
+      "start_time": "2025-07-23 17:33:49",
+      "end_time": "2025-07-23 17:33:51",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 17:33:55",
+      "end_time": "2025-07-23 17:34:03",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 8,
+      "total_duration_formatted": "8s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 17:34:03",
+      "end_time": "2025-07-23 17:34:09",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 412,
+      "total_duration_formatted": "6m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 17:34:14",
+      "end_time": "2025-07-23 17:34:36",
+      "duration_seconds": 22,
+      "duration_formatted": "22s",
+      "total_duration_seconds": 434,
+      "total_duration_formatted": "7m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": "Login - Mango Tree Monitor - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 17:37:24",
+      "end_time": "2025-07-23 17:37:32",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 442,
+      "total_duration_formatted": "7m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 17:37:32",
+      "end_time": "2025-07-23 17:37:38",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 14,
+      "total_duration_formatted": "14s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 17:37:38",
+      "end_time": "2025-07-23 17:37:51",
+      "duration_seconds": 13,
+      "duration_formatted": "13s",
+      "total_duration_seconds": 455,
+      "total_duration_formatted": "7m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 17:38:09",
+      "end_time": "2025-07-23 17:38:15",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 461,
+      "total_duration_formatted": "7m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 17:38:29",
+      "end_time": "2025-07-23 17:38:37",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 469,
+      "total_duration_formatted": "7m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (12)",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 17:39:04",
+      "end_time": "2025-07-23 17:39:06",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 18,
+      "total_duration_formatted": "18s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 17:52:30",
+      "end_time": "2025-07-23 17:52:36",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 20,
+      "total_duration_formatted": "20s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 17:52:36",
+      "end_time": "2025-07-23 17:53:06",
+      "duration_seconds": 30,
+      "duration_formatted": "30s",
+      "total_duration_seconds": 499,
+      "total_duration_formatted": "8m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 17:53:54",
+      "end_time": "2025-07-23 17:54:00",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 26,
+      "total_duration_formatted": "26s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 17:54:00",
+      "end_time": "2025-07-23 17:54:10",
+      "duration_seconds": 10,
+      "duration_formatted": "10s",
+      "total_duration_seconds": 509,
+      "total_duration_formatted": "8m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello and 1 more page - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 20:29:48",
+      "end_time": "2025-07-23 20:29:54",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 32,
+      "total_duration_formatted": "32s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 20:29:54",
+      "end_time": "2025-07-23 20:30:31",
+      "duration_seconds": 37,
+      "duration_formatted": "37s",
+      "total_duration_seconds": 546,
+      "total_duration_formatted": "9m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello and 2 more pages - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 20:34:10",
+      "end_time": "2025-07-23 20:34:16",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 38,
+      "total_duration_formatted": "38s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 20:34:16",
+      "end_time": "2025-07-23 20:34:39",
+      "duration_seconds": 23,
+      "duration_formatted": "23s",
+      "total_duration_seconds": 569,
+      "total_duration_formatted": "9m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello and 3 more pages - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 20:35:56",
+      "end_time": "2025-07-23 20:36:02",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 44,
+      "total_duration_formatted": "44s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 20:36:02",
+      "end_time": "2025-07-23 20:36:40",
+      "duration_seconds": 38,
+      "duration_formatted": "38s",
+      "total_duration_seconds": 607,
+      "total_duration_formatted": "10m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello and 4 more pages - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 20:40:26",
+      "end_time": "2025-07-23 20:40:34",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 52,
+      "total_duration_formatted": "52s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 20:40:34",
+      "end_time": "2025-07-23 20:41:06",
+      "duration_seconds": 32,
+      "duration_formatted": "32s",
+      "total_duration_seconds": 639,
+      "total_duration_formatted": "10m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Untitled",
+      "title": "Login - Mango Tree Monitor - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 20:44:38",
+      "end_time": "2025-07-23 20:44:40",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 9,
+      "total_duration_formatted": "9s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 20:44:40",
+      "end_time": "2025-07-23 20:44:43",
+      "duration_seconds": 3,
+      "duration_formatted": "3s",
+      "total_duration_seconds": 55,
+      "total_duration_formatted": "55s total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 20:44:43",
+      "end_time": "2025-07-23 20:45:01",
+      "duration_seconds": 18,
+      "duration_formatted": "18s",
+      "total_duration_seconds": 657,
+      "total_duration_formatted": "10m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Personal - Microsoft\u200b Edge",
+      "start_time": "2025-07-23 20:47:39",
+      "end_time": "2025-07-23 20:47:45",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 61,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Edge",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-07-23 20:47:45",
+      "end_time": "2025-07-23 20:48:02",
+      "duration_seconds": 17,
+      "duration_formatted": "17s",
+      "total_duration_seconds": 674,
+      "total_duration_formatted": "11m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 20:51:30",
+      "end_time": "2025-07-23 20:51:32",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 29,
+      "total_duration_formatted": "29s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": null,
+      "start_time": "2025-07-23 20:51:32",
+      "end_time": "2025-07-23 20:51:34",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 23,
+      "total_duration_formatted": "23s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Google Chrome",
+      "title": "New Tab - Google Chrome",
+      "start_time": "2025-07-23 20:55:16",
+      "end_time": "2025-07-23 20:55:18",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "New Tab",
+      "title": "email - Google Search - Google Chrome",
+      "start_time": "2025-07-23 20:55:18",
+      "end_time": "2025-07-23 20:55:23",
+      "duration_seconds": 5,
+      "duration_formatted": "5s",
+      "total_duration_seconds": 11,
+      "total_duration_formatted": "11s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "email",
+      "title": "Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 20:55:23",
+      "end_time": "2025-07-23 20:55:51",
+      "duration_seconds": 28,
+      "duration_formatted": "28s",
+      "total_duration_seconds": 33,
+      "total_duration_formatted": "33s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (1)",
+      "title": "Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 20:55:51",
+      "end_time": "2025-07-23 20:55:57",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 6,
+      "total_duration_formatted": "6s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": null,
+      "start_time": "2025-07-23 20:55:57",
+      "end_time": "2025-07-23 20:56:03",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 34,
+      "total_duration_formatted": "34s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "New Tab",
+      "title": "email - Google Search - Google Chrome",
+      "start_time": "2025-07-23 20:59:38",
+      "end_time": "2025-07-23 20:59:40",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 13,
+      "total_duration_formatted": "13s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "email",
+      "title": "Gmail - Google Chrome",
+      "start_time": "2025-07-23 20:59:40",
+      "end_time": "2025-07-23 20:59:42",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 35,
+      "total_duration_formatted": "35s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Gmail",
+      "title": "Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 20:59:42",
+      "end_time": "2025-07-23 20:59:44",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 25,
+      "total_duration_formatted": "25s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (1)",
+      "title": "Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-07-23 20:59:44",
+      "end_time": "2025-07-23 20:59:46",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 8,
+      "total_duration_formatted": "8s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": null,
+      "start_time": "2025-07-23 20:59:46",
+      "end_time": "2025-07-23 20:59:53",
+      "duration_seconds": 7,
+      "duration_formatted": "7s",
+      "total_duration_seconds": 41,
+      "total_duration_formatted": "41s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-05 13:14:51",
+      "end_time": "2025-08-05 13:14:59",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 69,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 13:14:59",
+      "end_time": "2025-08-05 13:16:43",
+      "duration_seconds": 104,
+      "duration_formatted": "1m 44s",
+      "total_duration_seconds": 778,
+      "total_duration_formatted": "12m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 13:25:47",
+      "end_time": "2025-08-05 13:26:21",
+      "duration_seconds": 34,
+      "duration_formatted": "34s",
+      "total_duration_seconds": 812,
+      "total_duration_formatted": "13m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 13:27:22",
+      "end_time": "2025-08-05 13:27:24",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 814,
+      "total_duration_formatted": "13m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 13:27:40",
+      "end_time": "2025-08-05 13:27:52",
+      "duration_seconds": 12,
+      "duration_formatted": "12s",
+      "total_duration_seconds": 826,
+      "total_duration_formatted": "13m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 13:28:55",
+      "end_time": "2025-08-05 13:29:09",
+      "duration_seconds": 14,
+      "duration_formatted": "14s",
+      "total_duration_seconds": 840,
+      "total_duration_formatted": "14m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-05 13:35:42",
+      "end_time": "2025-08-05 13:35:48",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 75,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 13:35:48",
+      "end_time": "2025-08-05 13:36:16",
+      "duration_seconds": 28,
+      "duration_formatted": "28s",
+      "total_duration_seconds": 868,
+      "total_duration_formatted": "14m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 13:36:34",
+      "end_time": "2025-08-05 13:37:30",
+      "duration_seconds": 56,
+      "duration_formatted": "56s",
+      "total_duration_seconds": 924,
+      "total_duration_formatted": "15m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-05 13:52:41",
+      "end_time": "2025-08-05 13:52:49",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 83,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 13:52:49",
+      "end_time": "2025-08-05 13:53:11",
+      "duration_seconds": 22,
+      "duration_formatted": "22s",
+      "total_duration_seconds": 946,
+      "total_duration_formatted": "15m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-05 15:50:59",
+      "end_time": "2025-08-05 15:51:05",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 89,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-05 15:51:05",
+      "end_time": "2025-08-05 15:51:07",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 948,
+      "total_duration_formatted": "15m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "ERR_NGROK_3004",
+      "title": "Monitor Access Details - Manisha01 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-05 15:51:09",
+      "end_time": "2025-08-05 15:51:11",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "ERR_NGROK_6024 - You are about to visit 0e3dde318679.ngrok-free.app, served by 103.113.65.218. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome",
+      "start_time": "2025-08-05 15:51:11",
+      "end_time": "2025-08-05 15:51:23",
+      "duration_seconds": 12,
+      "duration_formatted": "12s",
+      "total_duration_seconds": 53,
+      "total_duration_formatted": "53s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "ERR_NGROK_6024",
+      "title": "Login - Mango Tree Monitor - Google Chrome",
+      "start_time": "2025-08-05 15:51:23",
+      "end_time": "2025-08-05 15:51:25",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - Manisha01 - Google Chrome",
+      "start_time": "2025-08-05 15:51:25",
+      "end_time": "2025-08-05 15:51:29",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 93,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": "Monitor Access Details - Manisha01 - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-05 15:51:29",
+      "end_time": "2025-08-05 15:52:06",
+      "duration_seconds": 37,
+      "duration_formatted": "37s",
+      "total_duration_seconds": 985,
+      "total_duration_formatted": "16m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": null,
+      "start_time": "2025-08-05 15:52:06",
+      "end_time": "2025-08-05 15:52:08",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 55,
+      "total_duration_formatted": "55s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Untitled",
+      "title": "Login - Mango Tree Monitor - Google Chrome",
+      "start_time": "2025-08-05 16:23:50",
+      "end_time": "2025-08-05 16:23:52",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 11,
+      "total_duration_formatted": "11s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-05 16:23:52",
+      "end_time": "2025-08-05 16:23:54",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 95,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": "Your Authtoken - ngrok - Google Chrome",
+      "start_time": "2025-08-05 16:23:54",
+      "end_time": "2025-08-05 16:24:10",
+      "duration_seconds": 16,
+      "duration_formatted": "16s",
+      "total_duration_seconds": 1001,
+      "total_duration_formatted": "16m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Your Authtoken",
+      "title": null,
+      "start_time": "2025-08-05 16:24:10",
+      "end_time": "2025-08-05 16:24:13",
+      "duration_seconds": 3,
+      "duration_formatted": "3s",
+      "total_duration_seconds": 7,
+      "total_duration_formatted": "7s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-05 16:24:25",
+      "end_time": "2025-08-05 16:24:27",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 57,
+      "total_duration_formatted": "57s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (1)",
+      "title": "Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-05 16:24:27",
+      "end_time": "2025-08-05 16:24:29",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 10,
+      "total_duration_formatted": "10s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-05 16:24:29",
+      "end_time": "2025-08-05 16:24:31",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 59,
+      "total_duration_formatted": "59s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Untitled",
+      "title": "Login - Mango Tree Monitor - Google Chrome",
+      "start_time": "2025-08-05 19:49:00",
+      "end_time": "2025-08-05 19:49:02",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 13,
+      "total_duration_formatted": "13s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-05 19:49:02",
+      "end_time": "2025-08-05 19:49:04",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 97,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": "Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-05 19:49:04",
+      "end_time": "2025-08-05 19:49:10",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 1007,
+      "total_duration_formatted": "16m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (1)",
+      "title": "Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-05 19:49:10",
+      "end_time": "2025-08-05 19:49:12",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 12,
+      "total_duration_formatted": "12s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": null,
+      "start_time": "2025-08-05 19:49:12",
+      "end_time": "2025-08-05 19:49:14",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 61,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": null,
+      "start_time": "2025-08-05 19:55:38",
+      "end_time": "2025-08-05 19:56:22",
+      "duration_seconds": 44,
+      "duration_formatted": "44s",
+      "total_duration_seconds": 141,
+      "total_duration_formatted": "2m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": null,
+      "start_time": "2025-08-05 19:56:25",
+      "end_time": "2025-08-05 19:56:27",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 143,
+      "total_duration_formatted": "2m total"
+    }
+  ],
+  "total_durations": {
+    "Untitled and 1 more page": {
+      "seconds": 2,
+      "formatted": "2s total"
+    },
+    "MANGO TREE": {
+      "seconds": 53,
+      "formatted": "53s total"
+    },
+    "MANGO TREE Monitor": {
+      "seconds": 1007,
+      "formatted": "16m total"
+    },
+    "Untitled": {
+      "seconds": 13,
+      "formatted": "13s total"
+    },
+    "Inbox": {
+      "seconds": 29,
+      "formatted": "29s total"
+    },
+    "Gmail": {
+      "seconds": 25,
+      "formatted": "25s total"
+    },
+    "Your Authtoken": {
+      "seconds": 7,
+      "formatted": "7s total"
+    },
+    "Unknown": {
+      "seconds": 8,
+      "formatted": "8s total"
+    },
+    "New Tab": {
+      "seconds": 13,
+      "formatted": "13s total"
+    },
+    "email": {
+      "seconds": 35,
+      "formatted": "35s total"
+    },
+    "Inbox (2)": {
+      "seconds": 2,
+      "formatted": "2s total"
+    },
+    "Test Configuration": {
+      "seconds": 4,
+      "formatted": "4s total"
+    },
+    "Inbox (4)": {
+      "seconds": 9,
+      "formatted": "9s total"
+    },
+    "Monitor Setup": {
+      "seconds": 14,
+      "formatted": "14s total"
+    },
+    "hello": {
+      "seconds": 12,
+      "formatted": "12s total"
+    },
+    "Inbox (3)": {
+      "seconds": 4,
+      "formatted": "4s total"
+    },
+    "Untitled and 2 more pages": {
+      "seconds": 2,
+      "formatted": "2s total"
+    },
+    "Inbox (12)": {
+      "seconds": 18,
+      "formatted": "18s total"
+    },
+    "Inbox (13)": {
+      "seconds": 6,
+      "formatted": "6s total"
+    },
+    "Monitor Test Email": {
+      "seconds": 14,
+      "formatted": "14s total"
+    },
+    "Monitor Access Details": {
+      "seconds": 61,
+      "formatted": "1m total"
+    },
+    "Mango Tree Monitor": {
+      "seconds": 16,
+      "formatted": "16s total"
+    },
+    "Auth | Cursor": {
+      "seconds": 4,
+      "formatted": "4s total"
+    },
+    "Login": {
+      "seconds": 143,
+      "formatted": "2m total"
+    },
+    "Google Chrome": {
+      "seconds": 2,
+      "formatted": "2s total"
+    },
+    "Inbox (1)": {
+      "seconds": 12,
+      "formatted": "12s total"
+    },
+    "ERR_NGROK_3004": {
+      "seconds": 2,
+      "formatted": "2s total"
+    },
+    "ERR_NGROK_6024": {
+      "seconds": 2,
+      "formatted": "2s total"
+    }
+  }
+}
