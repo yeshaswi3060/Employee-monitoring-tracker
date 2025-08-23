@@ -126,7 +126,7 @@ class InternetMonitor:
                     pid_connections[conn.pid].append(conn)
             
             # Get network stats for each process
-            for proc in psutil.process_iter(['pid', 'name', 'connections']):
+            for proc in psutil.process_iter(['pid', 'name']):
                 try:
                     # Get process info
                     proc_info = proc.info
@@ -144,14 +144,13 @@ class InternetMonitor:
                     
                     # Get network stats using net_io_counters
                     try:
-                        net_io = psutil.Process(pid).connections()
-                        for conn in net_io:
-                            if conn.status == 'ESTABLISHED':
-                                # Use system-wide counters for the interface this connection is using
-                                for nic, stats in psutil.net_io_counters(pernic=True).items():
-                                    if nic != 'lo':  # Skip loopback
-                                        current_data[display_name]['sent'] += stats.bytes_sent
-                                        current_data[display_name]['recv'] += stats.bytes_recv
+                        # Check if process has network connections without using the connections attribute
+                        if pid in pid_connections:
+                            # Use system-wide counters for the interface this connection is using
+                            for nic, stats in psutil.net_io_counters(pernic=True).items():
+                                if nic != 'lo':  # Skip loopback
+                                    current_data[display_name]['sent'] += stats.bytes_sent
+                                    current_data[display_name]['recv'] += stats.bytes_recv
                     except (psutil.NoSuchProcess, psutil.AccessDenied):
                         continue
                     

@@ -3231,3 +3231,237 @@ Visit Duration: 2s
 Total Time on Site: 2m total
 End Time: 2025-08-05 19:56:27
 --------------------------------------------------------------------------------
+[2025-08-23 13:52:29] Chrome - Inbox (1)
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 14s total
+End Time: 2025-08-23 13:52:31
+--------------------------------------------------------------------------------
+[2025-08-23 13:52:31] Chrome - Monitor Access Details
+Title: Untitled - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-08-23 13:52:33
+--------------------------------------------------------------------------------
+[2025-08-23 13:52:33] Chrome - Untitled
+Title: ERR_NGROK_6024 - You are about to visit 7197b49f67ee.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 15s total
+End Time: 2025-08-23 13:52:35
+--------------------------------------------------------------------------------
+[2025-08-23 13:52:35] Chrome - ERR_NGROK_6024
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-08-23 13:52:37
+--------------------------------------------------------------------------------
+[2025-08-23 13:52:37] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 7s
+Total Time on Site: 2m total
+End Time: 2025-08-23 13:52:44
+--------------------------------------------------------------------------------
+[2025-08-23 13:52:44] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m 12s
+Total Time on Site: 17m total
+End Time: 2025-08-23 13:53:56
+--------------------------------------------------------------------------------
+[2025-08-23 13:54:10] Chrome - MANGO TREE Monitor
+Title: ERR_NGROK_3200 - The endpoint 7197b49f67ee.ngrok-free.app is offline. - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 18m total
+End Time: 2025-08-23 13:54:14
+--------------------------------------------------------------------------------
+[2025-08-23 13:54:14] Chrome - ERR_NGROK_3200
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-08-23 13:54:16
+--------------------------------------------------------------------------------
+[2025-08-23 13:54:16] Chrome - Monitor Access Details
+Title: Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-08-23 13:54:18
+--------------------------------------------------------------------------------
+[2025-08-23 13:54:18] Chrome - Inbox
+Title: None
+Visit Duration: 2s
+Total Time on Site: 31s total
+End Time: 2025-08-23 13:54:20
+--------------------------------------------------------------------------------
+[2025-08-23 13:54:36] Chrome - Inbox
+Title: 7197b49f67ee.ngrok-free.app - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 33s total
+End Time: 2025-08-23 13:54:38
+--------------------------------------------------------------------------------
+[2025-08-23 13:54:38] Chrome - 7197b49f67ee.ngrok
+Title: None
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-08-23 13:54:40
+--------------------------------------------------------------------------------
+[2025-08-23 15:02:49] Chrome - Google Chrome
+Title: New tab - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-08-23 15:02:51
+--------------------------------------------------------------------------------
+[2025-08-23 15:02:51] Chrome - New tab
+Title: email - Google Search - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-08-23 15:02:53
+--------------------------------------------------------------------------------
+[2025-08-23 15:02:53] Chrome - email
+Title: Inbox (2) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 37s total
+End Time: 2025-08-23 15:02:55
+--------------------------------------------------------------------------------
+[2025-08-23 15:02:55] Chrome - Inbox (2)
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 6s total
+End Time: 2025-08-23 15:02:59
+--------------------------------------------------------------------------------
+[2025-08-23 15:02:59] Chrome - Monitor Access Details
+Title: 69e5f777e74f.ngrok-free.app - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-08-23 15:03:01
+--------------------------------------------------------------------------------
+[2025-08-23 15:03:01] Chrome - 69e5f777e74f.ngrok
+Title: ERR_NGROK_6024 - You are about to visit 69e5f777e74f.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-08-23 15:03:03
+--------------------------------------------------------------------------------
+[2025-08-23 15:03:03] Chrome - ERR_NGROK_6024
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-08-23 15:03:05
+--------------------------------------------------------------------------------
+[2025-08-23 15:03:05] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 2m total
+End Time: 2025-08-23 15:03:11
+--------------------------------------------------------------------------------
+[2025-08-23 15:03:11] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 18m total
+End Time: 2025-08-23 15:03:21
+--------------------------------------------------------------------------------
+[2025-08-23 15:03:31] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 12s
+Total Time on Site: 18m total
+End Time: 2025-08-23 15:03:43
+--------------------------------------------------------------------------------
+[2025-08-23 15:03:45] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 12s
+Total Time on Site: 18m total
+End Time: 2025-08-23 15:03:57
+--------------------------------------------------------------------------------
+[2025-08-23 15:03:59] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 22s
+Total Time on Site: 18m total
+End Time: 2025-08-23 15:04:21
+--------------------------------------------------------------------------------
+[2025-08-23 15:04:41] Chrome - Monitor Access Details
+Title: Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-08-23 15:04:43
+--------------------------------------------------------------------------------
+[2025-08-23 15:15:44] Chrome - Inbox (1)
+Title: 3cf086f11efc.ngrok-free.app - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 16s total
+End Time: 2025-08-23 15:15:46
+--------------------------------------------------------------------------------
+[2025-08-23 15:15:46] Chrome - 3cf086f11efc.ngrok
+Title: ERR_NGROK_6024 - You are about to visit 3cf086f11efc.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-08-23 15:15:48
+--------------------------------------------------------------------------------
+[2025-08-23 15:15:48] Chrome - ERR_NGROK_6024
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 8s total
+End Time: 2025-08-23 15:15:50
+--------------------------------------------------------------------------------
+[2025-08-23 15:15:50] Chrome - Login
+Title: 3cf086f11efc.ngrok-free.app/dashboard - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 2m total
+End Time: 2025-08-23 15:15:56
+--------------------------------------------------------------------------------
+[2025-08-23 15:15:56] Chrome - 3cf086f11efc.ngrok
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 3s
+Total Time on Site: 5s total
+End Time: 2025-08-23 15:15:59
+--------------------------------------------------------------------------------
+[2025-08-23 15:15:59] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 1m
+Total Time on Site: 19m total
+End Time: 2025-08-23 15:16:59
+--------------------------------------------------------------------------------
+[2025-08-23 15:17:09] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 20s
+Total Time on Site: 20m total
+End Time: 2025-08-23 15:17:29
+--------------------------------------------------------------------------------
+[2025-08-23 15:17:55] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 8s
+Total Time on Site: 20m total
+End Time: 2025-08-23 15:18:03
+--------------------------------------------------------------------------------
+[2025-08-23 15:21:08] Chrome - Monitor Access Details
+Title: ERR_NGROK_6024 - You are about to visit 0bc214b7dd52.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 1m total
+End Time: 2025-08-23 15:21:12
+--------------------------------------------------------------------------------
+[2025-08-23 15:21:12] Chrome - ERR_NGROK_6024
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 5s
+Total Time on Site: 13s total
+End Time: 2025-08-23 15:21:17
+--------------------------------------------------------------------------------
+[2025-08-23 15:21:17] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 2m total
+End Time: 2025-08-23 15:21:21
+--------------------------------------------------------------------------------
+[2025-08-23 15:21:21] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 20m total
+End Time: 2025-08-23 15:21:31
+--------------------------------------------------------------------------------
+[2025-08-23 15:21:37] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 20m total
+End Time: 2025-08-23 15:21:47
+--------------------------------------------------------------------------------
+[2025-08-23 15:22:05] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 21m total
+End Time: 2025-08-23 15:22:19
+--------------------------------------------------------------------------------

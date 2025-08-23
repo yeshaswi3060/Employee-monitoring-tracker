@@ -143,7 +143,13 @@ class AppUsageTracker:
                 window_title = win32gui.GetWindowText(hwnd)
                 
                 # Skip system processes that shouldn't be tracked
-                if process_name in ['explorer.exe', 'dwm.exe', 'taskmgr.exe', 'control.exe']:
+                system_processes = [
+                    'explorer.exe', 'dwm.exe', 'taskmgr.exe', 'control.exe', 
+                    'sihost.exe', 'ctfmon.exe', 'dllhost.exe', 'conhost.exe',
+                    'csrss.exe', 'winlogon.exe', 'services.exe', 'lsass.exe',
+                    'wininit.exe', 'spoolsv.exe', 'svchost.exe', 'rundll32.exe'
+                ]
+                if process_name in system_processes:
                     return None, None, None, None
                 
                 # Special handling for Discord and similar apps
@@ -256,7 +262,7 @@ class AppUsageTracker:
                     
             # Use cleaned process name as fallback
             clean_name = process_name.replace('.exe', '').title()
-            if clean_name not in ['Explorer', 'Dwm', 'Taskmgr', 'Control']:
+            if clean_name not in ['Explorer', 'Dwm', 'Taskmgr', 'Control', 'Sihost', 'Ctfmon', 'Dllhost']:
                 return clean_name
                 
             return "Unknown Application"
@@ -270,31 +276,48 @@ class AppUsageTracker:
         last_save = time.time()
         last_app = None
         app_change_count = 0
+        session_start_time = time.time()
         
         while self.running:
             try:
                 current_time = time.time()
                 current_app = self.get_active_window_name()
                 
-                # Only track if there's an active window and it changed
-                if current_app not in ["No Active Window", "Unknown Application"]:
-                    time_diff = current_time - self.last_update_time
+                # Calculate time difference since last update
+                time_diff = current_time - self.last_update_time
+                
+                # Validate time difference (ignore system sleep/hibernate)
+                if 0 < time_diff < 60:  # Max 60 seconds between updates
                     
-                    # Validate time difference (ignore system sleep/hibernate)
-                    if 0 < time_diff < 60:  # Max 60 seconds between updates
-                        # If app changed, log the change
-                        if current_app != last_app:
-                            app_change_count += 1
-                            self.logger.info(f"App changed ({app_change_count}): {last_app} -> {current_app}")
-                            
+                    # If app changed, save time for the previous app
+                    if current_app != last_app and last_app and last_app not in ["No Active Window", "Unknown Application", "File Explorer"]:
+                        app_change_count += 1
+                        self.logger.info(f"App changed ({app_change_count}): {last_app} -> {current_app} (time: {time_diff:.1f}s)")
+                        
+                        # Save time for the previous app
+                        self.app_usage[last_app] += time_diff
+                        self.logger.info(f"Updated {last_app}: {self.app_usage[last_app]:.1f}s total")
+                        
+                        # Save data when app changes
+                        self.write_log()
+                        self.save_usage_data()
+                        last_save = current_time
+                    
+                    # If same app, accumulate time (but only if it's a trackable app)
+                    elif current_app == last_app and current_app not in ["No Active Window", "Unknown Application", "File Explorer"]:
                         self.app_usage[current_app] += time_diff
                         
-                        # Save data every 2 minutes or when app changes
-                        if current_time - last_save >= 120 or current_app != last_app:
+                        # Debug: Log every 30 seconds for the same app
+                        if int(current_time) % 30 == 0 and int(self.last_update_time) != int(current_time):
+                            self.logger.info(f"Same app {current_app}: {self.app_usage[current_app]:.1f}s total")
+                        
+                        # Save data every 2 minutes
+                        if current_time - last_save >= 120:
                             self.write_log()
                             self.save_usage_data()
                             last_save = current_time
-                            
+                
+                # Update tracking variables
                 last_app = current_app
                 self.last_update_time = current_time
                 
@@ -305,13 +328,19 @@ class AppUsageTracker:
             
     def format_time(self, seconds):
         """Format time duration for display"""
+        if seconds < 1:
+            return "Less than a minute"
+            
         hours = int(seconds // 3600)
         minutes = int((seconds % 3600) // 60)
+        secs = int(seconds % 60)
         
         if hours > 0:
             return f"{hours} hours {minutes} minutes"
         elif minutes > 0:
             return f"{minutes} minutes"
+        elif secs > 0:
+            return f"{secs} seconds"
         return "Less than a minute"
             
     def write_log(self):
@@ -319,6 +348,15 @@ class AppUsageTracker:
         try:
             current_date = datetime.now().strftime("%Y-%m-%d")
             log_file = os.path.join(self.log_dir, "app_usage_log.txt")
+            
+            # Clean up zero-usage and system apps
+            to_remove = []
+            for k, v in self.app_usage.items():
+                if v < 5 or k in ["File Explorer", "Unknown Application", "No Active Window"]:
+                    to_remove.append(k)
+            
+            for k in to_remove:
+                del self.app_usage[k]
             
             # Sort apps by usage time
             sorted_apps = sorted(
@@ -329,14 +367,10 @@ class AppUsageTracker:
             
             with open(log_file, "w", encoding="utf-8") as f:
                 for app_name, seconds in sorted_apps:
-                    # Format: AppName:Duration
-                    duration = self.format_time(seconds)
-                    f.write(f"{app_name}:{duration}\n")
-                    
-            # Prune zero-usage apps
-            to_remove = [k for k, v in self.app_usage.items() if v < 1]
-            for k in to_remove:
-                del self.app_usage[k]
+                    # Only write apps with meaningful usage (at least 10 seconds)
+                    if seconds >= 10:
+                        duration = self.format_time(seconds)
+                        f.write(f"{app_name}:{duration}\n")
                     
         except Exception as e:
             self.logger.error(f"Error writing log: {e}")
@@ -364,8 +398,19 @@ class AppUsageTracker:
                     if data["date"] == datetime.now().strftime("%Y-%m-%d"):
                         self.app_usage = defaultdict(float, data["usage"])
                         self.last_update_time = data.get("last_update", time.time())
+                    else:
+                        # Clear old data for new day
+                        self.app_usage = defaultdict(float)
+                        self.last_update_time = time.time()
+            else:
+                # Initialize for new day
+                self.app_usage = defaultdict(float)
+                self.last_update_time = time.time()
         except Exception as e:
             self.logger.error(f"Error loading usage data: {e}")
+            # Initialize on error
+            self.app_usage = defaultdict(float)
+            self.last_update_time = time.time()
             
     def start(self):
         """Start tracking"""
@@ -373,6 +418,9 @@ class AppUsageTracker:
             try:
                 self.running = True
                 self.load_usage_data()
+                
+                # Initialize tracking time
+                self.last_update_time = time.time()
                 
                 self.thread = threading.Thread(target=self.track_usage, daemon=True)
                 self.thread.start()

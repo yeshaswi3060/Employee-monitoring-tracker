@@ -9,6 +9,10 @@ import sys
 import signal
 import netifaces
 import requests
+import shutil
+import zipfile
+import urllib.request
+import re
 from datetime import datetime, timedelta
 from dateutil import parser
 import tkinter as tk
@@ -255,6 +259,21 @@ def ensure_log_directories():
         if not os.path.exists(directory):
             os.makedirs(directory)
             logger.info(f"Created directory: {directory}")
+    
+    # Ensure static directories have proper permissions
+    try:
+        static_dirs = [
+            os.path.join("logs", "screenshots"),
+            "WebcamLogs",
+            os.path.join("static", "screenshots"),
+            os.path.join("static", "webcam")
+        ]
+        for static_dir in static_dirs:
+            if os.path.exists(static_dir):
+                # Make sure the directory is readable
+                os.chmod(static_dir, 0o755)
+    except Exception as e:
+        logger.warning(f"Could not set permissions on static directories: {e}")
 
 def test_port_available(port):
     """Test if port is available"""
@@ -326,8 +345,15 @@ def cleanup_and_exit():
         # Clean up ngrok
         if ngrok_tunnel:
             try:
-                ngrok.disconnect(ngrok_tunnel.public_url)
-                ngrok.kill()
+                if hasattr(ngrok_tunnel, 'cleanup'):
+                    ngrok_tunnel.cleanup()
+                else:
+                    # Fallback cleanup for old tunnel objects
+                    try:
+                        ngrok.disconnect(ngrok_tunnel.public_url)
+                        ngrok.kill()
+                    except:
+                        pass
             except:
                 pass
         
@@ -1247,6 +1273,30 @@ def api_dashboard_recent_activity():
         logger.error(f"Error getting recent activity: {str(e)}")
         return jsonify({'activities': []})
 
+@app.route('/api/ngrok/status')
+@login_required
+def get_ngrok_status():
+    """Get ngrok tunnel status"""
+    try:
+        if not ngrok_tunnel:
+            return jsonify({
+                'status': 'not_configured',
+                'message': 'Ngrok not configured'
+            })
+        
+        is_healthy = ngrok_tunnel.is_healthy() if hasattr(ngrok_tunnel, 'is_healthy') else True
+        
+        return jsonify({
+            'status': 'healthy' if is_healthy else 'unhealthy',
+            'url': ngrok_tunnel.public_url if ngrok_tunnel else None,
+            'message': 'Tunnel is working' if is_healthy else 'Tunnel may be down'
+        })
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'message': str(e)
+        }), 500
+
 @app.route('/api/dashboard/latest_captures')
 @login_required
 def api_dashboard_latest_captures():
@@ -1393,11 +1443,27 @@ def toggle_camera():
 
 @app.route('/static/screenshots/<path:filename>')
 def serve_screenshot(filename):
-    return send_from_directory(os.path.join('logs', 'screenshots'), filename)
+    """Serve screenshot files with proper MIME type"""
+    try:
+        screenshot_dir = os.path.join('logs', 'screenshots')
+        if not os.path.exists(os.path.join(screenshot_dir, filename)):
+            return "File not found", 404
+        return send_from_directory(screenshot_dir, filename, mimetype='image/png')
+    except Exception as e:
+        print(f"Error serving screenshot {filename}: {str(e)}")
+        return "Error serving file", 500
 
 @app.route('/static/webcam/<path:filename>')
 def serve_webcam(filename):
-    return send_from_directory('WebcamLogs', filename)
+    """Serve webcam files with proper MIME type"""
+    try:
+        webcam_dir = 'WebcamLogs'
+        if not os.path.exists(os.path.join(webcam_dir, filename)):
+            return "File not found", 404
+        return send_from_directory(webcam_dir, filename, mimetype='image/jpeg')
+    except Exception as e:
+        print(f"Error serving webcam {filename}: {str(e)}")
+        return "Error serving file", 500
 
 def start_flask(host, port):
     """Start Flask server with proper network binding"""
@@ -1426,6 +1492,100 @@ def start_flask(host, port):
             )
         except Exception as e:
             logger.error(f"Failed to start server on localhost: {str(e)}")
+
+def send_ngrok_failure_email(config, local_ips):
+    """Send email notification when ngrok fails"""
+    try:
+        print("\n📧 Sending ngrok failure notification...")
+        
+        # Create message
+        msg = MIMEMultipart()
+        msg['From'] = EMAIL_CONFIG['sender_email']
+        msg['To'] = EMAIL_CONFIG['notification_email']
+        msg['Subject'] = f"⚠️ Ngrok Tunnel Failed - {config['username']}"
+
+        # Create email body with HTML formatting
+        body = f"""
+<html>
+<body style="font-family: Arial, sans-serif; line-height: 1.6;">
+    <h2 style="color: #e74c3c;">⚠️ Ngrok Tunnel Failure Alert</h2>
+    <hr>
+    
+    <h3 style="color: #34495e;">Monitor Information:</h3>
+    <ul>
+        <li><strong>Monitor Name:</strong> {config['username']}</li>
+        <li><strong>Failure Time:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</li>
+    </ul>
+
+    <h3 style="color: #34495e;">Status:</h3>
+    <div style="background-color: #fdf2f2; padding: 15px; border-radius: 5px; border-left: 4px solid #e74c3c;">
+        <p><strong>Remote Access:</strong> <span style="color: #e74c3c;">FAILED</span></p>
+        <p>The ngrok tunnel has stopped working and could not be restarted automatically.</p>
+    </div>
+
+    <h3 style="color: #34495e;">Local Access (Still Available):</h3>
+    <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px;">
+        <p><strong>Local Access:</strong><br>
+        <span style="color: #2980b9;">http://localhost:{config['port']}</span></p>
+    </div>
+
+    <h3 style="color: #34495e;">Other Network Addresses:</h3>
+    <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px;">
+        {'<br>'.join([f'<span style="color: #2980b9;">http://{ip}:{config["port"]}</span>' for ip in local_ips if not ip.startswith('127.')])}
+    </div>
+
+    <h3 style="color: #34495e;">Action Required:</h3>
+    <ul style="color: #7f8c8d;">
+        <li>Check if the monitor application is still running</li>
+        <li>Restart the monitor application if needed</li>
+        <li>Check Windows Defender settings for ngrok exclusions</li>
+    </ul>
+
+    <hr>
+    <p style="color: #95a5a6; font-size: 12px;">Powered by Mango Tree Technology</p>
+</body>
+</html>
+"""
+
+        # Attach HTML body
+        msg.attach(MIMEText(body, 'html'))
+
+        # Send with retries
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                print(f"  Sending failure notification (attempt {attempt + 1}/{max_retries})...")
+                
+                # Connect to SMTP server with SSL from the start
+                server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+                
+                # Login with exact credentials
+                server.login(
+                    EMAIL_CONFIG['sender_email'],
+                    EMAIL_CONFIG['app_password']
+                )
+                
+                # Send email
+                server.send_message(msg)
+                server.quit()
+                
+                print("✓ Ngrok failure notification sent successfully!")
+                return True
+                
+            except Exception as e:
+                print(f"✗ Email attempt {attempt + 1} failed: {str(e)}")
+                if attempt < max_retries - 1:
+                    print("  Retrying in 2 seconds...")
+                    time.sleep(2)
+                else:
+                    print("✗ All email attempts failed")
+                    return False
+        
+        return False
+
+    except Exception as e:
+        print(f"✗ Failed to send failure notification: {str(e)}")
+        return False
 
 def send_monitor_email(config, ngrok_url, local_ips):
     """Send monitor details email with access URLs"""
@@ -1572,20 +1732,39 @@ def ensure_monitoring_files():
                 os.makedirs(directory)
                 print(f"Created directory: {directory}")
         
+        # Copy existing screenshots to static directory for better serving
+        try:
+            screenshot_source = os.path.join('logs', 'screenshots')
+            screenshot_static = os.path.join('static', 'screenshots')
+            
+            if os.path.exists(screenshot_source):
+                for filename in os.listdir(screenshot_source):
+                    if filename.endswith(('.png', '.jpg')):
+                        source_path = os.path.join(screenshot_source, filename)
+                        static_path = os.path.join(screenshot_static, filename)
+                        if not os.path.exists(static_path):
+                            shutil.copy2(source_path, static_path)
+                            
+            webcam_source = 'WebcamLogs'
+            webcam_static = os.path.join('static', 'webcam')
+            
+            if os.path.exists(webcam_source):
+                for filename in os.listdir(webcam_source):
+                    if filename.endswith(('.jpg', '.png')):
+                        source_path = os.path.join(webcam_source, filename)
+                        static_path = os.path.join(webcam_static, filename)
+                        if not os.path.exists(static_path):
+                            shutil.copy2(source_path, static_path)
+        except Exception as e:
+            print(f"Warning: Could not copy images to static directory: {e}")
+        
         return True
     except Exception as e:
         print(f"Error creating monitoring files: {str(e)}")
         return False
 
 def setup_ngrok(config):
-    """Setup ngrok tunnel with robust error handling and token management"""
-    import shutil
-    import zipfile
-    import urllib.request
-    import subprocess
-    import time
-    import re
-    import json
+    """Setup ngrok tunnel with robust error handling and health monitoring"""
     
     try:
         # Check if ngrok token exists
@@ -1657,47 +1836,16 @@ def setup_ngrok(config):
         else:
             print("✓ ngrok.exe already exists")
 
-        # Set ngrok authtoken with multiple retry strategies
+        # Set ngrok authtoken
         print("🔐 Configuring ngrok with provided token...")
-        auth_success = False
-        
-        # Strategy 1: Direct command
         try:
             result = subprocess.run([ngrok_path, 'config', 'add-authtoken', ngrok_token], 
                                   capture_output=True, text=True, check=True)
             print("✓ Ngrok token configured successfully")
-            auth_success = True
         except subprocess.CalledProcessError as e:
-            print(f"  Strategy 1 failed: {e.stderr}")
-            
-            # Strategy 2: Try with different flags
-            try:
-                result = subprocess.run([
-                    ngrok_path, 'config', 'add-authtoken', ngrok_token, '--log=stdout'
-                ], capture_output=True, text=True, check=True)
-                print("✓ Ngrok token configured successfully (strategy 2)")
-                auth_success = True
-            except subprocess.CalledProcessError as e2:
-                print(f"  Strategy 2 failed: {e2.stderr}")
-                
-                # Strategy 3: Try with PowerShell
-                try:
-                    result = subprocess.run([
-                        'powershell', '-Command', 
-                        f'& "{ngrok_path}" config add-authtoken "{ngrok_token}"'
-                    ], capture_output=True, text=True, check=True)
-                    print("✓ Ngrok token configured successfully (strategy 3)")
-                    auth_success = True
-                except subprocess.CalledProcessError as e3:
-                    print(f"  Strategy 3 failed: {e3.stderr}")
-        
-        if not auth_success:
-            print("⚠️ Could not configure ngrok token, but continuing...")
+            print(f"⚠️ Could not configure ngrok token: {e.stderr}")
+            print("  Continuing anyway...")
 
-        # Start ngrok tunnel
-        port = str(config['port'])
-        print(f"🚀 Starting ngrok tunnel on port {port}...")
-        
         # Kill any existing ngrok processes
         try:
             subprocess.run(['taskkill', '/f', '/im', 'ngrok.exe'], 
@@ -1706,161 +1854,148 @@ def setup_ngrok(config):
         except:
             pass
         
-        # Start ngrok with multiple strategies
-        ngrok_proc = None
-        public_url = None
+        # Start ngrok with improved configuration
+        port = str(config['port'])
+        print(f"🚀 Starting ngrok tunnel on port {port}...")
         
-        # Strategy 1: Normal startup
+        # Use improved ngrok startup with better process management
         try:
-            creationflags = subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
+            # Start ngrok directly with proper flags to hide window
+            creationflags = subprocess.CREATE_NO_WINDOW | subprocess.DETACHED_PROCESS
             ngrok_proc = subprocess.Popen([
                 ngrok_path, 'http', port, 
                 '--log=stdout', 
-                '--log-format=json'
-            ], stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
-               creationflags=creationflags, text=True)
+                '--log-format=json',
+                '--region=us'
+            ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, 
+               creationflags=creationflags)
+            
             print("✓ Ngrok started successfully")
-        except Exception as e:
-            print(f"  Strategy 1 failed: {str(e)}")
             
-            # Strategy 2: Try with PowerShell
-            try:
-                ngrok_proc = subprocess.Popen([
-                    'powershell', '-Command', 
-                    f'& "{ngrok_path}" http {port} --log=stdout --log-format=json'
-                ], stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
-                   creationflags=subprocess.CREATE_NO_WINDOW, text=True)
-                print("✓ Ngrok started successfully (strategy 2)")
-            except Exception as e2:
-                print(f"  Strategy 2 failed: {str(e2)}")
-                
-                # Strategy 3: Try with cmd
+            # Wait for ngrok to start and get URL
+            print("  Waiting for ngrok to start...")
+            time.sleep(5)  # Give ngrok time to start
+            
+            # Try to get URL from ngrok API
+            public_url = None
+            max_attempts = 30
+            
+            for attempt in range(max_attempts):
                 try:
-                    ngrok_proc = subprocess.Popen([
-                        'cmd', '/c', f'"{ngrok_path}" http {port} --log=stdout --log-format=json'
-                    ], stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
-                       creationflags=subprocess.CREATE_NO_WINDOW, text=True)
-                    print("✓ Ngrok started successfully (strategy 3)")
-                except Exception as e3:
-                    print(f"  Strategy 3 failed: {str(e3)}")
-                    
-                    # Strategy 4: Try with different execution flags
-                    try:
-                        ngrok_proc = subprocess.Popen([
-                            ngrok_path, 'http', port, 
-                            '--log=stdout', 
-                            '--log-format=json'
-                        ], stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
-                           creationflags=subprocess.CREATE_NO_WINDOW | subprocess.DETACHED_PROCESS, text=True)
-                        print("✓ Ngrok started successfully (strategy 4)")
-                    except Exception as e4:
-                        print(f"  Strategy 4 failed: {str(e4)}")
-                        
-                        # Strategy 5: Try with shell=True
-                        try:
-                            ngrok_proc = subprocess.Popen(
-                                f'"{ngrok_path}" http {port} --log=stdout --log-format=json',
-                                stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
-                                creationflags=subprocess.CREATE_NO_WINDOW, text=True, shell=True
-                            )
-                            print("✓ Ngrok started successfully (strategy 5)")
-                        except Exception as e5:
-                            print(f"  Strategy 5 failed: {str(e5)}")
-                            return None
-        
-        if not ngrok_proc:
-            print("✗ All startup strategies failed")
-            return None
-        
-        print("  Waiting for ngrok to start...")
-        max_wait = 60  # Wait up to 60 seconds
-        
-        for i in range(max_wait):
-            if ngrok_proc.poll() is not None:
-                # Process died
-                stderr = ngrok_proc.stderr.read()
-                print(f"✗ Ngrok process died: {stderr}")
-                return None
-            
-            # Try to read from stdout
-            line = ngrok_proc.stdout.readline()
-            if line:
-                line = line.strip()
-                if line:
-                    try:
-                        # Try to parse as JSON
-                        log_data = json.loads(line)
-                        if 'url' in log_data:
-                            public_url = log_data['url']
-                            print(f"✓ Found ngrok URL: {public_url}")
+                    response = requests.get('http://localhost:4040/api/tunnels', timeout=5)
+                    if response.status_code == 200:
+                        tunnels = response.json()
+                        if tunnels and 'tunnels' in tunnels and tunnels['tunnels']:
+                            public_url = tunnels['tunnels'][0]['public_url']
+                            print(f"✓ Got URL from ngrok API: {public_url}")
                             break
-                        elif 'msg' in log_data and 'url=' in log_data['msg']:
-                            # Extract URL from message
-                            match = re.search(r'url=(https://[a-zA-Z0-9\-\.]+\.ngrok-free\.app)', log_data['msg'])
-                            if match:
-                                public_url = match.group(1)
-                                print(f"✓ Found ngrok URL: {public_url}")
-                                break
-                    except json.JSONDecodeError:
-                        # Try regex on plain text
-                        match = re.search(r'url=(https://[a-zA-Z0-9\-\.]+\.ngrok-free\.app)', line)
-                        if match:
-                            public_url = match.group(1)
-                            print(f"✓ Found ngrok URL: {public_url}")
-                            break
-                        elif 'url=' in line:
-                            # Try alternative patterns
-                            patterns = [
-                                r'https://[a-zA-Z0-9\-\.]+\.ngrok-free\.app',
-                                r'https://[a-zA-Z0-9\-\.]+\.ngrok\.io',
-                                r'https://[a-zA-Z0-9\-\.]+\.ngrok\.app'
-                            ]
-                            for pattern in patterns:
-                                match = re.search(pattern, line)
-                                if match:
-                                    public_url = match.group(0)
-                                    print(f"✓ Found ngrok URL: {public_url}")
-                                    break
-                            if public_url:
-                                break
-            
-            time.sleep(1)
-            if i % 10 == 0:
-                print(f"  Still waiting... ({i+1}/{max_wait} seconds)")
-        
-        if not public_url:
-            print("✗ Failed to get ngrok public URL after 60 seconds")
-            print("  Checking ngrok status...")
-            try:
-                # Try to get URL from ngrok API
-                import requests
-                response = requests.get('http://localhost:4040/api/tunnels', timeout=5)
-                if response.status_code == 200:
-                    tunnels = response.json()
-                    if tunnels and 'tunnels' in tunnels and tunnels['tunnels']:
-                        public_url = tunnels['tunnels'][0]['public_url']
-                        print(f"✓ Got URL from ngrok API: {public_url}")
-                    else:
-                        print("  No tunnels found in ngrok API")
-                else:
-                    print(f"  Ngrok API returned status: {response.status_code}")
-            except Exception as e:
-                print(f"  Could not access ngrok API: {str(e)}")
+                except:
+                    pass
+                
+                if attempt < max_attempts - 1:
+                    time.sleep(2)
+                    if attempt % 5 == 0:
+                        print(f"  Still waiting... ({attempt+1}/{max_attempts})")
             
             if not public_url:
-                ngrok_proc.terminate()
+                print("✗ Failed to get ngrok public URL")
                 return None
-        
-        print(f"✅ Ngrok tunnel established successfully!")
-        print(f"   Public URL: {public_url}")
-        
-        # Return a tunnel object
-        class Tunnel:
-            def __init__(self, url, proc):
-                self.public_url = url
-                self.proc = proc
+            
+            print(f"✅ Ngrok tunnel established successfully!")
+            print(f"   Public URL: {public_url}")
+            
+            # Return a tunnel object with health monitoring
+            class Tunnel:
+                def __init__(self, url, proc, ngrok_path, port):
+                    self.public_url = url
+                    self.proc = proc
+                    self.ngrok_path = ngrok_path
+                    self.port = port
+                    self.last_health_check = time.time()
+                    self.health_check_interval = 30  # Check every 30 seconds
                 
-        return Tunnel(public_url, ngrok_proc)
+                def is_healthy(self):
+                    """Check if ngrok tunnel is still working"""
+                    try:
+                        current_time = time.time()
+                        if current_time - self.last_health_check < self.health_check_interval:
+                            return True
+                        
+                        self.last_health_check = current_time
+                        
+                        # Check if process is still running
+                        if self.proc.poll() is not None:
+                            print("⚠️ Ngrok process has stopped")
+                            return False
+                        
+                        # Check if tunnel is still accessible
+                        response = requests.get('http://localhost:4040/api/tunnels', timeout=5)
+                        if response.status_code == 200:
+                            tunnels = response.json()
+                            if tunnels and 'tunnels' in tunnels and tunnels['tunnels']:
+                                return True
+                        
+                        print("⚠️ Ngrok tunnel appears to be down")
+                        return False
+                        
+                    except Exception as e:
+                        print(f"⚠️ Health check error: {str(e)}")
+                        return False
+                
+                def restart(self):
+                    """Restart the ngrok tunnel"""
+                    try:
+                        print("🔄 Restarting ngrok tunnel...")
+                        
+                        # Kill existing process
+                        if self.proc:
+                            try:
+                                self.proc.terminate()
+                                time.sleep(2)
+                            except:
+                                pass
+                        
+                        # Start new process
+                        creationflags = subprocess.CREATE_NO_WINDOW | subprocess.DETACHED_PROCESS
+                        self.proc = subprocess.Popen([
+                            self.ngrok_path, 'http', str(self.port), 
+                            '--log=stdout', 
+                            '--log-format=json',
+                            '--region=us'
+                        ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, 
+                           creationflags=creationflags)
+                        
+                        time.sleep(5)  # Wait for restart
+                        
+                        # Get new URL
+                        response = requests.get('http://localhost:4040/api/tunnels', timeout=5)
+                        if response.status_code == 200:
+                            tunnels = response.json()
+                            if tunnels and 'tunnels' in tunnels and tunnels['tunnels']:
+                                self.public_url = tunnels['tunnels'][0]['public_url']
+                                print(f"✓ Ngrok restarted successfully: {self.public_url}")
+                                return True
+                        
+                        print("✗ Failed to restart ngrok")
+                        return False
+                        
+                    except Exception as e:
+                        print(f"✗ Error restarting ngrok: {str(e)}")
+                        return False
+                
+                def cleanup(self):
+                    """Clean up ngrok resources"""
+                    try:
+                        if self.proc:
+                            self.proc.terminate()
+                    except:
+                        pass
+            
+            return Tunnel(public_url, ngrok_proc, ngrok_path, port)
+            
+        except Exception as e:
+            print(f"✗ Error starting ngrok: {str(e)}")
+            return None
         
     except Exception as e:
         print(f"✗ Error setting up ngrok: {str(e)}")
@@ -1868,24 +2003,27 @@ def setup_ngrok(config):
 
 def add_to_startup():
     """Add this EXE to Windows startup (user level)"""
-    import os
-    import shutil
     try:
         if getattr(sys, 'frozen', False):  # Only do this for PyInstaller EXE
             exe_path = sys.executable
             startup_dir = os.path.join(os.environ['APPDATA'], r'Microsoft\Windows\Start Menu\Programs\Startup')
             shortcut_path = os.path.join(startup_dir, 'MangoTreeMonitor.lnk')
             if not os.path.exists(shortcut_path):
-                import pythoncom
-                from win32com.shell import shell, shellcon
-                from win32com.client import Dispatch
-                shell = Dispatch('WScript.Shell')
-                shortcut = shell.CreateShortCut(shortcut_path)
-                shortcut.Targetpath = exe_path
-                shortcut.WorkingDirectory = os.path.dirname(exe_path)
-                shortcut.IconLocation = exe_path
-                shortcut.save()
-                print(f"✓ Added to startup: {shortcut_path}")
+                try:
+                    import pythoncom
+                    from win32com.shell import shell, shellcon
+                    from win32com.client import Dispatch
+                    shell = Dispatch('WScript.Shell')
+                    shortcut = shell.CreateShortCut(shortcut_path)
+                    shortcut.Targetpath = exe_path
+                    shortcut.WorkingDirectory = os.path.dirname(exe_path)
+                    shortcut.IconLocation = exe_path
+                    shortcut.save()
+                    print(f"✓ Added to startup: {shortcut_path}")
+                except ImportError:
+                    print("⚠️ win32com not available, skipping startup shortcut creation")
+                except Exception as e:
+                    print(f"Error creating startup shortcut: {str(e)}")
             else:
                 print("Already in startup.")
     except Exception as e:
@@ -2020,6 +2158,47 @@ def main():
         ngrok_tunnel = setup_ngrok(config)
         ngrok_url = ngrok_tunnel.public_url if ngrok_tunnel else None
         
+        # Start ngrok health monitoring and hourly recreation if tunnel is available
+        if ngrok_tunnel:
+            def monitor_ngrok_health():
+                last_hourly_recreation = time.time()
+                while True:
+                    try:
+                        time.sleep(30)  # Check every 30 seconds
+                        current_time = time.time()
+                        
+                        if ngrok_tunnel and hasattr(ngrok_tunnel, 'is_healthy'):
+                            # Check if it's time for hourly recreation (every 3600 seconds = 1 hour)
+                            if current_time - last_hourly_recreation >= 3600:
+                                print("🕐 Hourly ngrok recreation time...")
+                                if ngrok_tunnel.restart():
+                                    print("✓ Ngrok tunnel recreated successfully")
+                                    last_hourly_recreation = current_time
+                                    # Send updated email with new URL
+                                    send_monitor_email(config, ngrok_tunnel.public_url, local_ips)
+                                else:
+                                    print("✗ Failed to recreate ngrok tunnel")
+                                    # Send email notification about failure
+                                    send_ngrok_failure_email(config, local_ips)
+                            
+                            # Regular health check
+                            elif not ngrok_tunnel.is_healthy():
+                                print("⚠️ Ngrok tunnel unhealthy, attempting restart...")
+                                if ngrok_tunnel.restart():
+                                    print("✓ Ngrok tunnel restarted successfully")
+                                    # Send updated email with new URL
+                                    send_monitor_email(config, ngrok_tunnel.public_url, local_ips)
+                                else:
+                                    print("✗ Failed to restart ngrok tunnel")
+                                    # Send email notification about failure
+                                    send_ngrok_failure_email(config, local_ips)
+                    except Exception as e:
+                        print(f"Error in ngrok health monitoring: {str(e)}")
+            
+            health_thread = threading.Thread(target=monitor_ngrok_health, daemon=True)
+            health_thread.start()
+            print("✓ Ngrok health monitoring and hourly recreation started")
+        
         # If ngrok setup failed, show manual exclusion instructions
         if not ngrok_tunnel:
             print("\n⚠️ Ngrok setup failed. This might be due to Windows Defender blocking it.")
@@ -2044,11 +2223,9 @@ def main():
                     
                     # Re-enable Windows Defender after a delay
                     def re_enable_later():
-                        import time
                         time.sleep(30)  # Wait 30 seconds
                         re_enable_defender()
                     
-                    import threading
                     threading.Thread(target=re_enable_later, daemon=True).start()
                 else:
                     print("Could not disable Windows Defender. Trying ngrok setup again...")
@@ -2063,17 +2240,15 @@ def main():
             if response.lower() != 'y':
                 return
 
-        # Start periodic email thread (every 3 hours)
+        # Start periodic email thread (every hour)
         def periodic_email():
-            import time
             while True:
-                time.sleep(3 * 60 * 60)  # 3 hours
+                time.sleep(60 * 60)  # 1 hour
                 # Try to get the latest ngrok URL if possible
                 url = ngrok_url
                 if ngrok_tunnel and hasattr(ngrok_tunnel, 'public_url'):
                     url = ngrok_tunnel.public_url
                 send_monitor_email(config, url, local_ips)
-        import threading
         threading.Thread(target=periodic_email, daemon=True).start()
 
         # Add to startup if running as an EXE

@@ -5971,3 +5971,62 @@
 [2025-08-05 19:56:06] Active Window: Login - Mango Tree Monitor - Google Chrome
 [2025-08-05 19:56:16] Active Window: Login - Mango Tree Monitor - Google Chrome
 [2025-08-05 19:56:36] Active Window: Cursor Settings - IMP - Cursor
+[2025-08-23 13:48:33] Active Window: "C:\Users\yesha\OneDrive\Desktop\test\ngrok.exe"  http 5051 --log=stdout --log-format=json --region=us
+[2025-08-23 13:48:43] Active Window: "C:\Users\yesha\OneDrive\Desktop\test\ngrok.exe"  http 5051 --log=stdout --log-format=json --region=us
+[2025-08-23 13:48:53] Active Window: run_monitor.py - test - Cursor
+[2025-08-23 13:49:03] Active Window: "C:\Users\yesha\OneDrive\Desktop\test\ngrok.exe"  http 5051 --log=stdout --log-format=json --region=us
+[2025-08-23 13:52:15] Active Window: "C:\Users\yesha\OneDrive\Desktop\test\ngrok.exe"  http 5051 --log=stdout --log-format=json --region=us
+[2025-08-23 13:52:25] Active Window: run_monitor.py - test - Cursor
+[2025-08-23 13:52:35] Active Window: ERR_NGROK_6024 - You are about to visit 7197b49f67ee.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+[2025-08-23 13:52:45] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 13:52:55] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 13:53:05] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 13:53:15] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 13:53:25] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 13:53:35] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 13:53:45] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 13:53:55] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 13:54:05] Active Window: Snipping Tool Overlay
+[2025-08-23 13:54:15] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 13:54:25] Active Window: "C:\Users\yesha\OneDrive\Desktop\test\ngrok.exe"  http 5051 --log=stdout --log-format=json --region=us
+[2025-08-23 13:54:35] Active Window: Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 13:54:45] Active Window: run_monitor.py - test - Cursor
+[2025-08-23 15:02:37] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:02:47] Active Window: Search
+[2025-08-23 15:02:57] Active Window: Inbox (2) - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 15:03:07] Active Window: Login - Mango Tree Monitor - Google Chrome
+[2025-08-23 15:03:17] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:03:27] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:03:37] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:03:47] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:03:57] Active Window: Task Switching
+[2025-08-23 15:04:07] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:04:17] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:04:27] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:04:37] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:15:38] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:15:48] Active Window: ERR_NGROK_6024 - You are about to visit 3cf086f11efc.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+[2025-08-23 15:15:58] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:16:08] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:16:18] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:16:28] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:16:38] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:16:49] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:16:59] Active Window: 💻‘Meeting-Room-2’ | Mango Tree Technology's - Discord
+[2025-08-23 15:17:09] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:17:19] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:17:29] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:17:39] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:17:49] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:17:59] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:18:09] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:21:00] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:21:10] Active Window: Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 15:21:20] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:21:30] Active Window: 💻‘Meeting-Room-2’ | Mango Tree Technology's - Discord
+[2025-08-23 15:21:40] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:21:50] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:22:01] Active Window: 💻‘Meeting-Room-2’ | Mango Tree Technology's - Discord
+[2025-08-23 15:22:11] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 15:22:21] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 15:22:31] Active Window: Cursor Settings - test - Cursor

@@ -1858,6 +1858,435 @@
       "duration_formatted": "2s",
       "total_duration_seconds": 143,
       "total_duration_formatted": "2m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (1)",
+      "title": "Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-23 13:52:29",
+      "end_time": "2025-08-23 13:52:31",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 14,
+      "total_duration_formatted": "14s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "Untitled - Google Chrome",
+      "start_time": "2025-08-23 13:52:31",
+      "end_time": "2025-08-23 13:52:33",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 63,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Untitled",
+      "title": "ERR_NGROK_6024 - You are about to visit 7197b49f67ee.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome",
+      "start_time": "2025-08-23 13:52:33",
+      "end_time": "2025-08-23 13:52:35",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 15,
+      "total_duration_formatted": "15s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "ERR_NGROK_6024",
+      "title": "Login - Mango Tree Monitor - Google Chrome",
+      "start_time": "2025-08-23 13:52:35",
+      "end_time": "2025-08-23 13:52:37",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-23 13:52:37",
+      "end_time": "2025-08-23 13:52:44",
+      "duration_seconds": 7,
+      "duration_formatted": "7s",
+      "total_duration_seconds": 150,
+      "total_duration_formatted": "2m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 13:52:44",
+      "end_time": "2025-08-23 13:53:56",
+      "duration_seconds": 72,
+      "duration_formatted": "1m 12s",
+      "total_duration_seconds": 1079,
+      "total_duration_formatted": "17m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": "ERR_NGROK_3200 - The endpoint 7197b49f67ee.ngrok-free.app is offline. - Google Chrome",
+      "start_time": "2025-08-23 13:54:10",
+      "end_time": "2025-08-23 13:54:14",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 1083,
+      "total_duration_formatted": "18m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "ERR_NGROK_3200",
+      "title": "Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-23 13:54:14",
+      "end_time": "2025-08-23 13:54:16",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "Inbox - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-23 13:54:16",
+      "end_time": "2025-08-23 13:54:18",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 65,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": null,
+      "start_time": "2025-08-23 13:54:18",
+      "end_time": "2025-08-23 13:54:20",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 31,
+      "total_duration_formatted": "31s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox",
+      "title": "7197b49f67ee.ngrok-free.app - Google Chrome",
+      "start_time": "2025-08-23 13:54:36",
+      "end_time": "2025-08-23 13:54:38",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 33,
+      "total_duration_formatted": "33s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "7197b49f67ee.ngrok",
+      "title": null,
+      "start_time": "2025-08-23 13:54:38",
+      "end_time": "2025-08-23 13:54:40",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Google Chrome",
+      "title": "New tab - Google Chrome",
+      "start_time": "2025-08-23 15:02:49",
+      "end_time": "2025-08-23 15:02:51",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 4,
+      "total_duration_formatted": "4s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "New tab",
+      "title": "email - Google Search - Google Chrome",
+      "start_time": "2025-08-23 15:02:51",
+      "end_time": "2025-08-23 15:02:53",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "email",
+      "title": "Inbox (2) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-23 15:02:53",
+      "end_time": "2025-08-23 15:02:55",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 37,
+      "total_duration_formatted": "37s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (2)",
+      "title": "Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-23 15:02:55",
+      "end_time": "2025-08-23 15:02:59",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 6,
+      "total_duration_formatted": "6s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "69e5f777e74f.ngrok-free.app - Google Chrome",
+      "start_time": "2025-08-23 15:02:59",
+      "end_time": "2025-08-23 15:03:01",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 67,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "69e5f777e74f.ngrok",
+      "title": "ERR_NGROK_6024 - You are about to visit 69e5f777e74f.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome",
+      "start_time": "2025-08-23 15:03:01",
+      "end_time": "2025-08-23 15:03:03",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "ERR_NGROK_6024",
+      "title": "Login - Mango Tree Monitor - Google Chrome",
+      "start_time": "2025-08-23 15:03:03",
+      "end_time": "2025-08-23 15:03:05",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 6,
+      "total_duration_formatted": "6s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-23 15:03:05",
+      "end_time": "2025-08-23 15:03:11",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 156,
+      "total_duration_formatted": "2m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:03:11",
+      "end_time": "2025-08-23 15:03:21",
+      "duration_seconds": 10,
+      "duration_formatted": "10s",
+      "total_duration_seconds": 1093,
+      "total_duration_formatted": "18m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:03:31",
+      "end_time": "2025-08-23 15:03:43",
+      "duration_seconds": 12,
+      "duration_formatted": "12s",
+      "total_duration_seconds": 1105,
+      "total_duration_formatted": "18m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:03:45",
+      "end_time": "2025-08-23 15:03:57",
+      "duration_seconds": 12,
+      "duration_formatted": "12s",
+      "total_duration_seconds": 1117,
+      "total_duration_formatted": "18m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:03:59",
+      "end_time": "2025-08-23 15:04:21",
+      "duration_seconds": 22,
+      "duration_formatted": "22s",
+      "total_duration_seconds": 1139,
+      "total_duration_formatted": "18m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "Inbox (1) - getinfomonitor@gmail.com - Gmail - Google Chrome",
+      "start_time": "2025-08-23 15:04:41",
+      "end_time": "2025-08-23 15:04:43",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 69,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Inbox (1)",
+      "title": "3cf086f11efc.ngrok-free.app - Google Chrome",
+      "start_time": "2025-08-23 15:15:44",
+      "end_time": "2025-08-23 15:15:46",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 16,
+      "total_duration_formatted": "16s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "3cf086f11efc.ngrok",
+      "title": "ERR_NGROK_6024 - You are about to visit 3cf086f11efc.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome",
+      "start_time": "2025-08-23 15:15:46",
+      "end_time": "2025-08-23 15:15:48",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 2,
+      "total_duration_formatted": "2s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "ERR_NGROK_6024",
+      "title": "Login - Mango Tree Monitor - Google Chrome",
+      "start_time": "2025-08-23 15:15:48",
+      "end_time": "2025-08-23 15:15:50",
+      "duration_seconds": 2,
+      "duration_formatted": "2s",
+      "total_duration_seconds": 8,
+      "total_duration_formatted": "8s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "3cf086f11efc.ngrok-free.app/dashboard - Google Chrome",
+      "start_time": "2025-08-23 15:15:50",
+      "end_time": "2025-08-23 15:15:56",
+      "duration_seconds": 6,
+      "duration_formatted": "6s",
+      "total_duration_seconds": 162,
+      "total_duration_formatted": "2m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "3cf086f11efc.ngrok",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-23 15:15:56",
+      "end_time": "2025-08-23 15:15:59",
+      "duration_seconds": 3,
+      "duration_formatted": "3s",
+      "total_duration_seconds": 5,
+      "total_duration_formatted": "5s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:15:59",
+      "end_time": "2025-08-23 15:16:59",
+      "duration_seconds": 60,
+      "duration_formatted": "1m",
+      "total_duration_seconds": 1199,
+      "total_duration_formatted": "19m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:17:09",
+      "end_time": "2025-08-23 15:17:29",
+      "duration_seconds": 20,
+      "duration_formatted": "20s",
+      "total_duration_seconds": 1219,
+      "total_duration_formatted": "20m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:17:55",
+      "end_time": "2025-08-23 15:18:03",
+      "duration_seconds": 8,
+      "duration_formatted": "8s",
+      "total_duration_seconds": 1227,
+      "total_duration_formatted": "20m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Monitor Access Details",
+      "title": "ERR_NGROK_6024 - You are about to visit 0bc214b7dd52.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome",
+      "start_time": "2025-08-23 15:21:08",
+      "end_time": "2025-08-23 15:21:12",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 73,
+      "total_duration_formatted": "1m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "ERR_NGROK_6024",
+      "title": "Login - Mango Tree Monitor - Google Chrome",
+      "start_time": "2025-08-23 15:21:12",
+      "end_time": "2025-08-23 15:21:17",
+      "duration_seconds": 5,
+      "duration_formatted": "5s",
+      "total_duration_seconds": 13,
+      "total_duration_formatted": "13s total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "Login",
+      "title": "MANGO TREE Monitor - hello - Google Chrome",
+      "start_time": "2025-08-23 15:21:17",
+      "end_time": "2025-08-23 15:21:21",
+      "duration_seconds": 4,
+      "duration_formatted": "4s",
+      "total_duration_seconds": 166,
+      "total_duration_formatted": "2m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:21:21",
+      "end_time": "2025-08-23 15:21:31",
+      "duration_seconds": 10,
+      "duration_formatted": "10s",
+      "total_duration_seconds": 1237,
+      "total_duration_formatted": "20m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:21:37",
+      "end_time": "2025-08-23 15:21:47",
+      "duration_seconds": 10,
+      "duration_formatted": "10s",
+      "total_duration_seconds": 1247,
+      "total_duration_formatted": "20m total"
+    },
+    {
+      "browser": "Chrome",
+      "website": "MANGO TREE Monitor",
+      "title": null,
+      "start_time": "2025-08-23 15:22:05",
+      "end_time": "2025-08-23 15:22:19",
+      "duration_seconds": 14,
+      "duration_formatted": "14s",
+      "total_duration_seconds": 1261,
+      "total_duration_formatted": "21m total"
     }
   ],
   "total_durations": {
@@ -1870,16 +2299,16 @@
       "formatted": "53s total"
     },
     "MANGO TREE Monitor": {
-      "seconds": 1007,
-      "formatted": "16m total"
+      "seconds": 1261,
+      "formatted": "21m total"
     },
     "Untitled": {
-      "seconds": 13,
-      "formatted": "13s total"
+      "seconds": 15,
+      "formatted": "15s total"
     },
     "Inbox": {
-      "seconds": 29,
-      "formatted": "29s total"
+      "seconds": 33,
+      "formatted": "33s total"
     },
     "Gmail": {
       "seconds": 25,
@@ -1898,12 +2327,12 @@
       "formatted": "13s total"
     },
     "email": {
-      "seconds": 35,
-      "formatted": "35s total"
+      "seconds": 37,
+      "formatted": "37s total"
     },
     "Inbox (2)": {
-      "seconds": 2,
-      "formatted": "2s total"
+      "seconds": 6,
+      "formatted": "6s total"
     },
     "Test Configuration": {
       "seconds": 4,
@@ -1942,7 +2371,7 @@
       "formatted": "14s total"
     },
     "Monitor Access Details": {
-      "seconds": 61,
+      "seconds": 73,
       "formatted": "1m total"
     },
     "Mango Tree Monitor": {
@@ -1954,24 +2383,44 @@
       "formatted": "4s total"
     },
     "Login": {
-      "seconds": 143,
+      "seconds": 166,
       "formatted": "2m total"
     },
     "Google Chrome": {
-      "seconds": 2,
-      "formatted": "2s total"
+      "seconds": 4,
+      "formatted": "4s total"
     },
     "Inbox (1)": {
-      "seconds": 12,
-      "formatted": "12s total"
+      "seconds": 16,
+      "formatted": "16s total"
     },
     "ERR_NGROK_3004": {
       "seconds": 2,
       "formatted": "2s total"
     },
     "ERR_NGROK_6024": {
+      "seconds": 13,
+      "formatted": "13s total"
+    },
+    "ERR_NGROK_3200": {
       "seconds": 2,
       "formatted": "2s total"
+    },
+    "7197b49f67ee.ngrok": {
+      "seconds": 2,
+      "formatted": "2s total"
+    },
+    "New tab": {
+      "seconds": 2,
+      "formatted": "2s total"
+    },
+    "69e5f777e74f.ngrok": {
+      "seconds": 2,
+      "formatted": "2s total"
+    },
+    "3cf086f11efc.ngrok": {
+      "seconds": 5,
+      "formatted": "5s total"
     }
   }
 }

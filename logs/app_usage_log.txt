@@ -1,15 +1,5 @@
-File Explorer:5 minutes
-Google Chrome - MANGO TREE Monitor - hello:3 minutes
-Google Chrome - Login - Mango Tree Monitor:1 minutes
-Cursor:Less than a minute
-Google Chrome - Inbox - getinfomonitor@gmail.com - Gmail:Less than a minute
-Google Chrome - MANGO TREE Monitor - Manisha01:Less than a minute
-Discord:Less than a minute
-Google Chrome - Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail:Less than a minute
-Google Chrome - Inbox (1) - getinfomonitor@gmail.com - Gmail:Less than a minute
-Google Chrome - Monitor Access Details - Manisha01 - getinfomonitor@gmail.com - Gmail:Less than a minute
-Google Chrome - Untitled:Less than a minute
-Search:Less than a minute
-Google Chrome - Inbox (2) - getinfomonitor@gmail.com - Gmail:Less than a minute
-Google Chrome - Monitor Access Details - Manisha0001 - getinfomonitor@gmail.com - Gmail:Less than a minute
-Google Chrome - ERR_NGROK_3004 - ngrok gateway error The server returned an invalid or incomplete HTTP response.:Less than a minute
+Google Chrome - MANGO TREE Monitor - hello:2 minutes
+"C:\Users\yesha\OneDrive\Desktop\test\ngrok.exe"  http 5051 --log=stdout --log-format=json --region=us:32 seconds
+Google Chrome - Login - Mango Tree Monitor:16 seconds
+Discord:14 seconds
+Google Chrome - Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail:10 seconds
