@@ -1,5 +1,0 @@
-[2025-08-23 16:54:12] Application blocker started
-[2025-08-23 17:21:11] Application blocker started
-[2025-08-23 17:24:11] Application blocker stopped
-[2025-08-23 17:24:31] Application blocker started
-[2025-08-23 17:25:06] Application blocker stopped
