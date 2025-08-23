@@ -1,3 +1,10 @@
+# run_monitor.py
+# This file is the main entry point for the monitor.
+# It is used to start the monitor and to configure the monitor.
+# It is also used to stop the monitor and to clean up the monitor.
+# It is also used to restart the monitor and to restart the monitor.
+# It is also used to restart the monitor and to restart the monitor.
+# MADE BY YESHASWI SINGH
 import os
 import time
 import json
