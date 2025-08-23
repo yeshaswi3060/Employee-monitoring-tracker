@@ -6030,3 +6030,61 @@
 [2025-08-23 15:22:11] Active Window: MANGO TREE Monitor - hello - Google Chrome
 [2025-08-23 15:22:21] Active Window: Cursor Settings - test - Cursor
 [2025-08-23 15:22:31] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 16:54:11] Active Window: run_monitor.py - test - Cursor
+[2025-08-23 16:54:21] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 16:54:31] Active Window: Login - Mango Tree Monitor - Google Chrome
+[2025-08-23 16:54:41] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:54:52] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:55:02] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:55:12] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:55:22] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:55:32] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:55:42] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:55:52] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:56:02] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:56:12] Active Window: System Locked
+[2025-08-23 16:56:22] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 16:56:32] Active Window: System Locked
+[2025-08-23 16:56:42] Active Window: Task Switching
+[2025-08-23 16:56:52] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 16:57:02] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 16:57:12] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 16:57:22] Active Window: Program Manager
+[2025-08-23 16:57:32] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 16:57:42] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 16:57:52] Active Window: WhatsApp
+[2025-08-23 16:58:02] Active Window: WhatsApp
+[2025-08-23 16:58:12] Active Window: WhatsApp
+[2025-08-23 16:58:22] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 16:58:32] Active Window: WhatsApp
+[2025-08-23 16:58:42] Active Window: WhatsApp
+[2025-08-23 16:58:52] Active Window: WhatsApp
+[2025-08-23 16:59:02] Active Window: WhatsApp
+[2025-08-23 16:59:12] Active Window: WhatsApp
+[2025-08-23 16:59:22] Active Window: WhatsApp
+[2025-08-23 16:59:32] Active Window: Quick settings
+[2025-08-23 16:59:42] Active Window: Quick settings
+[2025-08-23 16:59:52] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 17:00:02] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 17:21:10] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 17:21:20] Active Window: New tab - Google Chrome
+[2025-08-23 17:21:30] Active Window: Login - Mango Tree Monitor - Google Chrome
+[2025-08-23 17:21:40] Active Window: Login - Mango Tree Monitor - Google Chrome
+[2025-08-23 17:21:50] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:22:00] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:22:10] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:22:20] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:22:40] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:22:50] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:23:00] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:23:10] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:23:20] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:23:30] Active Window: Recent download history
+[2025-08-23 17:23:40] Active Window: MANGO TREE Monitor - hello - Google Chrome
+[2025-08-23 17:23:50] Active Window: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+[2025-08-23 17:24:00] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 17:24:10] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 17:24:30] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 17:24:40] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 17:24:50] Active Window: Cursor Settings - test - Cursor
+[2025-08-23 17:25:00] Active Window: Cursor Settings - test - Cursor

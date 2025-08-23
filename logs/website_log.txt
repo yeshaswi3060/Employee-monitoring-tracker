@@ -3465,3 +3465,201 @@ Visit Duration: 14s
 Total Time on Site: 21m total
 End Time: 2025-08-23 15:22:19
 --------------------------------------------------------------------------------
+[2025-08-23 16:54:19] Chrome - Inbox (1)
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 18s total
+End Time: 2025-08-23 16:54:21
+--------------------------------------------------------------------------------
+[2025-08-23 16:54:21] Chrome - Monitor Access Details
+Title: ERR_NGROK_6024 - You are about to visit 7ec471662f15.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 1m total
+End Time: 2025-08-23 16:54:23
+--------------------------------------------------------------------------------
+[2025-08-23 16:54:23] Chrome - ERR_NGROK_6024
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 3s
+Total Time on Site: 16s total
+End Time: 2025-08-23 16:54:26
+--------------------------------------------------------------------------------
+[2025-08-23 16:54:26] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 8s
+Total Time on Site: 2m total
+End Time: 2025-08-23 16:54:34
+--------------------------------------------------------------------------------
+[2025-08-23 16:54:34] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 46s
+Total Time on Site: 21m total
+End Time: 2025-08-23 16:55:20
+--------------------------------------------------------------------------------
+[2025-08-23 16:55:22] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 14s
+Total Time on Site: 22m total
+End Time: 2025-08-23 16:55:36
+--------------------------------------------------------------------------------
+[2025-08-23 16:55:42] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 26s
+Total Time on Site: 22m total
+End Time: 2025-08-23 16:56:08
+--------------------------------------------------------------------------------
+[2025-08-23 16:56:14] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 22m total
+End Time: 2025-08-23 16:56:24
+--------------------------------------------------------------------------------
+[2025-08-23 16:56:28] Chrome - Feature ideas for system
+Title: None
+Visit Duration: 2s
+Total Time on Site: 2s total
+End Time: 2025-08-23 16:56:30
+--------------------------------------------------------------------------------
+[2025-08-23 16:56:40] Chrome - Feature ideas for system
+Title: None
+Visit Duration: 2s
+Total Time on Site: 4s total
+End Time: 2025-08-23 16:56:42
+--------------------------------------------------------------------------------
+[2025-08-23 16:56:44] Chrome - MANGO TREE Monitor
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 22m total
+End Time: 2025-08-23 16:56:48
+--------------------------------------------------------------------------------
+[2025-08-23 16:56:48] Chrome - Monitor Access Details
+Title: None
+Visit Duration: 31s
+Total Time on Site: 1m total
+End Time: 2025-08-23 16:57:19
+--------------------------------------------------------------------------------
+[2025-08-23 16:57:25] Chrome - Monitor Access Details
+Title: None
+Visit Duration: 22s
+Total Time on Site: 2m total
+End Time: 2025-08-23 16:57:47
+--------------------------------------------------------------------------------
+[2025-08-23 16:58:21] Chrome - Monitor Access Details
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2m total
+End Time: 2025-08-23 16:58:23
+--------------------------------------------------------------------------------
+[2025-08-23 16:58:23] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 4s
+Total Time on Site: 22m total
+End Time: 2025-08-23 16:58:27
+--------------------------------------------------------------------------------
+[2025-08-23 16:59:47] Chrome - Monitor Access Details
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2m total
+End Time: 2025-08-23 16:59:49
+--------------------------------------------------------------------------------
+[2025-08-23 16:59:49] Chrome - Gmail
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 27s total
+End Time: 2025-08-23 16:59:51
+--------------------------------------------------------------------------------
+[2025-08-23 16:59:51] Chrome - Monitor Access Details
+Title: Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2m total
+End Time: 2025-08-23 16:59:53
+--------------------------------------------------------------------------------
+[2025-08-23 16:59:53] Chrome - Gmail
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 29s total
+End Time: 2025-08-23 16:59:55
+--------------------------------------------------------------------------------
+[2025-08-23 17:21:18] Chrome - New tab
+Title: Gmail - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 6s total
+End Time: 2025-08-23 17:21:22
+--------------------------------------------------------------------------------
+[2025-08-23 17:21:22] Chrome - Gmail
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 31s total
+End Time: 2025-08-23 17:21:24
+--------------------------------------------------------------------------------
+[2025-08-23 17:21:24] Chrome - Monitor Access Details
+Title: ERR_NGROK_6024 - You are about to visit 8710e01ba125.ngrok-free.app, served by 146.196.33.214. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 2m total
+End Time: 2025-08-23 17:21:26
+--------------------------------------------------------------------------------
+[2025-08-23 17:21:26] Chrome - ERR_NGROK_6024
+Title: Login - Mango Tree Monitor - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 20s total
+End Time: 2025-08-23 17:21:30
+--------------------------------------------------------------------------------
+[2025-08-23 17:21:30] Chrome - Login
+Title: None
+Visit Duration: 4s
+Total Time on Site: 2m total
+End Time: 2025-08-23 17:21:34
+--------------------------------------------------------------------------------
+[2025-08-23 17:21:40] Chrome - Login
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 3m total
+End Time: 2025-08-23 17:21:46
+--------------------------------------------------------------------------------
+[2025-08-23 17:21:46] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 37s
+Total Time on Site: 23m total
+End Time: 2025-08-23 17:22:23
+--------------------------------------------------------------------------------
+[2025-08-23 17:22:31] Chrome - MANGO TREE Monitor
+Title: Untitled - Google Chrome
+Visit Duration: 56s
+Total Time on Site: 24m total
+End Time: 2025-08-23 17:23:27
+--------------------------------------------------------------------------------
+[2025-08-23 17:23:27] Chrome - Untitled
+Title: MANGO TREE Monitor - hello - Google Chrome
+Visit Duration: 2s
+Total Time on Site: 17s total
+End Time: 2025-08-23 17:23:29
+--------------------------------------------------------------------------------
+[2025-08-23 17:23:29] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 2s
+Total Time on Site: 24m total
+End Time: 2025-08-23 17:23:31
+--------------------------------------------------------------------------------
+[2025-08-23 17:23:33] Chrome - MANGO TREE Monitor
+Title: None
+Visit Duration: 10s
+Total Time on Site: 24m total
+End Time: 2025-08-23 17:23:43
+--------------------------------------------------------------------------------
+[2025-08-23 17:23:45] Chrome - MANGO TREE Monitor
+Title: Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail - Google Chrome
+Visit Duration: 4s
+Total Time on Site: 24m total
+End Time: 2025-08-23 17:23:49
+--------------------------------------------------------------------------------
+[2025-08-23 17:23:49] Chrome - Monitor Access Details
+Title: Feature ideas for system - Google Chrome
+Visit Duration: 6s
+Total Time on Site: 2m total
+End Time: 2025-08-23 17:23:55
+--------------------------------------------------------------------------------
+[2025-08-23 17:23:55] Chrome - Feature ideas for system
+Title: None
+Visit Duration: 2s
+Total Time on Site: 6s total
+End Time: 2025-08-23 17:23:57
+--------------------------------------------------------------------------------

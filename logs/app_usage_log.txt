@@ -1,5 +1,8 @@
-Google Chrome - MANGO TREE Monitor - hello:2 minutes
+Google Chrome - MANGO TREE Monitor - hello:6 minutes
+WhatsApp:1 minutes
+Google Chrome - Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail:1 minutes
+Google Chrome - Login - Mango Tree Monitor:34 seconds
 "C:\Users\yesha\OneDrive\Desktop\test\ngrok.exe"  http 5051 --log=stdout --log-format=json --region=us:32 seconds
-Google Chrome - Login - Mango Tree Monitor:16 seconds
-Discord:14 seconds
-Google Chrome - Monitor Access Details - hello - getinfomonitor@gmail.com - Gmail:10 seconds
+Quick settings:22 seconds
+System Locked:16 seconds
+Discord:16 seconds

