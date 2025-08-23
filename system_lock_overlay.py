@@ -7,9 +7,20 @@ import tkinter as tk
 from tkinter import messagebox
 import json
 import os
+import sys
 import threading
 import time
 from datetime import datetime
+
+def get_resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller"""
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    
+    return os.path.join(base_path, relative_path)
 
 class SystemLockOverlay:
     def __init__(self):
@@ -144,9 +155,9 @@ class SystemLockOverlay:
         """Unlock the system"""
         try:
             # Log unlock action
-            log_dir = 'logs'
+            log_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
             if not os.path.exists(log_dir):
-                os.makedirs(log_dir)
+                os.makedirs(log_dir, exist_ok=True)
                 
             with open(os.path.join(log_dir, 'remote_control_log.txt'), 'a') as f:
                 f.write(f"[{datetime.now()}] System unlocked via password overlay\n")
@@ -166,7 +177,7 @@ class SystemLockOverlay:
         """Monitor for unlock command from web interface"""
         while True:
             try:
-                unlock_file = os.path.join('logs', 'unlock_system.flag')
+                unlock_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs', 'unlock_system.flag')
                 if os.path.exists(unlock_file):
                     # Remove the flag file
                     os.remove(unlock_file)
@@ -194,7 +205,8 @@ def main():
     """Main function to run the lock overlay"""
     try:
         # Check if lock flag exists
-        lock_flag_file = os.path.join('logs', 'lock_system.flag')
+        log_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
+        lock_flag_file = os.path.join(log_dir, 'lock_system.flag')
         if not os.path.exists(lock_flag_file):
             print("Lock flag not found, system is not locked")
             return

